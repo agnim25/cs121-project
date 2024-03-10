@@ -103,18 +103,28 @@ def show_options(logged_in):
         sign_up(username, password)
         show_options(True)
     elif ans == 'o':
-        log_out()
+        show_options(False)
     elif ans == 'm':
         find_top_mentors()
+        show_options(logged_in)
     elif ans == 'p':
         print('Enter the name of the mentor: ')
         name = input()
         find_publications(name)
+        show_options(logged_in)
+    elif ans == 'd':
+        print('Enter the department name: ')
+        department = input()
+        find_top_mentors_department(department)
+        show_options(logged_in)
     elif ans == 'y':
         # finds top mentors for student's year
-        find_top_mentors_year()
+        print('Enter the student\'s year: ')
+        year = input()
+        find_top_mentors_year(year)
+        show_options(logged_in)
     elif ans == '':
-        pass
+        show_options(logged_in)
 
 
 def log_in(username, password):
@@ -153,7 +163,6 @@ def sign_up(username, password):
     try:
         cursor.callproc('sp_add_user', (username, password))
         print('Account sucessfully registered')
-        logged_in = True
     except mysql.connector.Error as err:
         # If you're testing, it's helpful to see more details printed.
         if DEBUG:
@@ -162,17 +171,66 @@ def sign_up(username, password):
         else:
             sys.stderr('An error occurred, please contact an admistrator...')
 
-def log_out():
-    pass
-
 def find_top_mentors():
-    pass
+    cursor = conn.cursor()
+    sql = ''
+    try:
+        rows = cursor.execute(sql)
+        for row in rows:
+            print(row)
+    except mysql.connector.Error as err:
+        # If you're testing, it's helpful to see more details printed.
+        if DEBUG:
+            sys.stderr(err)
+            sys.exit(1)
+        else:
+            sys.stderr('An error occurred, please contact an admistrator...')
 
-def find_publications():
-    pass
+def find_publications(name):
+    cursor = conn.cursor()
+    sql = 'SELECT link FROM publications WHERE mentor_id = ' + \
+    '(SELECT mentor_id FROM mentors WHERE mentor_name = \'%s\') ORDER BY publication_date;' % (name, )
+    try:
+        rows = cursor.execute(sql)
+        for row in rows:
+            print(row)
+    except mysql.connector.Error as err:
+        # If you're testing, it's helpful to see more details printed.
+        if DEBUG:
+            sys.stderr(err)
+            sys.exit(1)
+        else:
+            sys.stderr('An error occurred, please contact an admistrator...')
 
-def find_top_mentors_year():
-    pass
+def find_top_mentors_year(year):
+    cursor = conn.cursor()
+    sql = ''
+    try:
+        rows = cursor.execute(sql)
+        for row in rows:
+            print(row)
+    except mysql.connector.Error as err:
+        # If you're testing, it's helpful to see more details printed.
+        if DEBUG:
+            sys.stderr(err)
+            sys.exit(1)
+        else:
+            sys.stderr('An error occurred, please contact an admistrator...')
+            
+def find_top_mentors_department(department):
+    cursor = conn.cursor()
+    sql = ''
+    try:
+        rows = cursor.execute(sql)
+        for row in rows:
+            print(row)
+    except mysql.connector.Error as err:
+        # If you're testing, it's helpful to see more details printed.
+        if DEBUG:
+            sys.stderr(err)
+            sys.exit(1)
+        else:
+            sys.stderr('An error occurred, please contact an admistrator...')
 
 def quit_ui():
     """
