@@ -162,7 +162,7 @@ def sign_up(username, password):
     """
     cursor = conn.cursor()
     try:
-        result = cursor.callproc('sp_add_user', (username, password))
+        cursor.callproc('sp_add_user', (username, password))
         conn.commit()
         print('Account sucessfully registered')
     except mysql.connector.Error as err:

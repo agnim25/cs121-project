@@ -1,0 +1,1001 @@
+course,mentor_id
+CS 24: Introduction to Computing Systems,0
+CS 176: Computer Graphics Research,0
+CS 1 x: Intermediate Computer Programming,0
+CS 80 abc: Undergraduate Thesis,0
+CS 116: Reasoning about Program Correctness,0
+CS 115: Functional Programming,1
+CS 42: Computer Science Education in K-14 Settings,1
+EE/Ma/CS 126 ab: Information Theory,1
+BE/CS 196 ab: Design and Construction of Programmable Molecular Systems,1
+ME/CS/EE 169: Mobile Robots,1
+CS/Ec 149: Algorithmic Economics,2
+CS 164: Compilers,2
+BE/CS 196 ab: Design and Construction of Programmable Molecular Systems,2
+EE/CS 161: Big Data Networks,2
+EE/CS/EST 135: Power System Analysis,2
+CS 102 abc: Seminar in Computer Science,3
+CS 128: Interactive Theorem Proving,3
+CS 11: Computer Language Lab,3
+CS 179: GPU Programming,3
+Bi/BE/CS 183: Introduction to Computational Biology and Bioinformatics,3
+CS 21: Decidability and Tractability,4
+CS 4: Fundamentals of Computer Programming,4
+EE/CNS/CS 148: Advanced Topics in Vision: Large Language and Vision Models,4
+CMS/CS/CNS/EE/IDS 155: Machine Learning & Data Mining,4
+EE/Ma/CS/IDS 136: Information Theory and Applications,4
+Bi/BE/CS 183: Introduction to Computational Biology and Bioinformatics,5
+CS 24: Introduction to Computing Systems,5
+ME/CS/EE 133 ab: Robotics,5
+CS 274 abc: Topics in Computer Graphics,5
+BE/CS/CNS/Bi 191 ab: Biomolecular Computation,5
+CS/CNS/EE 156 ab: Learning Systems,6
+CS/EE/IDS 143: Networks: Algorithms & Architecture,6
+CS 128: Interactive Theorem Proving,6
+EE/CNS/CS 148: Advanced Topics in Vision: Large Language and Vision Models,6
+EE/CS/IDS 167: Introduction to Data Compression and Storage,6
+CS 282 abc: Reading in Computer Science,7
+CS/IDS 121: Relational Databases,7
+CS 3: Introduction to Software Design,7
+CNS/Bi/Ph/CS/NB 187: Neural Computation,7
+CS 176: Computer Graphics Research,7
+CS 81 abc: Undergraduate Projects in Computer Science,8
+CS 141: Hack Society: Projects from the Public Sector,8
+Ec/ACM/CS 112: Bayesian Statistics,8
+EE/CS 161: Big Data Networks,8
+CS 287: Center for the Mathematics of Information Seminar,8
+CS 274 abc: Topics in Computer Graphics,9
+EE/Ma/CS 126 ab: Information Theory,9
+CS 4: Fundamentals of Computer Programming,9
+CS 24: Introduction to Computing Systems,9
+CS 2: Introduction to Programming Methods,9
+CS 128: Interactive Theorem Proving,10
+CS/CNS/EE/IDS 159: Advanced Topics in Machine Learning,10
+CS/Ph 120: Quantum Cryptography,10
+BE/CS 196 ab: Design and Construction of Programmable Molecular Systems,10
+CS/CNS/EE/IDS 165: Foundations of Machine Learning and Statistical Inference,10
+CS/IDS 121: Relational Databases,11
+CS 80 abc: Undergraduate Thesis,11
+CS 1 x: Intermediate Computer Programming,11
+CS 151: Complexity Theory,11
+CS 42: Computer Science Education in K-14 Settings,11
+BE/CS/CNS/Bi 191 ab: Biomolecular Computation,12
+CS 282 abc: Reading in Computer Science,12
+CS/EE/IDS 166: Computational Cameras,12
+CS 131: Programming Languages,12
+CS 3: Introduction to Software Design,12
+CS/EE 145: Projects in Networking,13
+CS 164: Compilers,13
+ME/CS/EE 134: Robotic Systems,13
+CS 38: Algorithms,13
+EE/CS 147: Digital Ventures Design,13
+IDS/ACM/CS 158: Fundamentals of Statistical Learning,14
+CS 115: Functional Programming,14
+CMS/CS/EE/IDS 144: Networks: Structure & Economics,14
+EE/CS 10 ab: Introduction to Digital Logic and Embedded Systems,14
+CS/IDS 178: Numerical Algorithms and their Implementation,14
+CMS/CS/EE/IDS 144: Networks: Structure & Economics,15
+CS 81 abc: Undergraduate Projects in Computer Science,15
+CS 101: Special Topics in Computer Science,15
+CS/IDS 121: Relational Databases,15
+CS 24: Introduction to Computing Systems,15
+Bi/BE/CS 183: Introduction to Computational Biology and Bioinformatics,16
+CNS/Bi/Ph/CS/NB 187: Neural Computation,16
+EE/CNS/CS 148: Advanced Topics in Vision: Large Language and Vision Models,16
+CS 80 abc: Undergraduate Thesis,16
+CS/EE/IDS 143: Networks: Algorithms & Architecture,16
+Ma/CS 117 abc: Computability Theory,17
+CS 130: Software Engineering,17
+EE/CS/EST 135: Power System Analysis,17
+ME/CS/EE 134: Robotic Systems,17
+CS 282 abc: Reading in Computer Science,17
+CS 128: Interactive Theorem Proving,18
+ME/CS/EE 169: Mobile Robots,18
+CS 286 abc: Seminar in Computer Science,18
+CS 12: Student-Taught Topics in Computing,18
+CS 19 ab: Introduction to Computer Science in Industry,18
+CS/IDS 142: Distributed Computing,19
+CS/CNS/EE 156 ab: Learning Systems,19
+CS 3: Introduction to Software Design,19
+CS 90: Undergraduate Reading in Computer Science,19
+CMS/CS/IDS 139: Analysis and Design of Algorithms,19
+CS 2: Introduction to Programming Methods,20
+ME/CS/EE 129: Experimental Robotics,20
+CS/CNS/EE/IDS 165: Foundations of Machine Learning and Statistical Inference,20
+ME/CS/EE 169: Mobile Robots,20
+EE/Ma/CS/IDS 136: Information Theory and Applications,20
+CS/EE/IDS 166: Computational Cameras,21
+CS/CNS/EE 156 ab: Learning Systems,21
+ME/CS/EE 133 ab: Robotics,21
+HPS/Pl/CS 110: Causation and Explanation,21
+CS 164: Compilers,21
+CMS/CS/CNS/EE/IDS 155: Machine Learning & Data Mining,22
+CS/IDS 121: Relational Databases,22
+HPS/Pl/CS 110: Causation and Explanation,22
+CS/EE/ME 75 abc: Multidisciplinary Systems Engineering,22
+Ec/ACM/CS 112: Bayesian Statistics,22
+CS 180: Master’s Thesis Research,23
+CS 286 abc: Seminar in Computer Science,23
+CS/EE 146: Control and Optimization of Networks,23
+CS 9: Introduction to Computer Science Research,23
+CS/CNS/EE 156 ab: Learning Systems,23
+EE/CS 161: Big Data Networks,24
+CS 19 ab: Introduction to Computer Science in Industry,24
+CS 24: Introduction to Computing Systems,24
+EE/CS/EST 135: Power System Analysis,24
+CS 21: Decidability and Tractability,24
+CS 101: Special Topics in Computer Science,25
+EE/CS 119 abc: Advanced Digital Systems Design,25
+CS/EE/ME 75 abc: Multidisciplinary Systems Engineering,25
+CS 80 abc: Undergraduate Thesis,25
+IDS/ACM/CS 158: Fundamentals of Statistical Learning,25
+CS/CNS 174: Computer Graphics Projects,26
+CS/IDS 150 ab: Probability and Algorithms,26
+CS 38: Algorithms,26
+CS 4: Fundamentals of Computer Programming,26
+CS/IDS 121: Relational Databases,26
+CS 115: Functional Programming,27
+CS 152: Introduction to Cryptography,27
+CS/EE 146: Control and Optimization of Networks,27
+CS 1 x: Intermediate Computer Programming,27
+CS/EE/IDS 143: Networks: Algorithms & Architecture,27
+CS/IDS 121: Relational Databases,28
+ME/CS/EE 133 ab: Robotics,28
+CS 2: Introduction to Programming Methods,28
+CS 151: Complexity Theory,28
+EE/CS/IDS 160: Fundamentals of Information Transmission and Storage,28
+CS 118: Automata-Theoretic Software Analysis,29
+CS 3: Introduction to Software Design,29
+CMS/CS/IDS 139: Analysis and Design of Algorithms,29
+CS/CNS 174: Computer Graphics Projects,29
+CS 128: Interactive Theorem Proving,29
+CS 24: Introduction to Computing Systems,30
+CS/Ec 149: Algorithmic Economics,30
+CS 4: Fundamentals of Computer Programming,30
+IDS/ACM/CS 157: Statistical Inference,30
+BE/CS 196 ab: Design and Construction of Programmable Molecular Systems,30
+CS 81 abc: Undergraduate Projects in Computer Science,31
+CS 124: Operating Systems,31
+EE/CS/IDS 160: Fundamentals of Information Transmission and Storage,31
+CS/IDS 153: Current Topics in Theoretical Computer Science,31
+CS/IDS 150 ab: Probability and Algorithms,31
+CS/EE/IDS 143: Networks: Algorithms & Architecture,32
+CS 2: Introduction to Programming Methods,32
+CS 38: Algorithms,32
+CS 131: Programming Languages,32
+CS 1 x: Intermediate Computer Programming,32
+CS 128: Interactive Theorem Proving,33
+CS/IDS 150 ab: Probability and Algorithms,33
+CS 124: Operating Systems,33
+Ph/CS 219 abc: Quantum Computation,33
+CS 282 abc: Reading in Computer Science,33
+CS 180: Master’s Thesis Research,34
+CS 132: Web Development,34
+CNS/Bi/EE/CS/NB 186: Vision: From Computational Theory to Neuronal Mechanisms,34
+CS 286 abc: Seminar in Computer Science,34
+CS/EE/IDS 166: Computational Cameras,34
+CS 128: Interactive Theorem Proving,35
+CS 12: Student-Taught Topics in Computing,35
+EE/Ma/CS 126 ab: Information Theory,35
+CS/EE/IDS 166: Computational Cameras,35
+CS/ACM 177 ab: Discrete Differential Geometry: Theory and Applications,35
+CS 102 abc: Seminar in Computer Science,36
+CS 24: Introduction to Computing Systems,36
+EE/Ma/CS 126 ab: Information Theory,36
+BE/CS/CNS/Bi 191 ab: Biomolecular Computation,36
+CMS/CS/IDS 139: Analysis and Design of Algorithms,36
+CS 24: Introduction to Computing Systems,37
+CNS/Bi/EE/CS/NB 186: Vision: From Computational Theory to Neuronal Mechanisms,37
+CS 132: Web Development,37
+CS/IDS 153: Current Topics in Theoretical Computer Science,37
+CS 103 abc: Reading in Computer Science,37
+CS 176: Computer Graphics Research,38
+CS 137: Real-World Algorithm Implementation,38
+ME/CS/EE 134: Robotic Systems,38
+EE/Ma/CS/IDS 127: Error-Correcting Codes,38
+CS 2: Introduction to Programming Methods,38
+CS 131: Programming Languages,39
+CS 132: Web Development,39
+CS/EE/IDS 166: Computational Cameras,39
+EE/Ma/CS 126 ab: Information Theory,39
+CS/ACM 177 ab: Discrete Differential Geometry: Theory and Applications,39
+CS/CNS 174: Computer Graphics Projects,40
+CS 4: Fundamentals of Computer Programming,40
+EE/Ma/CS/IDS 127: Error-Correcting Codes,40
+CS/IDS 142: Distributed Computing,40
+CS 124: Operating Systems,40
+CMS/CS/CNS/EE/IDS 155: Machine Learning & Data Mining,41
+CS/Ph 120: Quantum Cryptography,41
+CS 11: Computer Language Lab,41
+CS 21: Decidability and Tractability,41
+CS 1 x: Intermediate Computer Programming,41
+CS/CNS/EE/IDS 165: Foundations of Machine Learning and Statistical Inference,42
+ME/CS/EE 133 ab: Robotics,42
+CS 1 x: Intermediate Computer Programming,42
+ME/CS/EE 129: Experimental Robotics,42
+HPS/Pl/CS 110: Causation and Explanation,42
+CMS/CS/EE/IDS 144: Networks: Structure & Economics,43
+CS/CNS/EE 156 ab: Learning Systems,43
+CS 141: Hack Society: Projects from the Public Sector,43
+EE/CS 10 ab: Introduction to Digital Logic and Embedded Systems,43
+CS/CNS/EE/IDS 165: Foundations of Machine Learning and Statistical Inference,43
+CS 11: Computer Language Lab,44
+CS 2: Introduction to Programming Methods,44
+CS 274 abc: Topics in Computer Graphics,44
+CS 24: Introduction to Computing Systems,44
+CS 38: Algorithms,44
+CS/EE 145: Projects in Networking,45
+CS 128: Interactive Theorem Proving,45
+Ph/CS 219 abc: Quantum Computation,45
+CS 22: Data Structures & Parallelism,45
+CS/CNS 171: Computer Graphics Laboratory,45
+"CS/IDS 162: Data, Algorithms and Society",46
+CS/CNS 174: Computer Graphics Projects,46
+CS/Ec 149: Algorithmic Economics,46
+EE/CS 147: Digital Ventures Design,46
+CS 19 ab: Introduction to Computer Science in Industry,46
+CS/EE/ME 75 abc: Multidisciplinary Systems Engineering,47
+"CS/IDS 162: Data, Algorithms and Society",47
+BE/CS 196 ab: Design and Construction of Programmable Molecular Systems,47
+CS 274 abc: Topics in Computer Graphics,47
+EE/CS 10 ab: Introduction to Digital Logic and Embedded Systems,47
+CS 280: Research in Computer Science,48
+CS 130: Software Engineering,48
+Ma/CS 117 abc: Computability Theory,48
+CS/IDS 178: Numerical Algorithms and their Implementation,48
+CS 101: Special Topics in Computer Science,48
+CS 115: Functional Programming,49
+CS 11: Computer Language Lab,49
+EE/CS/IDS 167: Introduction to Data Compression and Storage,49
+CS/Ph 120: Quantum Cryptography,49
+CS 152: Introduction to Cryptography,49
+CS 179: GPU Programming,50
+CS 124: Operating Systems,50
+CS/IDS 121: Relational Databases,50
+CS 111: Graduate Programming Practicum,50
+IDS/ACM/CS 157: Statistical Inference,50
+CS 24: Introduction to Computing Systems,51
+CS 151: Complexity Theory,51
+BE/CS/CNS/Bi 191 ab: Biomolecular Computation,51
+CS 280: Research in Computer Science,51
+CS 132: Web Development,51
+CS 287: Center for the Mathematics of Information Seminar,52
+CNS/Bi/EE/CS/NB 186: Vision: From Computational Theory to Neuronal Mechanisms,52
+CS/ACM 177 ab: Discrete Differential Geometry: Theory and Applications,52
+CNS/Bi/Ph/CS/NB 187: Neural Computation,52
+CS 111: Graduate Programming Practicum,52
+CS 164: Compilers,53
+CS/EE 145: Projects in Networking,53
+CS 2: Introduction to Programming Methods,53
+CS 132: Web Development,53
+EE/CS/MedE 175: Advanced Topics in Digital Design with FPGAs and VHDL,53
+CS 22: Data Structures & Parallelism,54
+CS 21: Decidability and Tractability,54
+CS 180: Master’s Thesis Research,54
+CS/IDS 142: Distributed Computing,54
+CS 81 abc: Undergraduate Projects in Computer Science,54
+ME/CS/EE 133 ab: Robotics,55
+CS 137: Real-World Algorithm Implementation,55
+CS/ACM 177 ab: Discrete Differential Geometry: Theory and Applications,55
+EE/CS/EST 135: Power System Analysis,55
+CS 24: Introduction to Computing Systems,55
+CS/ACM 177 ab: Discrete Differential Geometry: Theory and Applications,56
+CS 19 ab: Introduction to Computer Science in Industry,56
+Ma/CS 117 abc: Computability Theory,56
+CS 111: Graduate Programming Practicum,56
+CS 80 abc: Undergraduate Thesis,56
+CNS/Bi/Ph/CS/NB 187: Neural Computation,57
+EE/CS 119 abc: Advanced Digital Systems Design,57
+CS 24: Introduction to Computing Systems,57
+CS 4: Fundamentals of Computer Programming,57
+CS 9: Introduction to Computer Science Research,57
+CS/EE/IDS 143: Networks: Algorithms & Architecture,58
+ME/CS/EE 134: Robotic Systems,58
+CS 115: Functional Programming,58
+CS 9: Introduction to Computer Science Research,58
+CS 128: Interactive Theorem Proving,58
+CS 12: Student-Taught Topics in Computing,59
+CS/IDS 178: Numerical Algorithms and their Implementation,59
+CS 151: Complexity Theory,59
+CS/CNS/EE/IDS 159: Advanced Topics in Machine Learning,59
+CS 102 abc: Seminar in Computer Science,59
+CS 102 abc: Seminar in Computer Science,60
+CS 81 abc: Undergraduate Projects in Computer Science,60
+BE/CS 196 ab: Design and Construction of Programmable Molecular Systems,60
+CS/EE/IDS 166: Computational Cameras,60
+CS/IDS 142: Distributed Computing,60
+CS 101: Special Topics in Computer Science,61
+EE/CS/EST 135: Power System Analysis,61
+CS 130: Software Engineering,61
+CS 180: Master’s Thesis Research,61
+CS 103 abc: Reading in Computer Science,61
+CS 280: Research in Computer Science,62
+CS/EE/IDS 143: Networks: Algorithms & Architecture,62
+CS/IDS 153: Current Topics in Theoretical Computer Science,62
+Ph/CS 219 abc: Quantum Computation,62
+CS 179: GPU Programming,62
+CS 179: GPU Programming,63
+CS 118: Automata-Theoretic Software Analysis,63
+CS/IDS 153: Current Topics in Theoretical Computer Science,63
+ME/CS/EE 133 ab: Robotics,63
+CMS/CS/CNS/EE/IDS 155: Machine Learning & Data Mining,63
+EE/Ma/CS 126 ab: Information Theory,64
+CS 128: Interactive Theorem Proving,64
+CS 151: Complexity Theory,64
+ME/CS/EE 133 ab: Robotics,64
+IDS/ACM/CS 158: Fundamentals of Statistical Learning,64
+CS 12: Student-Taught Topics in Computing,65
+CNS/Bi/Ph/CS/NB 187: Neural Computation,65
+Bi/BE/CS 183: Introduction to Computational Biology and Bioinformatics,65
+CMS/CS/EE/IDS 144: Networks: Structure & Economics,65
+IDS/ACM/CS 157: Statistical Inference,65
+CS/IDS 153: Current Topics in Theoretical Computer Science,66
+CS 102 abc: Seminar in Computer Science,66
+ME/CS/EE 133 ab: Robotics,66
+CMS/CS/CNS/EE/IDS 155: Machine Learning & Data Mining,66
+CS 42: Computer Science Education in K-14 Settings,66
+BE/CS 196 ab: Design and Construction of Programmable Molecular Systems,67
+CS/EE/ME 75 abc: Multidisciplinary Systems Engineering,67
+CS/EE/IDS 143: Networks: Algorithms & Architecture,67
+EE/CS 119 abc: Advanced Digital Systems Design,67
+CS 132: Web Development,67
+CS 132: Web Development,68
+CS 138: Computer Algorithms,68
+CS 128: Interactive Theorem Proving,68
+CS 116: Reasoning about Program Correctness,68
+EE/CNS/CS 148: Advanced Topics in Vision: Large Language and Vision Models,68
+CS/Ph 120: Quantum Cryptography,69
+Ph/CS 219 abc: Quantum Computation,69
+CS 3: Introduction to Software Design,69
+EE/CS/MedE 125: Digital Circuit Design with FPGAs and VHDL,69
+CS 9: Introduction to Computer Science Research,69
+CS 13: Mathematical Foundations of Computer Science,70
+CS 24: Introduction to Computing Systems,70
+CS 280: Research in Computer Science,70
+CNS/Bi/Ph/CS/NB 187: Neural Computation,70
+CS/IDS 178: Numerical Algorithms and their Implementation,70
+EE/CS/MedE 175: Advanced Topics in Digital Design with FPGAs and VHDL,71
+CS 1 x: Intermediate Computer Programming,71
+CS/IDS 153: Current Topics in Theoretical Computer Science,71
+CS 42: Computer Science Education in K-14 Settings,71
+Ph/CS 219 abc: Quantum Computation,71
+Ma/CS 117 abc: Computability Theory,72
+CS 11: Computer Language Lab,72
+CS/IDS 121: Relational Databases,72
+CS 164: Compilers,72
+CMS/CS/CNS/EE/IDS 155: Machine Learning & Data Mining,72
+CS 124: Operating Systems,73
+CS 12: Student-Taught Topics in Computing,73
+CS/IDS 153: Current Topics in Theoretical Computer Science,73
+CS 116: Reasoning about Program Correctness,73
+ME/CS/EE 134: Robotic Systems,73
+CS 12: Student-Taught Topics in Computing,74
+CS/EE/ME 75 abc: Multidisciplinary Systems Engineering,74
+EE/CS/MedE 175: Advanced Topics in Digital Design with FPGAs and VHDL,74
+CS 24: Introduction to Computing Systems,74
+IDS/ACM/CS 157: Statistical Inference,74
+ME/CS/EE 134: Robotic Systems,75
+CS 102 abc: Seminar in Computer Science,75
+CS/IDS 142: Distributed Computing,75
+CS 80 abc: Undergraduate Thesis,75
+CS 1 x: Intermediate Computer Programming,75
+CS 179: GPU Programming,76
+EE/CS 161: Big Data Networks,76
+CS 1 x: Intermediate Computer Programming,76
+EE/CS/IDS 160: Fundamentals of Information Transmission and Storage,76
+CNS/Bi/Ph/CS/NB 187: Neural Computation,76
+HPS/Pl/CS 110: Causation and Explanation,77
+CS 128: Interactive Theorem Proving,77
+CS 80 abc: Undergraduate Thesis,77
+CS 137: Real-World Algorithm Implementation,77
+EE/Ma/CS/IDS 136: Information Theory and Applications,77
+CS/CNS 171: Computer Graphics Laboratory,78
+CS/ACM 177 ab: Discrete Differential Geometry: Theory and Applications,78
+CS 1: Introduction to Computer Programming,78
+ME/CS/EE 134: Robotic Systems,78
+Bi/BE/CS 183: Introduction to Computational Biology and Bioinformatics,78
+EE/Ma/CS 126 ab: Information Theory,79
+CS 132: Web Development,79
+CS 286 abc: Seminar in Computer Science,79
+CS 22: Data Structures & Parallelism,79
+CS 151: Complexity Theory,79
+CS 2: Introduction to Programming Methods,80
+EE/CS 119 abc: Advanced Digital Systems Design,80
+CS 90: Undergraduate Reading in Computer Science,80
+"CS/IDS 162: Data, Algorithms and Society",80
+HPS/Pl/CS 110: Causation and Explanation,80
+Bi/BE/CS 183: Introduction to Computational Biology and Bioinformatics,81
+CS 179: GPU Programming,81
+ME/CS/EE 133 ab: Robotics,81
+CS 1 x: Intermediate Computer Programming,81
+EE/CS 147: Digital Ventures Design,81
+CS 42: Computer Science Education in K-14 Settings,82
+CS 24: Introduction to Computing Systems,82
+CS 9: Introduction to Computer Science Research,82
+CS 81 abc: Undergraduate Projects in Computer Science,82
+CNS/Bi/Ph/CS/NB 187: Neural Computation,82
+CMS/CS/IDS 139: Analysis and Design of Algorithms,83
+ME/CS/EE 169: Mobile Robots,83
+EE/CNS/CS 148: Advanced Topics in Vision: Large Language and Vision Models,83
+EE/CS 119 abc: Advanced Digital Systems Design,83
+EE/CS/IDS 167: Introduction to Data Compression and Storage,83
+CS/CNS/EE 156 ab: Learning Systems,84
+CS 151: Complexity Theory,84
+CS 2: Introduction to Programming Methods,84
+CS 24: Introduction to Computing Systems,84
+EE/CS 161: Big Data Networks,84
+CS 90: Undergraduate Reading in Computer Science,85
+CS 151: Complexity Theory,85
+CS/Ph 120: Quantum Cryptography,85
+CS 111: Graduate Programming Practicum,85
+CMS/CS/CNS/EE/IDS 155: Machine Learning & Data Mining,85
+CNS/Bi/EE/CS/NB 186: Vision: From Computational Theory to Neuronal Mechanisms,86
+Ma/CS 6/106 abc: Introduction to Discrete Mathematics,86
+CS 131: Programming Languages,86
+EE/Ma/CS/IDS 127: Error-Correcting Codes,86
+IDS/ACM/CS 157: Statistical Inference,86
+EE/Ma/CS 126 ab: Information Theory,87
+Bi/BE/CS 183: Introduction to Computational Biology and Bioinformatics,87
+CS/CNS 174: Computer Graphics Projects,87
+EE/Ma/CS/IDS 136: Information Theory and Applications,87
+EE/CS/EST 135: Power System Analysis,87
+ME/CS/EE 169: Mobile Robots,88
+EE/CS/MedE 125: Digital Circuit Design with FPGAs and VHDL,88
+CS 4: Fundamentals of Computer Programming,88
+CS/CNS/EE/IDS 159: Advanced Topics in Machine Learning,88
+EE/CS 161: Big Data Networks,88
+EE/Ma/CS 126 ab: Information Theory,89
+CS 179: GPU Programming,89
+CS 152: Introduction to Cryptography,89
+IDS/ACM/CS 157: Statistical Inference,89
+CS 24: Introduction to Computing Systems,89
+EE/CS/MedE 175: Advanced Topics in Digital Design with FPGAs and VHDL,90
+BE/CS/CNS/Bi 191 ab: Biomolecular Computation,90
+ME/CS/EE 133 ab: Robotics,90
+CS/CNS 174: Computer Graphics Projects,90
+EE/CS 10 ab: Introduction to Digital Logic and Embedded Systems,90
+CS/IDS 150 ab: Probability and Algorithms,91
+CS 24: Introduction to Computing Systems,91
+IDS/ACM/CS 158: Fundamentals of Statistical Learning,91
+CS 137: Real-World Algorithm Implementation,91
+CS 90: Undergraduate Reading in Computer Science,91
+CS 137: Real-World Algorithm Implementation,92
+CS 19 ab: Introduction to Computer Science in Industry,92
+CMS/CS/CNS/EE/IDS 155: Machine Learning & Data Mining,92
+CS/EE/IDS 166: Computational Cameras,92
+CS/IDS 178: Numerical Algorithms and their Implementation,92
+CS 3: Introduction to Software Design,93
+EE/CS 161: Big Data Networks,93
+ME/CS/EE 129: Experimental Robotics,93
+CS 274 abc: Topics in Computer Graphics,93
+CS 21: Decidability and Tractability,93
+CS 2: Introduction to Programming Methods,94
+CS/IDS 153: Current Topics in Theoretical Computer Science,94
+CS 81 abc: Undergraduate Projects in Computer Science,94
+CS/EE 146: Control and Optimization of Networks,94
+CS/Ec 149: Algorithmic Economics,94
+CS 132: Web Development,95
+CS 1 x: Intermediate Computer Programming,95
+CS 4: Fundamentals of Computer Programming,95
+CS/IDS 121: Relational Databases,95
+CS 280: Research in Computer Science,95
+CS 141: Hack Society: Projects from the Public Sector,96
+IDS/ACM/CS 157: Statistical Inference,96
+ME/CS/EE 169: Mobile Robots,96
+EE/CS 147: Digital Ventures Design,96
+CS 137: Real-World Algorithm Implementation,96
+CS 101: Special Topics in Computer Science,97
+CS 38: Algorithms,97
+CS/IDS 150 ab: Probability and Algorithms,97
+CMS/CS/IDS 139: Analysis and Design of Algorithms,97
+EE/CS/IDS 160: Fundamentals of Information Transmission and Storage,97
+CS 102 abc: Seminar in Computer Science,98
+IDS/ACM/CS 157: Statistical Inference,98
+ME/CS/EE 133 ab: Robotics,98
+CS 24: Introduction to Computing Systems,98
+EE/CNS/CS 148: Advanced Topics in Vision: Large Language and Vision Models,98
+CS 180: Master’s Thesis Research,99
+ME/CS/EE 134: Robotic Systems,99
+CS/CNS/EE/IDS 159: Advanced Topics in Machine Learning,99
+CS 3: Introduction to Software Design,99
+CS 130: Software Engineering,99
+CS 128: Interactive Theorem Proving,100
+CS/EE/ME 75 abc: Multidisciplinary Systems Engineering,100
+CS 81 abc: Undergraduate Projects in Computer Science,100
+CS 24: Introduction to Computing Systems,100
+HPS/Pl/CS 110: Causation and Explanation,100
+EE/CS 161: Big Data Networks,101
+CS 80 abc: Undergraduate Thesis,101
+EE/Ma/CS 126 ab: Information Theory,101
+EE/CS/MedE 125: Digital Circuit Design with FPGAs and VHDL,101
+CS 164: Compilers,101
+EE/CS 147: Digital Ventures Design,102
+CS 141: Hack Society: Projects from the Public Sector,102
+CS 13: Mathematical Foundations of Computer Science,102
+CS 116: Reasoning about Program Correctness,102
+CS/CNS/EE/IDS 165: Foundations of Machine Learning and Statistical Inference,102
+CS/CNS 174: Computer Graphics Projects,103
+Ma/CS 117 abc: Computability Theory,103
+EE/CS 161: Big Data Networks,103
+CS/EE/IDS 143: Networks: Algorithms & Architecture,103
+Ph/CS 219 abc: Quantum Computation,103
+CS 274 abc: Topics in Computer Graphics,104
+CS 81 abc: Undergraduate Projects in Computer Science,104
+CS 141: Hack Society: Projects from the Public Sector,104
+CS/CNS 174: Computer Graphics Projects,104
+CS 282 abc: Reading in Computer Science,104
+CS/CNS/EE 156 ab: Learning Systems,105
+CS 132: Web Development,105
+CS/EE 145: Projects in Networking,105
+CS/CNS/EE/IDS 165: Foundations of Machine Learning and Statistical Inference,105
+CMS/CS/IDS 139: Analysis and Design of Algorithms,105
+CS/CNS/EE/IDS 159: Advanced Topics in Machine Learning,106
+CS 124: Operating Systems,106
+CS 137: Real-World Algorithm Implementation,106
+CS 164: Compilers,106
+CS 132: Web Development,106
+ME/CS/EE 134: Robotic Systems,107
+CS 116: Reasoning about Program Correctness,107
+Ec/ACM/CS 112: Bayesian Statistics,107
+EE/CS/MedE 175: Advanced Topics in Digital Design with FPGAs and VHDL,107
+CS 130: Software Engineering,107
+EE/CS 10 ab: Introduction to Digital Logic and Embedded Systems,108
+CS/Ec 149: Algorithmic Economics,108
+CS 152: Introduction to Cryptography,108
+CS/IDS 153: Current Topics in Theoretical Computer Science,108
+EE/CS/IDS 167: Introduction to Data Compression and Storage,108
+CS 12: Student-Taught Topics in Computing,109
+ME/CS/EE 133 ab: Robotics,109
+BE/CS/CNS/Bi 191 ab: Biomolecular Computation,109
+IDS/ACM/CS 157: Statistical Inference,109
+CS 90: Undergraduate Reading in Computer Science,109
+CMS/CS/EE/IDS 144: Networks: Structure & Economics,110
+CS 116: Reasoning about Program Correctness,110
+CS/Ec 149: Algorithmic Economics,110
+EE/CS/IDS 160: Fundamentals of Information Transmission and Storage,110
+CNS/Bi/EE/CS/NB 186: Vision: From Computational Theory to Neuronal Mechanisms,110
+CS/CNS 174: Computer Graphics Projects,111
+CS/IDS 153: Current Topics in Theoretical Computer Science,111
+CS 116: Reasoning about Program Correctness,111
+CMS/CS/CNS/EE/IDS 155: Machine Learning & Data Mining,111
+CS 101: Special Topics in Computer Science,111
+CS 274 abc: Topics in Computer Graphics,112
+Ma/CS 6/106 abc: Introduction to Discrete Mathematics,112
+CS 90: Undergraduate Reading in Computer Science,112
+CS 151: Complexity Theory,112
+CS/EE/IDS 166: Computational Cameras,112
+EE/CS/IDS 160: Fundamentals of Information Transmission and Storage,113
+CS 152: Introduction to Cryptography,113
+CS 1: Introduction to Computer Programming,113
+EE/CS 147: Digital Ventures Design,113
+ME/CS/EE 133 ab: Robotics,113
+CS 151: Complexity Theory,114
+CS 11: Computer Language Lab,114
+Bi/BE/CS 183: Introduction to Computational Biology and Bioinformatics,114
+CS/Ec 149: Algorithmic Economics,114
+CS/CNS 171: Computer Graphics Laboratory,114
+CS 19 ab: Introduction to Computer Science in Industry,115
+Ph/CS 219 abc: Quantum Computation,115
+CS 176: Computer Graphics Research,115
+CMS/CS/IDS 139: Analysis and Design of Algorithms,115
+CS/IDS 150 ab: Probability and Algorithms,115
+CS/CNS/EE 156 ab: Learning Systems,116
+EE/Ma/CS/IDS 136: Information Theory and Applications,116
+CS 180: Master’s Thesis Research,116
+CS 176: Computer Graphics Research,116
+CS 124: Operating Systems,116
+CS 116: Reasoning about Program Correctness,117
+CS 124: Operating Systems,117
+CS 42: Computer Science Education in K-14 Settings,117
+CS 180: Master’s Thesis Research,117
+CS 80 abc: Undergraduate Thesis,117
+CS 152: Introduction to Cryptography,118
+BE/CS/CNS/Bi 191 ab: Biomolecular Computation,118
+Ma/CS 6/106 abc: Introduction to Discrete Mathematics,118
+CMS/CS/IDS 139: Analysis and Design of Algorithms,118
+BE/CS 196 ab: Design and Construction of Programmable Molecular Systems,118
+CS/IDS 178: Numerical Algorithms and their Implementation,119
+CS 24: Introduction to Computing Systems,119
+CS 90: Undergraduate Reading in Computer Science,119
+CS/IDS 153: Current Topics in Theoretical Computer Science,119
+CS 1 x: Intermediate Computer Programming,119
+CS 42: Computer Science Education in K-14 Settings,120
+CS 4: Fundamentals of Computer Programming,120
+CS 80 abc: Undergraduate Thesis,120
+CS/EE/IDS 166: Computational Cameras,120
+ME/CS/EE 133 ab: Robotics,120
+CS 4: Fundamentals of Computer Programming,121
+EE/CS 10 ab: Introduction to Digital Logic and Embedded Systems,121
+CS 287: Center for the Mathematics of Information Seminar,121
+CS/EE/IDS 166: Computational Cameras,121
+CS/Ph 120: Quantum Cryptography,121
+EE/CS/IDS 167: Introduction to Data Compression and Storage,122
+CS/CNS 174: Computer Graphics Projects,122
+CS 9: Introduction to Computer Science Research,122
+IDS/ACM/CS 157: Statistical Inference,122
+EE/CS/IDS 160: Fundamentals of Information Transmission and Storage,122
+EE/CS 10 ab: Introduction to Digital Logic and Embedded Systems,123
+CS 128: Interactive Theorem Proving,123
+CS 81 abc: Undergraduate Projects in Computer Science,123
+CS 90: Undergraduate Reading in Computer Science,123
+Ma/CS 117 abc: Computability Theory,123
+CS 3: Introduction to Software Design,124
+Ec/ACM/CS 112: Bayesian Statistics,124
+CS 13: Mathematical Foundations of Computer Science,124
+CS 19 ab: Introduction to Computer Science in Industry,124
+Ma/CS 117 abc: Computability Theory,124
+CS 80 abc: Undergraduate Thesis,125
+CS/EE/IDS 143: Networks: Algorithms & Architecture,125
+Bi/BE/CS 183: Introduction to Computational Biology and Bioinformatics,125
+CS/IDS 150 ab: Probability and Algorithms,125
+CS 282 abc: Reading in Computer Science,125
+ME/CS/EE 134: Robotic Systems,126
+CS 132: Web Development,126
+ME/CS/EE 129: Experimental Robotics,126
+CS 81 abc: Undergraduate Projects in Computer Science,126
+ME/CS/EE 169: Mobile Robots,126
+CS 115: Functional Programming,127
+CS 124: Operating Systems,127
+ME/CS/EE 129: Experimental Robotics,127
+CS 2: Introduction to Programming Methods,127
+CS/IDS 150 ab: Probability and Algorithms,127
+"CS/IDS 162: Data, Algorithms and Society",128
+CMS/CS/IDS 139: Analysis and Design of Algorithms,128
+EE/CS/MedE 175: Advanced Topics in Digital Design with FPGAs and VHDL,128
+EE/CS 161: Big Data Networks,128
+Ma/CS 6/106 abc: Introduction to Discrete Mathematics,128
+CS/IDS 178: Numerical Algorithms and their Implementation,129
+CS/Ph 120: Quantum Cryptography,129
+ME/CS/EE 169: Mobile Robots,129
+CS/IDS 142: Distributed Computing,129
+IDS/ACM/CS 158: Fundamentals of Statistical Learning,129
+CS 115: Functional Programming,130
+CS 287: Center for the Mathematics of Information Seminar,130
+"CS/IDS 162: Data, Algorithms and Society",130
+CS 21: Decidability and Tractability,130
+EE/Ma/CS/IDS 127: Error-Correcting Codes,130
+EE/CS 119 abc: Advanced Digital Systems Design,131
+CNS/Bi/EE/CS/NB 186: Vision: From Computational Theory to Neuronal Mechanisms,131
+CS 11: Computer Language Lab,131
+CS 42: Computer Science Education in K-14 Settings,131
+CS 152: Introduction to Cryptography,131
+CS/Ph 120: Quantum Cryptography,132
+CS/EE 145: Projects in Networking,132
+CS 128: Interactive Theorem Proving,132
+CNS/Bi/EE/CS/NB 186: Vision: From Computational Theory to Neuronal Mechanisms,132
+ME/CS/EE 133 ab: Robotics,132
+CS 1: Introduction to Computer Programming,133
+CS/EE 145: Projects in Networking,133
+EE/Ma/CS/IDS 127: Error-Correcting Codes,133
+Ma/CS 117 abc: Computability Theory,133
+CS/IDS 121: Relational Databases,133
+ME/CS/EE 129: Experimental Robotics,134
+CS/CNS/EE/IDS 165: Foundations of Machine Learning and Statistical Inference,134
+Bi/BE/CS 183: Introduction to Computational Biology and Bioinformatics,134
+IDS/ACM/CS 158: Fundamentals of Statistical Learning,134
+CS 12: Student-Taught Topics in Computing,134
+EE/CS/IDS 167: Introduction to Data Compression and Storage,135
+Ma/CS 117 abc: Computability Theory,135
+CS 138: Computer Algorithms,135
+CS 115: Functional Programming,135
+IDS/ACM/CS 158: Fundamentals of Statistical Learning,135
+Ec/ACM/CS 112: Bayesian Statistics,136
+CS 11: Computer Language Lab,136
+CS 179: GPU Programming,136
+CS 152: Introduction to Cryptography,136
+CS 132: Web Development,136
+CS 19 ab: Introduction to Computer Science in Industry,137
+CS/CNS/EE/IDS 159: Advanced Topics in Machine Learning,137
+CS 24: Introduction to Computing Systems,137
+CS/EE 145: Projects in Networking,137
+CS 1: Introduction to Computer Programming,137
+EE/Ma/CS/IDS 136: Information Theory and Applications,138
+CS 13: Mathematical Foundations of Computer Science,138
+CS 137: Real-World Algorithm Implementation,138
+EE/CNS/CS 148: Advanced Topics in Vision: Large Language and Vision Models,138
+CS 116: Reasoning about Program Correctness,138
+CS 103 abc: Reading in Computer Science,139
+CS 179: GPU Programming,139
+CS 180: Master’s Thesis Research,139
+CS 12: Student-Taught Topics in Computing,139
+CS/CNS 174: Computer Graphics Projects,139
+CMS/CS/IDS 139: Analysis and Design of Algorithms,140
+EE/CNS/CS 148: Advanced Topics in Vision: Large Language and Vision Models,140
+EE/CS/IDS 167: Introduction to Data Compression and Storage,140
+CS 152: Introduction to Cryptography,140
+CS 21: Decidability and Tractability,140
+CS 274 abc: Topics in Computer Graphics,141
+CS 19 ab: Introduction to Computer Science in Industry,141
+CNS/Bi/EE/CS/NB 186: Vision: From Computational Theory to Neuronal Mechanisms,141
+CS 138: Computer Algorithms,141
+CS 118: Automata-Theoretic Software Analysis,141
+EE/CS/IDS 160: Fundamentals of Information Transmission and Storage,142
+CS 1 x: Intermediate Computer Programming,142
+CS 274 abc: Topics in Computer Graphics,142
+CS 3: Introduction to Software Design,142
+CS 282 abc: Reading in Computer Science,142
+EE/CS 10 ab: Introduction to Digital Logic and Embedded Systems,143
+CNS/Bi/Ph/CS/NB 187: Neural Computation,143
+ME/CS/EE 169: Mobile Robots,143
+Ph/CS 219 abc: Quantum Computation,143
+CS/EE 145: Projects in Networking,143
+CS 130: Software Engineering,144
+CS 151: Complexity Theory,144
+CS 274 abc: Topics in Computer Graphics,144
+CS/EE 146: Control and Optimization of Networks,144
+CS/IDS 142: Distributed Computing,144
+CMS/CS/EE/IDS 144: Networks: Structure & Economics,145
+CS 9: Introduction to Computer Science Research,145
+CS 4: Fundamentals of Computer Programming,145
+ME/CS/EE 169: Mobile Robots,145
+CS 138: Computer Algorithms,145
+CS 132: Web Development,146
+Ec/ACM/CS 112: Bayesian Statistics,146
+CS/CNS 174: Computer Graphics Projects,146
+CS/Ph 120: Quantum Cryptography,146
+CS/EE/IDS 166: Computational Cameras,146
+CS 137: Real-World Algorithm Implementation,147
+CS 179: GPU Programming,147
+CS/CNS/EE/IDS 159: Advanced Topics in Machine Learning,147
+IDS/ACM/CS 158: Fundamentals of Statistical Learning,147
+CS/CNS/EE/IDS 165: Foundations of Machine Learning and Statistical Inference,147
+CS 274 abc: Topics in Computer Graphics,148
+CS 131: Programming Languages,148
+CS 151: Complexity Theory,148
+CS 138: Computer Algorithms,148
+CS/Ph 120: Quantum Cryptography,148
+EE/CS/IDS 167: Introduction to Data Compression and Storage,149
+CS 179: GPU Programming,149
+CS/EE 146: Control and Optimization of Networks,149
+CS/CNS 171: Computer Graphics Laboratory,149
+CS 4: Fundamentals of Computer Programming,149
+CS 101: Special Topics in Computer Science,150
+CS 176: Computer Graphics Research,150
+CS 38: Algorithms,150
+CS 42: Computer Science Education in K-14 Settings,150
+CS/CNS/EE 156 ab: Learning Systems,150
+CS 11: Computer Language Lab,151
+CS/IDS 121: Relational Databases,151
+CS/Ph 120: Quantum Cryptography,151
+CS 38: Algorithms,151
+EE/CS 161: Big Data Networks,151
+CS 2: Introduction to Programming Methods,152
+CS 19 ab: Introduction to Computer Science in Industry,152
+CS 152: Introduction to Cryptography,152
+Bi/BE/CS 183: Introduction to Computational Biology and Bioinformatics,152
+CS 42: Computer Science Education in K-14 Settings,152
+CS/CNS 171: Computer Graphics Laboratory,153
+EE/CNS/CS 148: Advanced Topics in Vision: Large Language and Vision Models,153
+CS/EE 145: Projects in Networking,153
+CS 151: Complexity Theory,153
+CS 130: Software Engineering,153
+CS 1 x: Intermediate Computer Programming,154
+CS 151: Complexity Theory,154
+CS 11: Computer Language Lab,154
+ME/CS/EE 169: Mobile Robots,154
+CS 38: Algorithms,154
+EE/CS 10 ab: Introduction to Digital Logic and Embedded Systems,155
+CS 21: Decidability and Tractability,155
+CS 152: Introduction to Cryptography,155
+CS/CNS/EE/IDS 159: Advanced Topics in Machine Learning,155
+ME/CS/EE 169: Mobile Robots,155
+CS 19 ab: Introduction to Computer Science in Industry,156
+CS/IDS 150 ab: Probability and Algorithms,156
+CS 280: Research in Computer Science,156
+CNS/Bi/Ph/CS/NB 187: Neural Computation,156
+CS 22: Data Structures & Parallelism,156
+CS/EE/ME 75 abc: Multidisciplinary Systems Engineering,157
+CS 164: Compilers,157
+CS 90: Undergraduate Reading in Computer Science,157
+EE/Ma/CS/IDS 136: Information Theory and Applications,157
+EE/CS/EST 135: Power System Analysis,157
+CMS/CS/CNS/EE/IDS 155: Machine Learning & Data Mining,158
+EE/CS/IDS 160: Fundamentals of Information Transmission and Storage,158
+CS 90: Undergraduate Reading in Computer Science,158
+CMS/CS/EE/IDS 144: Networks: Structure & Economics,158
+CS 22: Data Structures & Parallelism,158
+ME/CS/EE 129: Experimental Robotics,159
+CS 80 abc: Undergraduate Thesis,159
+CS/IDS 178: Numerical Algorithms and their Implementation,159
+EE/CS 161: Big Data Networks,159
+CS 179: GPU Programming,159
+CS 118: Automata-Theoretic Software Analysis,160
+CS 101: Special Topics in Computer Science,160
+Ph/CS 219 abc: Quantum Computation,160
+CS 22: Data Structures & Parallelism,160
+CS 274 abc: Topics in Computer Graphics,160
+CS/IDS 150 ab: Probability and Algorithms,161
+CS 124: Operating Systems,161
+Ph/CS 219 abc: Quantum Computation,161
+CS 128: Interactive Theorem Proving,161
+CS 22: Data Structures & Parallelism,161
+Ma/CS 117 abc: Computability Theory,162
+CS 124: Operating Systems,162
+CS 102 abc: Seminar in Computer Science,162
+EE/CS 10 ab: Introduction to Digital Logic and Embedded Systems,162
+CMS/CS/EE/IDS 144: Networks: Structure & Economics,162
+CS/CNS/EE/IDS 165: Foundations of Machine Learning and Statistical Inference,163
+CS 164: Compilers,163
+CS/Ph 120: Quantum Cryptography,163
+BE/CS/CNS/Bi 191 ab: Biomolecular Computation,163
+CS 21: Decidability and Tractability,163
+CS/CNS/EE 156 ab: Learning Systems,164
+CS 4: Fundamentals of Computer Programming,164
+CS 128: Interactive Theorem Proving,164
+EE/CS 10 ab: Introduction to Digital Logic and Embedded Systems,164
+EE/CS 147: Digital Ventures Design,164
+CS 111: Graduate Programming Practicum,165
+EE/Ma/CS/IDS 127: Error-Correcting Codes,165
+CS 151: Complexity Theory,165
+CS 137: Real-World Algorithm Implementation,165
+CS 179: GPU Programming,165
+CS/CNS/EE/IDS 165: Foundations of Machine Learning and Statistical Inference,166
+EE/Ma/CS/IDS 127: Error-Correcting Codes,166
+CS 286 abc: Seminar in Computer Science,166
+CS 42: Computer Science Education in K-14 Settings,166
+CS 2: Introduction to Programming Methods,166
+CS 287: Center for the Mathematics of Information Seminar,167
+CS 282 abc: Reading in Computer Science,167
+EE/Ma/CS 126 ab: Information Theory,167
+CNS/Bi/Ph/CS/NB 187: Neural Computation,167
+HPS/Pl/CS 110: Causation and Explanation,167
+CS 118: Automata-Theoretic Software Analysis,168
+CS/EE/ME 75 abc: Multidisciplinary Systems Engineering,168
+CS/CNS/EE/IDS 165: Foundations of Machine Learning and Statistical Inference,168
+CS 9: Introduction to Computer Science Research,168
+CS 21: Decidability and Tractability,168
+CS/IDS 142: Distributed Computing,169
+CS 101: Special Topics in Computer Science,169
+CS 274 abc: Topics in Computer Graphics,169
+CS 19 ab: Introduction to Computer Science in Industry,169
+CS 152: Introduction to Cryptography,169
+CNS/Bi/EE/CS/NB 186: Vision: From Computational Theory to Neuronal Mechanisms,170
+CS 280: Research in Computer Science,170
+CS/IDS 150 ab: Probability and Algorithms,170
+EE/CS 161: Big Data Networks,170
+EE/CS/IDS 160: Fundamentals of Information Transmission and Storage,170
+CS/CNS 174: Computer Graphics Projects,171
+CS 22: Data Structures & Parallelism,171
+Ma/CS 6/106 abc: Introduction to Discrete Mathematics,171
+CS 103 abc: Reading in Computer Science,171
+CS 124: Operating Systems,171
+EE/CS 147: Digital Ventures Design,172
+CS/CNS/EE 156 ab: Learning Systems,172
+Bi/BE/CS 183: Introduction to Computational Biology and Bioinformatics,172
+CS/IDS 150 ab: Probability and Algorithms,172
+CS/IDS 178: Numerical Algorithms and their Implementation,172
+CS/CNS/EE 156 ab: Learning Systems,173
+CS 274 abc: Topics in Computer Graphics,173
+CNS/Bi/EE/CS/NB 186: Vision: From Computational Theory to Neuronal Mechanisms,173
+EE/CS/EST 135: Power System Analysis,173
+EE/CS 10 ab: Introduction to Digital Logic and Embedded Systems,173
+CS 90: Undergraduate Reading in Computer Science,174
+CS 13: Mathematical Foundations of Computer Science,174
+CS 130: Software Engineering,174
+CS 24: Introduction to Computing Systems,174
+ME/CS/EE 134: Robotic Systems,174
+BE/CS 196 ab: Design and Construction of Programmable Molecular Systems,175
+CS/IDS 121: Relational Databases,175
+CS 2: Introduction to Programming Methods,175
+CS 116: Reasoning about Program Correctness,175
+Bi/BE/CS 183: Introduction to Computational Biology and Bioinformatics,175
+CS 21: Decidability and Tractability,176
+CS 180: Master’s Thesis Research,176
+CS 124: Operating Systems,176
+ME/CS/EE 134: Robotic Systems,176
+CS 102 abc: Seminar in Computer Science,176
+EE/Ma/CS/IDS 136: Information Theory and Applications,177
+CS/CNS/EE/IDS 159: Advanced Topics in Machine Learning,177
+CS 111: Graduate Programming Practicum,177
+CS 274 abc: Topics in Computer Graphics,177
+CS 102 abc: Seminar in Computer Science,177
+CS/EE 146: Control and Optimization of Networks,178
+EE/CS/EST 135: Power System Analysis,178
+CS 3: Introduction to Software Design,178
+CS 4: Fundamentals of Computer Programming,178
+Ma/CS 117 abc: Computability Theory,178
+CS/IDS 178: Numerical Algorithms and their Implementation,179
+CS/IDS 153: Current Topics in Theoretical Computer Science,179
+CS 21: Decidability and Tractability,179
+CS 24: Introduction to Computing Systems,179
+EE/CS/EST 135: Power System Analysis,179
+CS/CNS 174: Computer Graphics Projects,180
+CS 12: Student-Taught Topics in Computing,180
+BE/CS 196 ab: Design and Construction of Programmable Molecular Systems,180
+CS 81 abc: Undergraduate Projects in Computer Science,180
+CNS/Bi/EE/CS/NB 186: Vision: From Computational Theory to Neuronal Mechanisms,180
+CS 179: GPU Programming,181
+CS 80 abc: Undergraduate Thesis,181
+ME/CS/EE 169: Mobile Robots,181
+CS 118: Automata-Theoretic Software Analysis,181
+EE/CS 161: Big Data Networks,181
+ME/CS/EE 169: Mobile Robots,182
+CS 164: Compilers,182
+CS 101: Special Topics in Computer Science,182
+CS 90: Undergraduate Reading in Computer Science,182
+EE/Ma/CS/IDS 127: Error-Correcting Codes,182
+CS 24: Introduction to Computing Systems,183
+CS 287: Center for the Mathematics of Information Seminar,183
+CS 130: Software Engineering,183
+CMS/CS/CNS/EE/IDS 155: Machine Learning & Data Mining,183
+Bi/BE/CS 183: Introduction to Computational Biology and Bioinformatics,183
+CS 176: Computer Graphics Research,184
+CS 102 abc: Seminar in Computer Science,184
+EE/CNS/CS 148: Advanced Topics in Vision: Large Language and Vision Models,184
+ME/CS/EE 169: Mobile Robots,184
+CS 19 ab: Introduction to Computer Science in Industry,184
+EE/CS/MedE 175: Advanced Topics in Digital Design with FPGAs and VHDL,185
+CS/ACM 177 ab: Discrete Differential Geometry: Theory and Applications,185
+EE/CS 10 ab: Introduction to Digital Logic and Embedded Systems,185
+CS 138: Computer Algorithms,185
+ME/CS/EE 129: Experimental Robotics,185
+CS/EE 146: Control and Optimization of Networks,186
+CS/IDS 150 ab: Probability and Algorithms,186
+CS 1 x: Intermediate Computer Programming,186
+CS 152: Introduction to Cryptography,186
+CS 141: Hack Society: Projects from the Public Sector,186
+CS 21: Decidability and Tractability,187
+CS/EE 146: Control and Optimization of Networks,187
+CS 124: Operating Systems,187
+CS/EE/IDS 166: Computational Cameras,187
+CS 81 abc: Undergraduate Projects in Computer Science,187
+CS 42: Computer Science Education in K-14 Settings,188
+CS 101: Special Topics in Computer Science,188
+EE/CS/IDS 160: Fundamentals of Information Transmission and Storage,188
+CS 115: Functional Programming,188
+CS 24: Introduction to Computing Systems,188
+CS 115: Functional Programming,189
+CS 12: Student-Taught Topics in Computing,189
+CS/CNS 171: Computer Graphics Laboratory,189
+CS 80 abc: Undergraduate Thesis,189
+CS 81 abc: Undergraduate Projects in Computer Science,189
+BE/CS 196 ab: Design and Construction of Programmable Molecular Systems,190
+CS 22: Data Structures & Parallelism,190
+CS 38: Algorithms,190
+CS/ACM 177 ab: Discrete Differential Geometry: Theory and Applications,190
+BE/CS/CNS/Bi 191 ab: Biomolecular Computation,190
+CS 137: Real-World Algorithm Implementation,191
+CS 124: Operating Systems,191
+CS 81 abc: Undergraduate Projects in Computer Science,191
+CS/CNS 171: Computer Graphics Laboratory,191
+CS 138: Computer Algorithms,191
+Ph/CS 219 abc: Quantum Computation,192
+CS/EE 145: Projects in Networking,192
+EE/CS/MedE 125: Digital Circuit Design with FPGAs and VHDL,192
+CS/CNS 171: Computer Graphics Laboratory,192
+CS 115: Functional Programming,192
+CS 1 x: Intermediate Computer Programming,193
+CS 103 abc: Reading in Computer Science,193
+IDS/ACM/CS 158: Fundamentals of Statistical Learning,193
+Ma/CS 117 abc: Computability Theory,193
+IDS/ACM/CS 157: Statistical Inference,193
+CS 118: Automata-Theoretic Software Analysis,194
+CS 137: Real-World Algorithm Implementation,194
+CS/IDS 150 ab: Probability and Algorithms,194
+ME/CS/EE 129: Experimental Robotics,194
+CS/ACM 177 ab: Discrete Differential Geometry: Theory and Applications,194
+CS 180: Master’s Thesis Research,195
+CS/EE 145: Projects in Networking,195
+ME/CS/EE 134: Robotic Systems,195
+CS 282 abc: Reading in Computer Science,195
+EE/CNS/CS 148: Advanced Topics in Vision: Large Language and Vision Models,195
+CMS/CS/CNS/EE/IDS 155: Machine Learning & Data Mining,196
+CS 274 abc: Topics in Computer Graphics,196
+CMS/CS/IDS 139: Analysis and Design of Algorithms,196
+CNS/Bi/Ph/CS/NB 187: Neural Computation,196
+IDS/ACM/CS 158: Fundamentals of Statistical Learning,196
+EE/Ma/CS 126 ab: Information Theory,197
+CS 42: Computer Science Education in K-14 Settings,197
+CS 152: Introduction to Cryptography,197
+CS/Ph 120: Quantum Cryptography,197
+CS 128: Interactive Theorem Proving,197
+EE/CS/MedE 175: Advanced Topics in Digital Design with FPGAs and VHDL,198
+EE/CS/EST 135: Power System Analysis,198
+CS/EE/ME 75 abc: Multidisciplinary Systems Engineering,198
+ME/CS/EE 129: Experimental Robotics,198
+CS 164: Compilers,198
+EE/CNS/CS 148: Advanced Topics in Vision: Large Language and Vision Models,199
+CS 81 abc: Undergraduate Projects in Computer Science,199
+CS 1 x: Intermediate Computer Programming,199
+IDS/ACM/CS 158: Fundamentals of Statistical Learning,199
+CS 138: Computer Algorithms,199
