@@ -10,10 +10,14 @@ DROP TABLE IF EXISTS students;
 CREATE TABLE mentors (
     mentor_id          INT AUTO_INCREMENT,
     mentor_name        VARCHAR(50)  NOT NULL,
+    -- one of BBE, CCE, EAS, GPS, HSS, PMA
     department_name    CHAR(3) NOT NULL,
+    -- year of grad student mentor (G1, G2, etc.)
     mentor_year        CHAR(2) NOT NULL,
     email              VARCHAR(50) NOT NULL,
+    -- whether the mentor is taking students for surf
     is_surf            BOOLEAN,
+    -- whether the mentor is taking students during academic year
     is_academic_year   BOOLEAN,
     PRIMARY KEY (mentor_id)
 );
@@ -32,9 +36,11 @@ CREATE TABLE publications (
         ON UPDATE CASCADE
         ON DELETE CASCADE
 );
+CREATE INDEX publication_date_idx ON publications(publication_date);
 
 -- Represents keywords that summarize mentor's research interests
 CREATE TABLE keywords (
+    -- mentors can enter text describing their research interests
     keyword     VARCHAR(100),  
     mentor_id   INT,
     PRIMARY KEY (keyword, mentor_id),
@@ -46,6 +52,7 @@ CREATE TABLE keywords (
 
 -- Represents courses required in order to work with a mentor
 CREATE TABLE prerequisite_courses (
+    -- course number and course name (e.g. CS 155: Machine Learning)
     course      VARCHAR(50),
     mentor_id   INT,
     PRIMARY KEY (course, mentor_id),
@@ -60,6 +67,7 @@ CREATE TABLE students (
     student_id     INT AUTO_INCREMENT,
     student_name   VARCHAR(50) NOT NULL,
     email          VARCHAR(50) NOT NULL,
+    -- students can enter text describing their research interests
     interests      TEXT,
     PRIMARY KEY (student_id)
-)
+);
