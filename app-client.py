@@ -95,8 +95,8 @@ def show_options(logged_in):
     elif ans == 'l':
         username = input('Enter your username: ').lower()
         password = input('Enter your password: ').lower()
-        log_in(username, password)
-        show_options(True)
+        result = log_in(username, password)
+        show_options(result)
     elif ans == 's':
         username = input('Choose your username: ').lower()
         password = input('Choose your password: ').lower()
@@ -144,6 +144,7 @@ def log_in(username, password):
             print('Successfully logged in.')
         else:
             print(f'Incorrect password for {username}')
+        return result
     except mysql.connector.Error as err:
         # If you're testing, it's helpful to see more details printed.
         if DEBUG:
@@ -161,7 +162,8 @@ def sign_up(username, password):
     """
     cursor = conn.cursor()
     try:
-        cursor.callproc('sp_add_user', (username, password))
+        result = cursor.callproc('sp_add_user', (username, password))
+        conn.commit()
         print('Account sucessfully registered')
     except mysql.connector.Error as err:
         # If you're testing, it's helpful to see more details printed.
