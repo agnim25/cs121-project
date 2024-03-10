@@ -33,12 +33,12 @@ def get_conn():
     try:
         conn = mysql.connector.connect(
           host='localhost',
-          user='appclient',
+          user='client',
           # Find port in MAMP or MySQL Workbench GUI or with
           # SHOW VARIABLES WHERE variable_name LIKE 'port';
           port='3306',  # this may change!
-          password='adminpw',
-          database='shelterdb' # replace this with your database name
+          password='clientpw',
+          database='cs121project' # replace this with your database name
         )
         print('Successfully connected.')
         return conn
@@ -59,32 +59,6 @@ def get_conn():
         sys.exit(1)
 
 # ----------------------------------------------------------------------
-# Functions for Command-Line Options/Query Execution
-# ----------------------------------------------------------------------
-def example_query():
-    param1 = ''
-    cursor = conn.cursor()
-    # Remember to pass arguments as a tuple like so to prevent SQL
-    # injection.
-    sql = 'SELECT col1 FROM table WHERE col2 = \'%s\';' % (param1, )
-    try:
-        cursor.execute(sql)
-        # row = cursor.fetchone()
-        rows = cursor.fetchall()
-        for row in rows:
-            (col1val) = (row) # tuple unpacking!
-            # do stuff with row data
-    except mysql.connector.Error as err:
-        # If you're testing, it's helpful to see more details printed.
-        if DEBUG:
-            sys.stderr(err)
-            sys.exit(1)
-        else:
-            sys.stderr('An error occurred, please contact an admistrator...')
-
-
-
-# ----------------------------------------------------------------------
 # Functions for Logging Users In
 # ----------------------------------------------------------------------
 # Note: There's a distinction between database users (admin and client)
@@ -97,7 +71,7 @@ def example_query():
 # ----------------------------------------------------------------------
 # Command-Line Functionality
 # ----------------------------------------------------------------------
-def show_options():
+def show_options(logged_in):
     """
     Displays options users can choose in the application, such as
     viewing <x>, filtering results with a flag (e.g. -s to sort),
@@ -106,6 +80,7 @@ def show_options():
     print('What would you like to do? ')
     if not logged_in:
         print('  (l) - Log in')
+        print('  (s) - Sign up')
     else:
         print('  (m) - Find top 10 mentors')
         print('  (p) - Find most recent publications for a specific mentor')
@@ -118,7 +93,15 @@ def show_options():
     if ans == 'q':
         quit_ui()
     elif ans == 'l':
-        log_in()
+        username = input('Enter your username: ').lower()
+        password = input('Enter your password: ').lower()
+        log_in(username, password)
+        show_options(True)
+    elif ans == 's':
+        username = input('Choose your username: ').lower()
+        password = input('Choose your password: ').lower()
+        sign_up(username, password)
+        show_options(True)
     elif ans == 'o':
         log_out()
     elif ans == 'm':
@@ -134,8 +117,50 @@ def show_options():
         pass
 
 
-def log_in():
-    pass
+def log_in(username, password):
+    """
+    Attempts to log the user in by authenticating the user exists and
+    has a valid password
+    Args:
+        username (string)
+        password (string)
+    """
+    cursor = conn.cursor()
+    sql = f'SELECT authenticate(%s, %s) AS result'
+    try:
+        cursor.execute(sql, (username, password))
+        result = cursor.fetchone()[0]
+        if result:
+            print('Successfully logged in.')
+        else:
+            print(f'Incorrect password for {username}')
+    except mysql.connector.Error as err:
+        # If you're testing, it's helpful to see more details printed.
+        if DEBUG:
+            sys.stderr(err)
+            sys.exit(1)
+        else:
+            sys.stderr('An error occurred, please contact an admistrator...')
+
+def sign_up(username, password):
+    """
+    Adds a new user with the specified username and password
+    Args:
+        username (string)
+        password (string)
+    """
+    cursor = conn.cursor()
+    try:
+        cursor.callproc('sp_add_user', (username, password))
+        print('Account sucessfully registered')
+        logged_in = True
+    except mysql.connector.Error as err:
+        # If you're testing, it's helpful to see more details printed.
+        if DEBUG:
+            sys.stderr(err)
+            sys.exit(1)
+        else:
+            sys.stderr('An error occurred, please contact an admistrator...')
 
 def log_out():
     pass
@@ -161,7 +186,7 @@ def main():
     """
     Main function for starting things up.
     """
-    show_options()
+    show_options(False)
 
 
 if __name__ == '__main__':
