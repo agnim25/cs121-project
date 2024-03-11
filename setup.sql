@@ -22,6 +22,19 @@ CREATE TABLE mentors (
     PRIMARY KEY (mentor_id)
 );
 
+-- Represents past students who worked with a mentor
+CREATE TABLE past_students (
+    student_name       VARCHAR(50),
+    mentor_id          INT,
+    -- graduation year of the student
+    student_grad_year  YEAR,
+    PRIMARY KEY (student_name, mentor_id),
+    FOREIGN KEY (mentor_id)
+        REFERENCES mentors(mentor_id)
+        ON UPDATE CASCADE
+        ON DELETE CASCADE
+);
+
 -- Represents a publication uniquely identified by their
 -- publication_id and mentor_id
 CREATE TABLE publications (
