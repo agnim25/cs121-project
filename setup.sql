@@ -10,8 +10,8 @@ DROP TABLE IF EXISTS students;
 CREATE TABLE mentors (
     mentor_id          INT AUTO_INCREMENT,
     mentor_name        VARCHAR(50)  NOT NULL,
-    -- one of BBE, CCE, EAS, GPS, HSS, PMA
-    department_name    CHAR(3) NOT NULL,
+    -- department the mentor is a part of
+    department_name    VARCHAR(50) NOT NULL,
     -- year of grad student mentor (G1, G2, etc.)
     mentor_year        CHAR(2) NOT NULL,
     email              VARCHAR(50) NOT NULL,
@@ -41,7 +41,7 @@ CREATE INDEX publication_date_idx ON publications(publication_date);
 -- Represents keywords that summarize mentor's research interests
 CREATE TABLE keywords (
     -- mentors can enter text describing their research interests
-    keyword     VARCHAR(100),  
+    keyword     VARCHAR(100),
     mentor_id   INT,
     PRIMARY KEY (keyword, mentor_id),
     FOREIGN KEY (mentor_id)
