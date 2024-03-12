@@ -16,9 +16,9 @@ CREATE TABLE mentors (
     mentor_year        CHAR(2) NOT NULL,
     email              VARCHAR(50) NOT NULL,
     -- whether the mentor is taking students for surf
-    is_surf            BOOLEAN,
+    is_surf            TINYINT(1),
     -- whether the mentor is taking students during academic year
-    is_academic_year   BOOLEAN,
+    is_academic_year   TINYINT(1),
     PRIMARY KEY (mentor_id)
 );
 
@@ -66,7 +66,7 @@ CREATE TABLE keywords (
 -- Represents courses required in order to work with a mentor
 CREATE TABLE prerequisite_courses (
     -- course number and course name (e.g. CS 155: Machine Learning)
-    course      VARCHAR(50),
+    course      VARCHAR(200),
     mentor_id   INT,
     PRIMARY KEY (course, mentor_id),
     FOREIGN KEY (mentor_id)
