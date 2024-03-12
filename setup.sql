@@ -1,5 +1,6 @@
 -- Clean up old tables, must drop tables with foreign keys first
 -- due to referential integrity constraints
+DROP TABLE IF EXISTS past_students;
 DROP TABLE IF EXISTS publications;
 DROP TABLE IF EXISTS keywords;
 DROP TABLE IF EXISTS prerequisite_courses;
@@ -12,13 +13,13 @@ CREATE TABLE mentors (
     mentor_name        VARCHAR(50)  NOT NULL,
     -- department the mentor is a part of
     department_name    VARCHAR(50) NOT NULL,
-    -- year of grad student mentor (G1, G2, etc.)
-    mentor_year        CHAR(2) NOT NULL,
+    -- year of grad student mentor (1, 2, ..., 6)
+    mentor_year        TINYINT NOT NULL,
     email              VARCHAR(50) NOT NULL,
     -- whether the mentor is taking students for surf
-    is_surf            TINYINT(1),
+    is_surf            TINYINT,
     -- whether the mentor is taking students during academic year
-    is_academic_year   TINYINT(1),
+    is_academic_year   TINYINT,
     PRIMARY KEY (mentor_id)
 );
 

@@ -87,7 +87,7 @@ def show_options(logged_in):
         print('  (d) - Find top mentors in a specific department')
         print('  (y) - Find top mentors taking students in a specific year')
         print('  (o) - Log out')
-    print('  (q) - quit')
+    print('  (q) - Quit')
     print()
     ans = input('Enter an option: ').lower()
     if ans == 'q':
@@ -123,7 +123,7 @@ def show_options(logged_in):
         year = input()
         find_top_mentors_year(year)
         show_options(logged_in)
-    elif ans == '':
+    else:
         show_options(logged_in)
 
 
@@ -167,11 +167,14 @@ def sign_up(username, password):
         print('Account sucessfully registered')
     except mysql.connector.Error as err:
         # If you're testing, it's helpful to see more details printed.
-        if DEBUG:
-            sys.stderr(err)
-            sys.exit(1)
+        if err.errno == errorcode.ER_DUP_ENTRY:
+            sys.stderr('Username already exists, log in instead')
         else:
-            sys.stderr('An error occurred, please contact an admistrator...')
+            if DEBUG:
+                sys.stderr(err)
+                sys.exit(1)
+            else:
+                sys.stderr('An error occurred, please contact an admistrator...')
 
 def find_top_mentors():
     cursor = conn.cursor()
@@ -221,11 +224,12 @@ def find_top_mentors_year(year):
             
 def find_top_mentors_department(department):
     cursor = conn.cursor()
-    sql = ''
+    sql = 'SELECT mentor_name FROM mentors WHERE department_name = \'%s\';' % (department, )
     try:
-        rows = cursor.execute(sql)
+        cursor.execute(sql)
+        rows = cursor.fetchall()
         for row in rows:
-            print(row)
+            print(row[0])
     except mysql.connector.Error as err:
         # If you're testing, it's helpful to see more details printed.
         if DEBUG:
