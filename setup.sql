@@ -40,8 +40,8 @@ CREATE TABLE past_students (
 CREATE TABLE publications (
     publication_id     INT AUTO_INCREMENT,
     mentor_id          INT,
-    link               VARCHAR(100),
-    abstract           TEXT,
+    link               VARCHAR(200),
+    abstract           VARCHAR(3000),
     publication_date   DATE,
     PRIMARY KEY (publication_id, mentor_id),
     FOREIGN KEY (mentor_id)
