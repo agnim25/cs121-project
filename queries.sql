@@ -1,13 +1,9 @@
 SELECT link
-FROM publications
-WHERE mentor_id = (
-    SELECT mentor_id
-    FROM mentors
-    WHERE mentor_name = 'Johnny Appleseed'
-)
+FROM publications NATURAL JOIN mentors
+WHERE department_name = 'Computing and Mathematical Sciences'
 ORDER BY publication_date;
 
 SELECT mentor_name
 FROM mentor
-WHERE department_name = 'EAS'
-ORDER BY publication_date;
+WHERE department_name = 'Computing and Mathematical Sciences'
+AND is_surf = 1;
