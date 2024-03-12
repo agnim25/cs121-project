@@ -2,6 +2,7 @@ import pandas as pd
 import random
 import requests
 from bs4 import BeautifulSoup
+from faker import Faker
 
 def scrape_caltech_courses(department_code, academic_year):
     base_url = "https://www.catalog.caltech.edu"
@@ -50,3 +51,30 @@ data = {
 
 df = pd.DataFrame(data)
 df.to_csv('prerequisite_courses.csv', index=False)
+
+fake = Faker()
+names = [fake.name() for _ in range(254 * 5)]
+mentors = [i for i in range(1, 255)] * 5
+student_grad_years = [random.randint(2000, 2020) for _ in range(254 * 5)]
+
+data = {
+    'student_name': names,
+    'mentor_id': mentors,
+    'student_grad_year': student_grad_years
+}
+
+df = pd.DataFrame(data)
+df.to_csv('past_students.csv', index=False)
+
+names = [fake.name() for _ in range(500)]
+emails = [name.split()[0][0].lower() + name.split()[1].lower() + '@caltech.edu' for name in names]
+
+data = {
+    'student_id': list(range(1, 501)),
+    'student_name': names,
+    'email': emails,
+    'interests': [None] * 500,
+}
+
+df = pd.DataFrame(data)
+df.to_csv('students.csv', index=False)
