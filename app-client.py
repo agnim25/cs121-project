@@ -17,6 +17,13 @@ import sys
 import mysql.connector
 import mysql.connector.errorcode as errorcode
 
+from gensim.models import KeyedVectors
+import numpy as np
+from sklearn.metrics.pairwise import cosine_similarity
+from nltk.tokenize import word_tokenize
+import nltk
+nltk.download('punkt')
+
 # Debugging flag to print errors when debugging that shouldn't be visible
 # to an actual client. ***Set to False when done testing.***
 DEBUG = True
@@ -250,6 +257,23 @@ def main():
     """
     Main function for starting things up.
     """
+    model_path = 'glove.6B.50d.txt'
+    pretrained_model = KeyedVectors.load_word2vec_format(model_path, binary=False, no_header=True)
+
+    sentence = "Word embeddings are powerful tools for natural language processing."
+    sentence2 = "Machine learning, big data, quantum communication."
+
+    # Tokenize the sentence
+    tokenized_sentence = word_tokenize(sentence.lower())
+    tokenized_sentence2 = word_tokenize(sentence2.lower())
+
+    # Get the vector representations of words
+    word_vectors = [pretrained_model[word] for word in tokenized_sentence if word in pretrained_model]
+    word_vectors2 = [pretrained_model[word] for word in tokenized_sentence2 if word in pretrained_model]
+    embed = sum(word_vectors) / len(word_vectors)
+    embed2 = sum(word_vectors2) / len(word_vectors2)
+    similarity_score = cosine_similarity(embed.reshape(1, -1), embed2.reshape(1, -1))
+    print(similarity_score[0, 0])
     show_options(False)
 
 
