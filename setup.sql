@@ -8,6 +8,7 @@ DROP TABLE IF EXISTS past_students;
 DROP TABLE IF EXISTS mentors;
 DROP TABLE IF EXISTS student_research_statements;
 DROP TABLE IF EXISTS user_info;
+
 DROP TABLE IF EXISTS users;
 
 
@@ -17,8 +18,8 @@ CREATE TABLE users (
     email               VARCHAR(50) NOT NULL,
     embedding_vector    TEXT,
     year                YEAR NOT NULL,
-    surf                TINYINT(1) NOT NULL,
-    academic_year       TINYINT(1) NOT NULL,
+    surf                TINYINT NOT NULL,
+    academic_year       TINYINT NOT NULL,
     user_type           VARCHAR(50) NOT NULL,
     CHECK (user_type IN ('student', 'mentor')),
     PRIMARY KEY (user_id)

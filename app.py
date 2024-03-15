@@ -22,14 +22,14 @@ import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 from nltk.tokenize import word_tokenize
 import nltk
-nltk.download('punkt')
+nltk.download('punkt', quiet=True)
 import re
 import pandas as pd
 import json
 
 # Debugging flag to print errors when debugging that shouldn't be visible
 # to an actual client. ***Set to False when done testing.***
-DEBUG = True
+DEBUG = False
 student_id, is_admin = None, None
 
 
@@ -100,8 +100,9 @@ def show_options(logged_in):
         if not is_admin:
             print('  (m) - Find top 10 mentors for you')
         print('  (p) - Find most recent publications for a specific mentor')
-        print('  (d) - Find top mentors in a specific department')
-        print('  (y) - Find top mentors taking students in a specific year')
+        print('  (d) - Find mentors in a specific department')
+        print('  (u) - Find mentors in a specific department taking students for SURF')
+        print('  (a) - Find mentors in a specific department taking students for academic year research')
         print('  (o) - Log out')
     print('  (q) - Quit')
     print()
@@ -133,12 +134,15 @@ def show_options(logged_in):
         show_options(logged_in)
     elif ans == 'd':
         department = input('Enter the department name: ')
-        find_top_mentors_department(department)
+        find_mentors_department(department)
         show_options(logged_in)
-    elif ans == 'y':
-        # finds top mentors for student's year
-        year = input('Enter the student\'s year: ')
-        find_top_mentors_year(year)
+    elif ans == 'u':
+        department = input('Enter the department name: ')
+        find_mentors_surf(department)
+        show_options(logged_in)
+    elif ans == 'a':
+        department = input('Enter the department name: ')
+        find_mentors_academic(department)
         show_options(logged_in)
     else:
         show_options(logged_in)
@@ -448,14 +452,17 @@ def find_publications(name):
         else:
             sys.stderr('An error occurred, please contact an admistrator...')
 
-def find_top_mentors_year(year):
+def find_mentors_surf(department):
     cursor = conn.cursor()
-    sql = ''
+    sql = """
+    SELECT name FROM users NATURAL JOIN mentors
+    WHERE user_type = \'mentor\' AND surf = 1 AND department = \'%s\';'
+    """ % (department, )
     try:
         cursor.execute(sql)
         rows = cursor.fetchall()
         for row in rows:
-            print(row)
+            print(row[0].strip())
     except mysql.connector.Error as err:
         if DEBUG:
             sys.stderr(err)
@@ -463,14 +470,32 @@ def find_top_mentors_year(year):
         else:
             sys.stderr('An error occurred, please contact an admistrator...')
             
-def find_top_mentors_department(department):
+def find_mentors_academic(department):
     cursor = conn.cursor()
-    sql = 'SELECT user_id FROM mentors WHERE department = \'%s\';' % (department, )
+    sql = """
+    SELECT name FROM users NATURAL JOIN mentors
+    WHERE user_type = \'mentor\' AND academic_year = 1 AND department = \'%s\';'
+    """ % (department, )
     try:
         cursor.execute(sql)
         rows = cursor.fetchall()
         for row in rows:
-            print(row[0])
+            print(row[0].strip())
+    except mysql.connector.Error as err:
+        if DEBUG:
+            sys.stderr(err)
+            sys.exit(1)
+        else:
+            sys.stderr('An error occurred, please contact an admistrator...')
+            
+def find_mentors_department(department):
+    cursor = conn.cursor()
+    sql = 'SELECT name FROM mentors WHERE department = \'%s\';' % (department, )
+    try:
+        cursor.execute(sql)
+        rows = cursor.fetchall()
+        for row in rows:
+            print(row[0].strip())
     except mysql.connector.Error as err:
         if DEBUG:
             sys.stderr(err)
@@ -491,6 +516,7 @@ if __name__ == '__main__':
     # You'll need to use cursor = conn.cursor() each time you are
     # about to execute a query with cursor.execute(<sqlquery>)
     conn = get_conn()
+    print('Loading Word Embedding Model...')
     model_path = 'glove.6B.50d.txt'
     pretrained_model = KeyedVectors.load_word2vec_format(model_path, binary=False, no_header=True)
     while True:

@@ -1,5 +1,11 @@
+DROP FUNCTION IF EXISTS calculate_total_citations;
+DROP FUNCTION IF EXISTS calculate_h_index;
 DROP PROCEDURE IF EXISTS add_client;
 DROP PROCEDURE IF EXISTS add_student_research_statement;
+DROP PROCEDURE IF EXISTS add_keyword;
+DROP PROCEDURE IF EXISTS add_mentor;
+DROP TRIGGER IF EXISTS after_publications_insert;
+DROP TRIGGER IF EXISTS after_keywords_insert;
 
 -- udfs
 
@@ -52,8 +58,8 @@ CREATE PROCEDURE add_client(
     IN p_name VARCHAR(50),
     IN p_email VARCHAR(50),
     IN p_year YEAR,
-    IN p_surf TINYINT(1),
-    IN p_academic_year TINYINT(1),
+    IN p_surf TINYINT,
+    IN p_academic_year TINYINT,
     IN p_user_type VARCHAR(50),
     IN p_vector TEXT,
     OUT p_user_id INT
@@ -138,4 +144,3 @@ BEGIN
     WHERE user_id = NEW.user_id;
 END !
 DELIMITER ;
-
