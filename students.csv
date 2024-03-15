@@ -1,501 +1,501 @@
 student_id,student_name,email,interests
-1,Catherine Bowen,cbowen@caltech.edu,
-2,Jeffrey Hooper,jhooper@caltech.edu,
-3,Madison Walker,mwalker@caltech.edu,
-4,Michael Fox,mfox@caltech.edu,
-5,Janet Hunt,jhunt@caltech.edu,
-6,Cody Kelly,ckelly@caltech.edu,
-7,Gloria Montgomery,gmontgomery@caltech.edu,
-8,Kim Thompson,kthompson@caltech.edu,
-9,David Williams,dwilliams@caltech.edu,
-10,Alicia Bowers,abowers@caltech.edu,
-11,Vicki Crosby,vcrosby@caltech.edu,
-12,Andrew Gates,agates@caltech.edu,
-13,Lisa Miller,lmiller@caltech.edu,
-14,Justin Davis,jdavis@caltech.edu,
-15,Steven Frederick,sfrederick@caltech.edu,
-16,Cindy Morales,cmorales@caltech.edu,
-17,Ana Cooper,acooper@caltech.edu,
-18,Nicole Thompson,nthompson@caltech.edu,
-19,Robert Mack MD,rmack@caltech.edu,
-20,Todd Velasquez,tvelasquez@caltech.edu,
-21,Paige Foster,pfoster@caltech.edu,
-22,Jerry Hayes,jhayes@caltech.edu,
-23,William Hill,whill@caltech.edu,
-24,Renee Perez,rperez@caltech.edu,
-25,Kelly Chapman,kchapman@caltech.edu,
-26,Mary Wong,mwong@caltech.edu,
-27,Melissa Barnett,mbarnett@caltech.edu,
-28,Kimberly Holloway,kholloway@caltech.edu,
-29,Drew Adams,dadams@caltech.edu,
-30,Gregory Velasquez,gvelasquez@caltech.edu,
-31,Kathy Day,kday@caltech.edu,
-32,Jason Duncan,jduncan@caltech.edu,
-33,John Ray,jray@caltech.edu,
-34,Michele Bell,mbell@caltech.edu,
-35,Jesus Goodman,jgoodman@caltech.edu,
-36,Meghan Austin,maustin@caltech.edu,
-37,Amy Simpson,asimpson@caltech.edu,
-38,Danielle Foley,dfoley@caltech.edu,
-39,Matthew Torres,mtorres@caltech.edu,
-40,Phyllis Wilson,pwilson@caltech.edu,
-41,Roger Mcclure,rmcclure@caltech.edu,
-42,Sheila Rodriguez,srodriguez@caltech.edu,
-43,Sarah Smith,ssmith@caltech.edu,
-44,Joshua Hutchinson,jhutchinson@caltech.edu,
-45,Susan Mercado,smercado@caltech.edu,
-46,Barbara Cook,bcook@caltech.edu,
-47,Charles Baker,cbaker@caltech.edu,
-48,Sheila Simpson,ssimpson@caltech.edu,
-49,Gail Jacobson,gjacobson@caltech.edu,
-50,Francis Garcia,fgarcia@caltech.edu,
-51,Brad Preston,bpreston@caltech.edu,
-52,Laura Lopez,llopez@caltech.edu,
-53,Paul Lopez,plopez@caltech.edu,
-54,Joseph Jackson DDS,jjackson@caltech.edu,
-55,Laura Adams,ladams@caltech.edu,
-56,Michael Floyd,mfloyd@caltech.edu,
-57,Sandra Tanner,stanner@caltech.edu,
-58,Robin Hernandez,rhernandez@caltech.edu,
-59,Benjamin Patton,bpatton@caltech.edu,
-60,Dominic Lopez,dlopez@caltech.edu,
-61,William Johnson,wjohnson@caltech.edu,
-62,James Chaney,jchaney@caltech.edu,
-63,Brenda Brown,bbrown@caltech.edu,
-64,Robert Kelley,rkelley@caltech.edu,
-65,Bryan Baker,bbaker@caltech.edu,
-66,Elijah Miller,emiller@caltech.edu,
-67,Gary Bird,gbird@caltech.edu,
-68,Jennifer Singh,jsingh@caltech.edu,
-69,Alan Griffin,agriffin@caltech.edu,
-70,Fred Miller,fmiller@caltech.edu,
-71,Angela Davis,adavis@caltech.edu,
-72,Steven Dixon,sdixon@caltech.edu,
-73,Erika Crane,ecrane@caltech.edu,
-74,Lisa Warren,lwarren@caltech.edu,
-75,Austin Cummings,acummings@caltech.edu,
-76,Jose Flores,jflores@caltech.edu,
-77,Karen Brown,kbrown@caltech.edu,
-78,Chad Stanton,cstanton@caltech.edu,
-79,Sara Valenzuela,svalenzuela@caltech.edu,
-80,Michelle Perry,mperry@caltech.edu,
-81,Casey Baker,cbaker@caltech.edu,
-82,Kimberly Miller,kmiller@caltech.edu,
-83,Devin Smith,dsmith@caltech.edu,
-84,Tracy Caldwell,tcaldwell@caltech.edu,
-85,Chris Taylor,ctaylor@caltech.edu,
-86,Katie Hall,khall@caltech.edu,
-87,Stacy Perez,sperez@caltech.edu,
-88,Robert Andrews,randrews@caltech.edu,
-89,Justin Duncan,jduncan@caltech.edu,
-90,James Rodriguez,jrodriguez@caltech.edu,
-91,Michael Jordan,mjordan@caltech.edu,
-92,David Drake,ddrake@caltech.edu,
-93,Melanie Reese,mreese@caltech.edu,
-94,Drew Harris,dharris@caltech.edu,
-95,Elizabeth Thompson,ethompson@caltech.edu,
-96,Cassandra Mcgee,cmcgee@caltech.edu,
-97,Chelsea Garner,cgarner@caltech.edu,
-98,Matthew Johnson,mjohnson@caltech.edu,
-99,Kyle Davenport,kdavenport@caltech.edu,
-100,Rhonda Smith,rsmith@caltech.edu,
-101,Derek Jackson,djackson@caltech.edu,
-102,Jacqueline Trevino,jtrevino@caltech.edu,
-103,Lori Jackson,ljackson@caltech.edu,
-104,Gregory Jackson,gjackson@caltech.edu,
-105,Ashley Scott,ascott@caltech.edu,
-106,William Le,wle@caltech.edu,
-107,Catherine Caldwell,ccaldwell@caltech.edu,
-108,Emily Peterson,epeterson@caltech.edu,
-109,Barry Kelly,bkelly@caltech.edu,
-110,Mr. Brent Castillo DDS,mbrent@caltech.edu,
-111,Ryan Ewing,rewing@caltech.edu,
-112,Mary Coleman,mcoleman@caltech.edu,
-113,Jimmy Aguilar,jaguilar@caltech.edu,
-114,Kaitlyn Sims,ksims@caltech.edu,
-115,Adrian Lucas,alucas@caltech.edu,
-116,Christopher Lester,clester@caltech.edu,
-117,Alexander Noble,anoble@caltech.edu,
-118,Lisa Oliver,loliver@caltech.edu,
-119,Luis Watson,lwatson@caltech.edu,
-120,Rachel Chavez,rchavez@caltech.edu,
-121,Elijah Scott,escott@caltech.edu,
-122,Carl Harris,charris@caltech.edu,
-123,Luis Robinson,lrobinson@caltech.edu,
-124,Alexis Mcclure,amcclure@caltech.edu,
-125,Wendy Allen,wallen@caltech.edu,
-126,James Allison,jallison@caltech.edu,
-127,Robert Jackson,rjackson@caltech.edu,
-128,Judy Allison,jallison@caltech.edu,
-129,Allison Campbell,acampbell@caltech.edu,
-130,Sophia Berry,sberry@caltech.edu,
-131,Justin Walker,jwalker@caltech.edu,
-132,Melanie Nelson,mnelson@caltech.edu,
-133,Jessica Meyer,jmeyer@caltech.edu,
-134,Jeanette Ramos,jramos@caltech.edu,
-135,Robert Anderson,randerson@caltech.edu,
-136,Scott Parker,sparker@caltech.edu,
-137,Karen Thomas,kthomas@caltech.edu,
-138,Robert Guerrero,rguerrero@caltech.edu,
-139,Taylor Dawson,tdawson@caltech.edu,
-140,Patricia Cox,pcox@caltech.edu,
-141,Nancy Dixon,ndixon@caltech.edu,
-142,Tyrone Orr,torr@caltech.edu,
-143,Chad Hall,chall@caltech.edu,
-144,Linda Powell,lpowell@caltech.edu,
-145,Robert Stokes,rstokes@caltech.edu,
-146,Mrs. Angela Adams,mangela@caltech.edu,
-147,Joan Martinez,jmartinez@caltech.edu,
-148,Sarah Gray,sgray@caltech.edu,
-149,Dakota Villarreal,dvillarreal@caltech.edu,
-150,Cassandra Hall,chall@caltech.edu,
-151,Tamara Johnson,tjohnson@caltech.edu,
-152,Jordan Williams,jwilliams@caltech.edu,
-153,Linda Mcclure,lmcclure@caltech.edu,
-154,Sandy Mueller,smueller@caltech.edu,
-155,Michael Larson,mlarson@caltech.edu,
-156,Stephanie Dodson,sdodson@caltech.edu,
-157,Christopher Rogers,crogers@caltech.edu,
-158,Katelyn Wilson MD,kwilson@caltech.edu,
-159,Amber Morales,amorales@caltech.edu,
-160,Taylor Wilson,twilson@caltech.edu,
-161,April Palmer,apalmer@caltech.edu,
-162,Nancy Fitzgerald,nfitzgerald@caltech.edu,
-163,Brian Walker,bwalker@caltech.edu,
-164,Gabrielle Humphrey,ghumphrey@caltech.edu,
-165,Joanna Johns,jjohns@caltech.edu,
-166,Brenda Miller,bmiller@caltech.edu,
-167,John Clark,jclark@caltech.edu,
-168,Jessica Horton,jhorton@caltech.edu,
-169,Ashley Wilson,awilson@caltech.edu,
-170,Joseph Allen,jallen@caltech.edu,
-171,Melissa Gonzalez,mgonzalez@caltech.edu,
-172,Mr. James Young,mjames@caltech.edu,
-173,Jose Peterson,jpeterson@caltech.edu,
-174,Jared Norman,jnorman@caltech.edu,
-175,Justin Scott,jscott@caltech.edu,
-176,Tyler Hansen,thansen@caltech.edu,
-177,Chris Garcia,cgarcia@caltech.edu,
-178,Joyce Sanchez,jsanchez@caltech.edu,
-179,Jennifer Evans,jevans@caltech.edu,
-180,Edward Clark,eclark@caltech.edu,
-181,Amy Conley,aconley@caltech.edu,
-182,Jenna Smith,jsmith@caltech.edu,
-183,Amy Rogers,arogers@caltech.edu,
-184,Jared Becker,jbecker@caltech.edu,
-185,Austin Hernandez,ahernandez@caltech.edu,
-186,Maria Thornton,mthornton@caltech.edu,
-187,Anna Jones,ajones@caltech.edu,
-188,David Perkins,dperkins@caltech.edu,
-189,John Martinez,jmartinez@caltech.edu,
-190,Anthony Rogers Jr.,arogers@caltech.edu,
-191,Walter Marshall,wmarshall@caltech.edu,
-192,Tyler Baker,tbaker@caltech.edu,
-193,Pamela Turner,pturner@caltech.edu,
-194,Katherine Shields,kshields@caltech.edu,
-195,William Patterson,wpatterson@caltech.edu,
-196,Hunter Cline,hcline@caltech.edu,
-197,Christopher Harrison,charrison@caltech.edu,
-198,Andrea Marshall,amarshall@caltech.edu,
-199,Michelle Madden,mmadden@caltech.edu,
-200,Isaac Powell,ipowell@caltech.edu,
-201,Laura Allen,lallen@caltech.edu,
-202,Daniel Brown,dbrown@caltech.edu,
-203,Brian Johnson,bjohnson@caltech.edu,
-204,Cynthia Rodriguez,crodriguez@caltech.edu,
-205,Justin Graham,jgraham@caltech.edu,
-206,Stephanie Carney,scarney@caltech.edu,
-207,Jacob Smith,jsmith@caltech.edu,
-208,Linda Martin,lmartin@caltech.edu,
-209,Scott Griffin,sgriffin@caltech.edu,
-210,Cheryl Alvarez,calvarez@caltech.edu,
-211,Shane Roth,sroth@caltech.edu,
-212,Melissa Davis MD,mdavis@caltech.edu,
-213,Timothy Soto,tsoto@caltech.edu,
-214,Susan Miller,smiller@caltech.edu,
-215,Teresa Solomon,tsolomon@caltech.edu,
-216,Katherine Hahn,khahn@caltech.edu,
-217,Jade Mason,jmason@caltech.edu,
-218,Heather Kim,hkim@caltech.edu,
-219,Timothy Robinson,trobinson@caltech.edu,
-220,Jason Saunders,jsaunders@caltech.edu,
-221,Randy Anderson,randerson@caltech.edu,
-222,Rose Lawson,rlawson@caltech.edu,
-223,Dr. Brandy Nelson,dbrandy@caltech.edu,
-224,Marc Jacobs,mjacobs@caltech.edu,
-225,Pamela Flores,pflores@caltech.edu,
-226,Casey Rollins,crollins@caltech.edu,
-227,Justin Smith,jsmith@caltech.edu,
-228,Laura May,lmay@caltech.edu,
-229,Katelyn Gilmore,kgilmore@caltech.edu,
-230,Victoria Smith,vsmith@caltech.edu,
-231,Christopher Chavez,cchavez@caltech.edu,
-232,Brent Tate,btate@caltech.edu,
-233,Danielle Wells,dwells@caltech.edu,
-234,Colleen Gilbert,cgilbert@caltech.edu,
-235,Bruce Daniel,bdaniel@caltech.edu,
-236,Philip Kerr,pkerr@caltech.edu,
-237,Christopher Lopez,clopez@caltech.edu,
-238,Joe Fuller,jfuller@caltech.edu,
-239,Renee Sullivan,rsullivan@caltech.edu,
-240,Christopher Ruiz,cruiz@caltech.edu,
-241,Dalton Brown,dbrown@caltech.edu,
-242,Scott Hernandez,shernandez@caltech.edu,
-243,Danielle Keith MD,dkeith@caltech.edu,
-244,Devin Robinson,drobinson@caltech.edu,
-245,David Tyler,dtyler@caltech.edu,
-246,Christopher Garcia,cgarcia@caltech.edu,
-247,Kelly Johnson Jr.,kjohnson@caltech.edu,
-248,Thomas Parks,tparks@caltech.edu,
-249,Dr. Andrew Richardson,dandrew@caltech.edu,
-250,Amber Thompson,athompson@caltech.edu,
-251,Michael Pratt,mpratt@caltech.edu,
-252,Michael Espinoza,mespinoza@caltech.edu,
-253,David Schneider,dschneider@caltech.edu,
-254,Danielle White,dwhite@caltech.edu,
-255,Jennifer Lin,jlin@caltech.edu,
-256,Patrick Johnston,pjohnston@caltech.edu,
-257,Amy Jackson,ajackson@caltech.edu,
-258,Mrs. Kimberly Williams,mkimberly@caltech.edu,
-259,Jill Lopez,jlopez@caltech.edu,
-260,Richard Perez,rperez@caltech.edu,
-261,Mario Potter,mpotter@caltech.edu,
-262,Dr. Ronald Hicks,dronald@caltech.edu,
-263,Timothy Robles,trobles@caltech.edu,
-264,Charles Livingston,clivingston@caltech.edu,
-265,Christopher Stephens,cstephens@caltech.edu,
-266,Curtis Mcknight,cmcknight@caltech.edu,
-267,Stephen Chavez,schavez@caltech.edu,
-268,Diana Frey,dfrey@caltech.edu,
-269,Mark Taylor,mtaylor@caltech.edu,
-270,Michael Walker,mwalker@caltech.edu,
-271,Christopher Powell,cpowell@caltech.edu,
-272,Tara Harrison,tharrison@caltech.edu,
-273,Justin Rodriguez,jrodriguez@caltech.edu,
-274,Mark Beasley,mbeasley@caltech.edu,
-275,Christine Ferguson,cferguson@caltech.edu,
-276,Jerry Wilson,jwilson@caltech.edu,
-277,Bethany Kelly,bkelly@caltech.edu,
-278,Julie Nelson,jnelson@caltech.edu,
-279,Thomas Wells,twells@caltech.edu,
-280,Joshua Clark MD,jclark@caltech.edu,
-281,Alexa Russell,arussell@caltech.edu,
-282,Diane Choi,dchoi@caltech.edu,
-283,James Oconnor,joconnor@caltech.edu,
-284,Timothy Cooper,tcooper@caltech.edu,
-285,Anna Lindsey,alindsey@caltech.edu,
-286,Vincent Jackson,vjackson@caltech.edu,
-287,Andrew Roberts,aroberts@caltech.edu,
-288,Steven Moore,smoore@caltech.edu,
-289,Jason Newman,jnewman@caltech.edu,
-290,Rachel Henderson,rhenderson@caltech.edu,
-291,Tina Prince MD,tprince@caltech.edu,
-292,Brandi Bailey,bbailey@caltech.edu,
-293,Patrick Dixon,pdixon@caltech.edu,
-294,Traci Grant,tgrant@caltech.edu,
-295,Justin Dyer,jdyer@caltech.edu,
-296,Laura Morrison,lmorrison@caltech.edu,
-297,Brandi Norton,bnorton@caltech.edu,
-298,Katherine Garza,kgarza@caltech.edu,
-299,William Graves,wgraves@caltech.edu,
-300,Hannah Bauer,hbauer@caltech.edu,
-301,Latoya Garcia,lgarcia@caltech.edu,
-302,Tommy Shelton,tshelton@caltech.edu,
-303,Erin Wilson,ewilson@caltech.edu,
-304,Betty Lloyd,blloyd@caltech.edu,
-305,Sarah Roberts,sroberts@caltech.edu,
-306,Lee Meza,lmeza@caltech.edu,
-307,Cynthia Herrera,cherrera@caltech.edu,
-308,Kimberly Norris,knorris@caltech.edu,
-309,Susan Johnson,sjohnson@caltech.edu,
-310,Caitlyn Koch,ckoch@caltech.edu,
-311,Teresa Caldwell,tcaldwell@caltech.edu,
-312,Nancy Watson,nwatson@caltech.edu,
-313,Andrea Chapman,achapman@caltech.edu,
-314,Michael Francis,mfrancis@caltech.edu,
-315,Lisa Hunter,lhunter@caltech.edu,
-316,Robert Ward,rward@caltech.edu,
-317,Robin George,rgeorge@caltech.edu,
-318,Antonio Boyd,aboyd@caltech.edu,
-319,Christopher Rice,crice@caltech.edu,
-320,Rachel Garrett PhD,rgarrett@caltech.edu,
-321,John Stark,jstark@caltech.edu,
-322,James Perez,jperez@caltech.edu,
-323,Adam Bradford,abradford@caltech.edu,
-324,Julia Vazquez,jvazquez@caltech.edu,
-325,David Skinner,dskinner@caltech.edu,
-326,Aaron Ellis,aellis@caltech.edu,
-327,Thomas Jacobson,tjacobson@caltech.edu,
-328,Christopher Boyd,cboyd@caltech.edu,
-329,Yvette Ferguson,yferguson@caltech.edu,
-330,Jeanette Walker,jwalker@caltech.edu,
-331,Benjamin Frank,bfrank@caltech.edu,
-332,Gregory Williams,gwilliams@caltech.edu,
-333,Robin Jackson,rjackson@caltech.edu,
-334,Donna Owens MD,dowens@caltech.edu,
-335,Tanya Mcbride,tmcbride@caltech.edu,
-336,Brian Guzman,bguzman@caltech.edu,
-337,Anne Howell,ahowell@caltech.edu,
-338,Joseph Davis,jdavis@caltech.edu,
-339,Kristi Finley,kfinley@caltech.edu,
-340,Susan Mays,smays@caltech.edu,
-341,Yvonne Reynolds,yreynolds@caltech.edu,
-342,Diane Green,dgreen@caltech.edu,
-343,Joshua Long,jlong@caltech.edu,
-344,Rebecca Duffy,rduffy@caltech.edu,
-345,Dr. Brianna Mitchell,dbrianna@caltech.edu,
-346,Eric Brown,ebrown@caltech.edu,
-347,Roberta Bentley,rbentley@caltech.edu,
-348,Kristen Cobb,kcobb@caltech.edu,
-349,Anthony Savage,asavage@caltech.edu,
-350,Amber Bell,abell@caltech.edu,
-351,William Clark,wclark@caltech.edu,
-352,Sharon Shaw,sshaw@caltech.edu,
-353,Corey Graham,cgraham@caltech.edu,
-354,Derek Ryan,dryan@caltech.edu,
-355,Cathy Crawford,ccrawford@caltech.edu,
-356,Jim Freeman,jfreeman@caltech.edu,
-357,Michael Meyer,mmeyer@caltech.edu,
-358,Yvonne Ochoa,yochoa@caltech.edu,
-359,Rachel Perry,rperry@caltech.edu,
-360,Keith Howard,khoward@caltech.edu,
-361,Jennifer Bullock,jbullock@caltech.edu,
-362,Monica Smith,msmith@caltech.edu,
-363,Virginia Stevens,vstevens@caltech.edu,
-364,Daniel Moore,dmoore@caltech.edu,
-365,Amber Jimenez,ajimenez@caltech.edu,
-366,Christine Brooks,cbrooks@caltech.edu,
-367,Deanna Bentley,dbentley@caltech.edu,
-368,Anita Allen,aallen@caltech.edu,
-369,Frank Stewart,fstewart@caltech.edu,
-370,Joseph Jarvis,jjarvis@caltech.edu,
-371,Carlos Johnson,cjohnson@caltech.edu,
-372,Meghan Lopez,mlopez@caltech.edu,
-373,Heather Mccarthy,hmccarthy@caltech.edu,
-374,Sabrina Stanley,sstanley@caltech.edu,
-375,Kelly Smith,ksmith@caltech.edu,
-376,Nicole Price,nprice@caltech.edu,
-377,Brian Phillips,bphillips@caltech.edu,
-378,Darren Cook,dcook@caltech.edu,
-379,Jessica Kelly,jkelly@caltech.edu,
-380,Angel Hall,ahall@caltech.edu,
-381,Shane Taylor,staylor@caltech.edu,
-382,James Carter,jcarter@caltech.edu,
-383,Mary Johnson,mjohnson@caltech.edu,
-384,Steven Norris,snorris@caltech.edu,
-385,Mr. Cameron Smith Jr.,mcameron@caltech.edu,
-386,Douglas Wang,dwang@caltech.edu,
-387,Ernest Perez,eperez@caltech.edu,
-388,Gregory Mendez,gmendez@caltech.edu,
-389,Christian Evans,cevans@caltech.edu,
-390,Joseph Elliott Jr.,jelliott@caltech.edu,
-391,James Berry,jberry@caltech.edu,
-392,Richard Goodwin,rgoodwin@caltech.edu,
-393,Courtney Decker,cdecker@caltech.edu,
-394,Andrew Jackson,ajackson@caltech.edu,
-395,Cassandra Preston,cpreston@caltech.edu,
-396,Jeremy Jimenez,jjimenez@caltech.edu,
-397,Micheal Baldwin,mbaldwin@caltech.edu,
-398,Nicole Wilson,nwilson@caltech.edu,
-399,Julie Phillips,jphillips@caltech.edu,
-400,David Aguilar,daguilar@caltech.edu,
-401,Paul Gray,pgray@caltech.edu,
-402,Brandi Thomas,bthomas@caltech.edu,
-403,Pamela Hall,phall@caltech.edu,
-404,David Garcia,dgarcia@caltech.edu,
-405,Matthew Hughes,mhughes@caltech.edu,
-406,Hannah Stewart,hstewart@caltech.edu,
-407,Christopher Bradley,cbradley@caltech.edu,
-408,John Parrish,jparrish@caltech.edu,
-409,Luke Goodwin,lgoodwin@caltech.edu,
-410,Erin Becker,ebecker@caltech.edu,
-411,Ivan Sharp,isharp@caltech.edu,
-412,Gregory Ramirez,gramirez@caltech.edu,
-413,Maria Paul,mpaul@caltech.edu,
-414,Brian Brady,bbrady@caltech.edu,
-415,Michael Rivera,mrivera@caltech.edu,
-416,Kevin Gonzales,kgonzales@caltech.edu,
-417,Travis Rodriguez,trodriguez@caltech.edu,
-418,Austin Martinez,amartinez@caltech.edu,
-419,Aaron Nelson,anelson@caltech.edu,
-420,Mark Pollard,mpollard@caltech.edu,
-421,Paul Martinez,pmartinez@caltech.edu,
-422,Ann Cruz,acruz@caltech.edu,
-423,Jay Rios,jrios@caltech.edu,
-424,Mia Johnson,mjohnson@caltech.edu,
-425,James Ferrell,jferrell@caltech.edu,
-426,Mitchell Murray,mmurray@caltech.edu,
-427,Courtney Hale,chale@caltech.edu,
-428,Christina Rogers,crogers@caltech.edu,
-429,Luis Walters,lwalters@caltech.edu,
-430,Nicholas Jones,njones@caltech.edu,
-431,Jennifer Spence,jspence@caltech.edu,
-432,Michelle Hale,mhale@caltech.edu,
-433,Kevin Hernandez,khernandez@caltech.edu,
-434,Adrian Wilson,awilson@caltech.edu,
-435,Christopher Powers,cpowers@caltech.edu,
-436,Victoria Gonzalez,vgonzalez@caltech.edu,
-437,Mark Jensen,mjensen@caltech.edu,
-438,Mary Hayden,mhayden@caltech.edu,
-439,Scott Evans DVM,sevans@caltech.edu,
-440,David Butler,dbutler@caltech.edu,
-441,Eric Clark,eclark@caltech.edu,
-442,Laura Olsen,lolsen@caltech.edu,
-443,Derek Richardson,drichardson@caltech.edu,
-444,Vanessa Guzman,vguzman@caltech.edu,
-445,Beverly Martinez,bmartinez@caltech.edu,
-446,Sandra Palmer,spalmer@caltech.edu,
-447,Andrew Johnson,ajohnson@caltech.edu,
-448,April Johnson,ajohnson@caltech.edu,
-449,David Hughes,dhughes@caltech.edu,
-450,Brett Cooper,bcooper@caltech.edu,
-451,Joshua Adams,jadams@caltech.edu,
-452,Stephen Ware,sware@caltech.edu,
-453,Tiffany Valdez,tvaldez@caltech.edu,
-454,Matthew Browning,mbrowning@caltech.edu,
-455,Stephanie May,smay@caltech.edu,
-456,Donna Walker,dwalker@caltech.edu,
-457,Daniel Thompson,dthompson@caltech.edu,
-458,Christina Allen,callen@caltech.edu,
-459,Devin Franklin,dfranklin@caltech.edu,
-460,Lori Pena,lpena@caltech.edu,
-461,Brad Beck,bbeck@caltech.edu,
-462,Dr. Jeffrey Hill,djeffrey@caltech.edu,
-463,Shelia Maxwell,smaxwell@caltech.edu,
-464,John Mckinney,jmckinney@caltech.edu,
-465,Thomas Edwards,tedwards@caltech.edu,
-466,Sara Joseph,sjoseph@caltech.edu,
-467,Jason Parker,jparker@caltech.edu,
-468,Nancy Brown,nbrown@caltech.edu,
-469,Carolyn Carrillo,ccarrillo@caltech.edu,
-470,William Williamson,wwilliamson@caltech.edu,
-471,Amanda Garcia,agarcia@caltech.edu,
-472,Tanya Hart,thart@caltech.edu,
-473,Hunter Garcia,hgarcia@caltech.edu,
-474,Angelica Guzman,aguzman@caltech.edu,
-475,Kimberly Noble,knoble@caltech.edu,
-476,Cory Koch,ckoch@caltech.edu,
-477,Crystal Weaver,cweaver@caltech.edu,
-478,Susan Peterson,speterson@caltech.edu,
-479,Jessica Morales,jmorales@caltech.edu,
-480,Brandon Lara,blara@caltech.edu,
-481,Lori Andrews,landrews@caltech.edu,
-482,Michelle Mcdonald,mmcdonald@caltech.edu,
-483,Thomas Garcia,tgarcia@caltech.edu,
-484,Susan Hall,shall@caltech.edu,
-485,Brian Friedman,bfriedman@caltech.edu,
-486,Claire Jennings,cjennings@caltech.edu,
-487,Stephanie Wilson,swilson@caltech.edu,
-488,Samantha Chung,schung@caltech.edu,
-489,Christine Shaw,cshaw@caltech.edu,
-490,Susan Tyler,styler@caltech.edu,
-491,Michael Turner,mturner@caltech.edu,
-492,Tina Torres,ttorres@caltech.edu,
-493,Robin White,rwhite@caltech.edu,
-494,Adrian Jackson,ajackson@caltech.edu,
-495,Kimberly Harrington,kharrington@caltech.edu,
-496,Carolyn Smith,csmith@caltech.edu,
-497,Jesse Graham,jgraham@caltech.edu,
-498,Christina Brock,cbrock@caltech.edu,
-499,Patricia Hernandez,phernandez@caltech.edu,
-500,Christopher Sullivan,csullivan@caltech.edu,
+1,Catherine Bowen,cbowen@caltech.edu,"I am investigating the intersection of artificial intelligence and environmental science to predict climate change effects more accurately."
+2,Jeffrey Hooper,jhooper@caltech.edu,"I am exploring the use of nanotechnology in medical devices to improve drug delivery systems."
+3,Madison Walker,mwalker@caltech.edu,"My research focuses on the development of sustainable urban planning models to enhance liveability and reduce carbon footprints."
+4,Michael Fox,mfox@caltech.edu,"I am working on quantum computing algorithms to solve complex problems in physics and cryptography."
+5,Janet Hunt,jhunt@caltech.edu,"I am studying the impact of social media on mental health among teenagers."
+6,Cody Kelly,ckelly@caltech.edu,"My research aims at improving the efficiency of solar panels through innovative materials science approaches."
+7,Gloria Montgomery,gmontgomery@caltech.edu,"I am interested in the role of gut microbiota in human health and disease prevention."
+8,Kim Thompson,kthompson@caltech.edu,"I am investigating ancient DNA to understand human migration patterns and genetic diversity."
+9,David Williams,dwilliams@caltech.edu,"My work involves the design of smart, adaptive learning environments using AI to personalize education."
+10,Alicia Bowers,abowers@caltech.edu,"I am researching the effects of climate change on marine ecosystems, particularly coral reefs."
+11,Vicki Crosby,vcrosby@caltech.edu,"My project examines the ethical implications of AI in decision-making processes in healthcare."
+12,Andrew Gates,agates@caltech.edu,"I am developing machine learning models to predict stock market trends and assist in financial planning."
+13,Lisa Miller,lmiller@caltech.edu,"I am working on the creation of biodegradable packaging materials to reduce plastic waste."
+14,Justin Davis,jdavis@caltech.edu,"My research focuses on enhancing athlete performance through biomechanical analysis and technology."
+15,Steven Frederick,sfrederick@caltech.edu,"I am investigating renewable energy sources, focusing on wind energy optimization techniques."
+16,Cindy Morales,cmorales@caltech.edu,"I am studying the psychological impact of virtual reality on learning and memory retention."
+17,Ana Cooper,acooper@caltech.edu,"My work involves the use of CRISPR technology for genetic diseases treatment and prevention."
+18,Nicole Thompson,nthompson@caltech.edu,"I am exploring cybersecurity measures to protect against emerging threats in IoT devices."
+19,Robert Mack MD,rmack@caltech.edu,"I am researching novel therapeutic strategies for treating chronic pain without opioids."
+20,Todd Velasquez,tvelasquez@caltech.edu,"My project aims to understand the economic impacts of climate change policies on developing countries."
+21,Paige Foster,pfoster@caltech.edu,"I am investigating the role of artificial intelligence in enhancing public safety and emergency response."
+22,Jerry Hayes,jhayes@caltech.edu,"My research focuses on the development of more efficient water desalination processes to address global shortages."
+23,William Hill,whill@caltech.edu,"I am working on advanced drone technology for agricultural monitoring and management."
+24,Renee Perez,rperez@caltech.edu,"I am studying the effects of microplastics on freshwater ecosystems and solutions for mitigation."
+25,Kelly Chapman,kchapman@caltech.edu,"My project explores the intersection of art and technology to create immersive digital experiences."
+26,Mary Wong,mwong@caltech.edu,"I'm developing computational models for predicting the impacts of urban expansion on biodiversity."
+27,Melissa Barnett,mbarnett@caltech.edu,"I'm researching the psychological effects of long-term space travel on astronauts."
+28,Kimberly Holloway,kholloway@caltech.edu,"I'm working on the genetic modification of crops to improve drought resistance and nutritional value."
+29,Drew Adams,dadams@caltech.edu,"I'm exploring innovative methods for recycling electronic waste to reduce environmental pollution."
+30,Gregory Velasquez,gvelasquez@caltech.edu,"I'm investigating the use of AI in diagnosing early stages of neurodegenerative diseases."
+31,Kathy Day,kday@caltech.edu,"I'm studying ancient civilizations through the lens of digital archaeology to uncover lost technologies."
+32,Jason Duncan,jduncan@caltech.edu,"I'm developing wearable technology to monitor and improve mental health."
+33,John Ray,jray@caltech.edu,"I'm researching sustainable fishing practices to protect marine life and support coastal communities."
+34,Michele Bell,mbell@caltech.edu,"I'm investigating the role of urban green spaces in improving air quality and promoting well-being."
+35,Jesus Goodman,jgoodman@caltech.edu,"I'm working on enhancing the efficiency of public transportation systems using big data analytics."
+36,Meghan Austin,maustin@caltech.edu,"I'm studying the impact of social networks on political mobilization and public opinion."
+37,Amy Simpson,asimpson@caltech.edu,"I'm developing methods for converting carbon dioxide into usable fuel to combat climate change."
+38,Danielle Foley,dfoley@caltech.edu,"I'm exploring the psychological impact of immersive virtual reality on learning and skill acquisition."
+39,Matthew Torres,mtorres@caltech.edu,"I'm investigating the use of nanotechnology in medical diagnostics for faster and more accurate results."
+40,Phyllis Wilson,pwilson@caltech.edu,"I'm researching community-based strategies to reduce homelessness and improve social welfare."
+41,Roger Mcclure,rmcclure@caltech.edu,"I'm working on blockchain technology to create more secure online voting systems."
+42,Sheila Rodriguez,srodriguez@caltech.edu,"I'm studying the effects of air pollution on respiratory health in urban environments."
+43,Sarah Smith,ssmith@caltech.edu,"I'm investigating methods to improve the recycling process of plastics to reduce ocean pollution."
+44,Joshua Hutchinson,jhutchinson@caltech.edu,"I'm researching augmented reality applications in education to enhance interactive learning."
+45,Susan Mercado,smercado@caltech.edu,"I'm exploring the impact of dietary patterns on chronic diseases and developing guidelines for healthier living."
+46,Barbara Cook,bcook@caltech.edu,"I'm working on the development of low-cost housing solutions using sustainable materials."
+47,Charles Baker,cbaker@caltech.edu,"I'm studying the potential of algae as a biofuel source and its environmental benefits."
+48,Sheila Simpson,ssimpson@caltech.edu,"I'm researching the role of art therapy in treating anxiety and depression."
+49,Gail Jacobson,gjacobson@caltech.edu,"I'm exploring the use of drones in environmental monitoring and conservation efforts."
+50,Francis Garcia,fgarcia@caltech.edu,"I'm investigating the application of machine learning in improving weather forecasting accuracy."
+51,Brad Preston,bpreston@caltech.edu,"I'm exploring the integration of virtual reality with physical therapy to enhance rehabilitation techniques."
+52,Laura Lopez,llopez@caltech.edu,"My research focuses on the impact of climate change on indigenous plant species in arid regions."
+53,Paul Lopez,plopez@caltech.edu,"I'm working on the development of AI-driven tools for early detection of infectious diseases in remote areas."
+54,Joseph Jackson DDS,jjackson@caltech.edu,"I'm investigating the effects of microgravity on the human musculoskeletal system for long-duration spaceflight."
+55,Laura Adams,ladams@caltech.edu,"My project examines the socio-economic effects of renewable energy adoption in rural communities."
+56,Michael Floyd,mfloyd@caltech.edu,"I'm researching the use of nanomaterials in building water filtration systems to provide clean drinking water."
+57,Sandra Tanner,stanner@caltech.edu,"I'm studying the genetic factors influencing plant resilience to pests without the use of pesticides."
+58,Robin Hernandez,rhernandez@caltech.edu,"My work involves the development of mobile apps to support mental health in teenagers."
+59,Benjamin Patton,bpatton@caltech.edu,"I'm exploring sustainable urban transport solutions to reduce traffic congestion and air pollution."
+60,Dominic Lopez,dlopez@caltech.edu,"I'm investigating the role of social media in shaping contemporary art practices."
+61,William Johnson,wjohnson@caltech.edu,"My research focuses on the development of precision agriculture technologies to increase crop yields."
+62,James Chaney,jchaney@caltech.edu,"I'm working on enhancing the security of IoT devices against cyber-attacks."
+63,Brenda Brown,bbrown@caltech.edu,"I'm studying the impact of bilingual education on cognitive development in children."
+64,Robert Kelley,rkelley@caltech.edu,"My project examines the potential of wave energy as a sustainable power source."
+65,Bryan Baker,bbaker@caltech.edu,"I'm researching the psychological impact of color in advertising on consumer behavior."
+66,Elijah Miller,emiller@caltech.edu,"I'm working on the application of machine learning in automating archaeological site discovery."
+67,Gary Bird,gbird@caltech.edu,"My research focuses on the effects of urban green spaces on local climate and biodiversity."
+68,Jennifer Singh,jsingh@caltech.edu,"I'm exploring the use of 3D printing technology in creating affordable prosthetics."
+69,Alan Griffin,agriffin@caltech.edu,"I'm investigating the economic impacts of space tourism for future market development."
+70,Fred Miller,fmiller@caltech.edu,"My work involves the study of ancient engineering techniques through computational modeling."
+71,Angela Davis,adavis@caltech.edu,"I'm researching into the development of biofuels from algae as an alternative energy source."
+72,Steven Dixon,sdixon@caltech.edu,"I'm studying the role of virtual reality in enhancing learning in STEM education."
+73,Erika Crane,ecrane@caltech.edu,"My project examines the social impact of wearable technology on personal health management."
+74,Lisa Warren,lwarren@caltech.edu,"I'm exploring the ethical implications of AI in autonomous vehicles."
+75,Austin Cummings,acummings@caltech.edu,"I'm working on the conservation of marine life through the study of coral reef ecosystems."
+76,Jose Flores,jflores@caltech.edu,"My research focuses on the application of blockchain technology in securing personal medical records."
+77,Karen Brown,kbrown@caltech.edu,"I'm investigating the effects of diet on aging and longevity."
+78,Chad Stanton,cstanton@caltech.edu,"I'm studying the potential of augmented reality in enhancing museum and educational experiences."
+79,Sara Valenzuela,svalenzuela@caltech.edu,"My work involves the development of algorithms for predicting volcanic eruptions."
+80,Michelle Perry,mperry@caltech.edu,"I'm exploring the psychological factors that influence team dynamics in sports."
+81,Casey Baker,cbaker@caltech.edu,"I'm researching the use of drones in agricultural monitoring and crop management."
+82,Kimberly Miller,kmiller@caltech.edu,"My project examines the impact of deforestation on global weather patterns."
+83,Devin Smith,dsmith@caltech.edu,"I'm working on the design of eco-friendly packaging materials to reduce waste."
+84,Tracy Caldwell,tcaldwell@caltech.edu,"I'm studying the application of gamification in education to improve student engagement."
+85,Chris Taylor,ctaylor@caltech.edu,"My research focuses on the development of smart grid technologies for sustainable energy management."
+86,Katie Hall,khall@caltech.edu,"I'm exploring the impact of noise pollution on urban wildlife."
+87,Stacy Perez,sperez@caltech.edu,"I'm working on the genetic engineering of bacteria for bioremediation of oil spills."
+88,Robert Andrews,randrews@caltech.edu,"My project examines the historical impact of pandemics on urban planning and public health policies."
+89,Justin Duncan,jduncan@caltech.edu,"I'm researching into the development of artificial muscles for robotics applications."
+90,James Rodriguez,jrodriguez@caltech.edu,"I'm studying the social and economic effects of telecommuting trends post-pandemic."
+91,Michael Jordan,mjordan@caltech.edu,"My work involves the analysis of data privacy issues in the era of big data."
+92,David Drake,ddrake@caltech.edu,"I'm exploring the role of fungi in ecosystem recovery after forest fires."
+93,Melanie Reese,mreese@caltech.edu,"I'm working on the application of sentiment analysis in social media to gauge public health trends."
+94,Drew Harris,dharris@caltech.edu,"My research focuses on the mechanics of bird flight to inform the design of more efficient aircraft."
+95,Elizabeth Thompson,ethompson@caltech.edu,"I'm investigating the cultural impact of digital currencies on traditional banking systems."
+96,Cassandra Mcgee,cmcgee@caltech.edu,"I'm studying the potential of virtual reality therapy in treating phobias."
+97,Chelsea Garner,cgarner@caltech.edu,"My project examines the effects of urbanization on groundwater quality and availability."
+98,Matthew Johnson,mjohnson@caltech.edu,"I'm researching the use of AI in enhancing the accuracy of climate models."
+99,Kyle Davenport,kdavenport@caltech.edu,"I'm working on the development of sensor networks for early wildfire detection."
+100,Rhonda Smith,rsmith@caltech.edu,"My research focuses on the impact of microplastics on freshwater ecosystems."
+101,Derek Jackson,djackson@caltech.edu,"I'm developing algorithms to optimize traffic flow and reduce congestion in smart cities."
+102,Jacqueline Trevino,jtrevino@caltech.edu,"My research focuses on the psychological effects of color in workspaces on productivity and mood."
+103,Lori Jackson,ljackson@caltech.edu,"I'm studying the impacts of agricultural runoff on freshwater ecosystems and solutions for mitigation."
+104,Gregory Jackson,gjackson@caltech.edu,"I'm working on wireless energy transfer systems for electric vehicles to promote sustainable transportation."
+105,Ashley Scott,ascott@caltech.edu,"My project examines the use of social media data in predicting and managing natural disasters."
+106,William Le,wle@caltech.edu,"I'm researching the application of permaculture principles in urban settings to enhance food security."
+107,Catherine Caldwell,ccaldwell@caltech.edu,"I'm exploring the role of genetics in personalized nutrition plans for disease prevention."
+108,Emily Peterson,epeterson@caltech.edu,"My work involves the development of low-cost diagnostic tools for neglected tropical diseases."
+109,Barry Kelly,bkelly@caltech.edu,"I'm studying the impact of virtual reality on rehabilitation for stroke survivors."
+110,Mr. Brent Castillo DDS,mbrent@caltech.edu,"I'm researching the effects of microplastics on marine invertebrates' health and behavior."
+111,Ryan Ewing,rewing@caltech.edu,"My project focuses on the development of sustainable construction materials from recycled waste."
+112,Mary Coleman,mcoleman@caltech.edu,"I'm working on the impact of urban forestry initiatives on air quality improvement."
+113,Jimmy Aguilar,jaguilar@caltech.edu,"I'm exploring the psychological impacts of long-term isolation in space missions on crew dynamics."
+114,Kaitlyn Sims,ksims@caltech.edu,"My research investigates the efficacy of mindfulness techniques in reducing academic stress among students."
+115,Adrian Lucas,alucas@caltech.edu,"I'm studying the potential for artificial photosynthesis as a sustainable energy source."
+116,Christopher Lester,clester@caltech.edu,"I'm developing machine learning models to improve the accuracy of weather forecasting."
+117,Alexander Noble,anoble@caltech.edu,"My work involves the examination of medieval architecture through the lens of modern engineering principles."
+118,Lisa Oliver,loliver@caltech.edu,"I'm researching the use of biodegradable materials in reducing the environmental impact of packaging."
+119,Luis Watson,lwatson@caltech.edu,"I'm exploring the intersection of technology and art in creating immersive installation experiences."
+120,Rachel Chavez,rchavez@caltech.edu,"My project focuses on the conservation of endangered species through habitat restoration techniques."
+121,Elijah Scott,escott@caltech.edu,"I'm working on the development of non-invasive monitoring techniques for wildlife conservation."
+122,Carl Harris,charris@caltech.edu,"I'm studying the impact of autonomous vehicles on urban planning and public transportation systems."
+123,Luis Robinson,lrobinson@caltech.edu,"My research investigates the role of online communities in supporting mental health."
+124,Alexis Mcclure,amcclure@caltech.edu,"I'm exploring sustainable fishing practices to mitigate the overfishing crisis."
+125,Wendy Allen,wallen@caltech.edu,"I'm working on the application of augmented reality in enhancing learning for children with dyslexia."
+126,James Allison,jallison@caltech.edu,"My project examines the economic impacts of renewable energy adoption on local communities."
+127,Robert Jackson,rjackson@caltech.edu,"I'm researching the effects of space travel on plant growth and development."
+128,Judy Allison,jallison@caltech.edu,"I'm studying the potential of gamified learning to improve language acquisition in adults."
+129,Allison Campbell,acampbell@caltech.edu,"My work involves the development of smart sensors for monitoring air quality in real-time."
+130,Sophia Berry,sberry@caltech.edu,"I'm exploring the psychological benefits of green spaces in urban environments."
+131,Justin Walker,jwalker@caltech.edu,"I'm researching the application of IoT in precision farming to optimize water use."
+132,Melanie Nelson,mnelson@caltech.edu,"My project focuses on the development of therapies for age-related macular degeneration."
+133,Jessica Meyer,jmeyer@caltech.edu,"I'm working on the genetic factors that influence the resilience of coral reefs to climate change."
+134,Jeanette Ramos,jramos@caltech.edu,"I'm studying the social dynamics of collaborative learning in online platforms."
+135,Robert Anderson,randerson@caltech.edu,"My research investigates the use of drones in emergency medical services in rural areas."
+136,Scott Parker,sparker@caltech.edu,"I'm exploring the role of nanotechnology in enhancing water purification systems."
+137,Karen Thomas,kthomas@caltech.edu,"I'm working on the impact of digital detoxes on personal well-being and social relationships."
+138,Robert Guerrero,rguerrero@caltech.edu,"My project examines the potential of vertical farming in reducing urban food deserts."
+139,Taylor Dawson,tdawson@caltech.edu,"I'm researching the effects of augmented reality on consumer shopping behavior."
+140,Patricia Cox,pcox@caltech.edu,"I'm studying the role of community gardens in promoting social cohesion and food justice."
+141,Nancy Dixon,ndixon@caltech.edu,"My work involves the exploration of alternative energy sources for sustainable rural electrification."
+142,Tyrone Orr,torr@caltech.edu,"I'm exploring the effectiveness of sound therapy in treating anxiety disorders."
+143,Chad Hall,chall@caltech.edu,"I'm working on the development of bioinformatics tools for understanding complex genetic disorders."
+144,Linda Powell,lpowell@caltech.edu,"My project focuses on the use of machine learning in optimizing public transit routes and schedules."
+145,Robert Stokes,rstokes@caltech.edu,"I'm researching the architectural design principles that promote mental health and well-being in workspaces."
+146,Mrs. Angela Adams,mangela@caltech.edu,"I'm studying the potential of algae as a sustainable feedstock in aquaculture."
+147,Joan Martinez,jmartinez@caltech.edu,"My work involves the investigation of the long-term effects of microgravity on human health."
+148,Sarah Gray,sgray@caltech.edu,"I'm exploring the impact of digital storytelling on preserving indigenous cultures."
+149,Dakota Villarreal,dvillarreal@caltech.edu,"I'm researching the application of virtual reality in training first responders."
+150,Cassandra Hall,chall@caltech.edu,"My project examines the role of urban planning in mitigating the heat island effect."
+151,Tamara Johnson,tjohnson@caltech.edu,"I'm developing advanced algorithms for real-time data encryption to enhance cybersecurity."
+152,Jordan Williams,jwilliams@caltech.edu,"My project focuses on using machine learning to automate and improve the accuracy of medical diagnoses."
+153,Linda Mcclure,lmcclure@caltech.edu,"I'm working on blockchain technology to create transparent and secure voting systems."
+154,Sandy Mueller,smueller@caltech.edu,"My research involves the development of AI-based tools for personalized education."
+155,Michael Larson,mlarson@caltech.edu,"I'm exploring the use of natural language processing to improve accessibility in digital content for non-native speakers."
+156,Stephanie Dodson,sdodson@caltech.edu,"I'm studying the impact of social media algorithms on public opinion and democracy."
+157,Christopher Rogers,crogers@caltech.edu,"My work involves optimizing cloud computing resources to reduce energy consumption in data centers."
+158,Katelyn Wilson MD,kwilson@caltech.edu,"I'm developing virtual reality simulations for surgical training, focusing on realism and interactivity."
+159,Amber Morales,amorales@caltech.edu,"I'm researching the use of IoT devices in monitoring and managing chronic health conditions."
+160,Taylor Wilson,twilson@caltech.edu,"My project focuses on enhancing computer vision algorithms for autonomous vehicle navigation in complex urban environments."
+161,April Palmer,apalmer@caltech.edu,"I'm working on reinforcement learning techniques to optimize strategies in financial trading algorithms."
+162,Nancy Fitzgerald,nfitzgerald@caltech.edu,"I'm exploring the application of deep learning in analyzing and predicting climate change effects."
+163,Brian Walker,bwalker@caltech.edu,"My research investigates the security vulnerabilities of wearable tech and developing robust encryption methods for them."
+164,Gabrielle Humphrey,ghumphrey@caltech.edu,"I'm studying how augmented reality can enhance interactive learning experiences in science education."
+165,Joanna Johns,jjohns@caltech.edu,"I'm developing user-friendly interfaces for database management systems to improve data accessibility for non-experts."
+166,Brenda Miller,bmiller@caltech.edu,"My project examines the role of artificial intelligence in streamlining logistics and supply chain management."
+167,John Clark,jclark@caltech.edu,"I'm working on algorithms to detect and mitigate bias in AI decision-making processes."
+168,Jessica Horton,jhorton@caltech.edu,"I'm researching the potential of quantum computing in solving complex biological problems faster than traditional computers."
+169,Ashley Wilson,awilson@caltech.edu,"My focus is on creating more efficient algorithms for processing large-scale genomic data."
+170,Joseph Allen,jallen@caltech.edu,"I'm exploring machine learning models to predict cybersecurity threats from unstructured data."
+171,Melissa Gonzalez,mgonzalez@caltech.edu,"I'm developing a decentralized app platform for secure and private communication."
+172,Mr. James Young,mjames@caltech.edu,"My work involves using computer vision to automate the analysis of satellite imagery for environmental monitoring."
+173,Jose Peterson,jpeterson@caltech.edu,"I'm studying the optimization of network protocols to improve the performance of IoT devices in smart cities."
+174,Jared Norman,jnorman@caltech.edu,"I'm researching adaptive user interfaces that adjust based on user behavior and preferences."
+175,Justin Scott,jscott@caltech.edu,"My project focuses on the development of predictive maintenance models for industrial machinery using IoT data."
+176,Tyler Hansen,thansen@caltech.edu,"I'm working on enhancing the accuracy of speech recognition systems in noisy environments."
+177,Chris Garcia,cgarcia@caltech.edu,"I'm exploring the use of blockchain for securing personal health records in telemedicine."
+178,Joyce Sanchez,jsanchez@caltech.edu,"My research investigates the use of gamification to increase engagement in online learning platforms."
+179,Jennifer Evans,jevans@caltech.edu,"I'm developing methods to automate the detection of fake news using natural language processing."
+180,Edward Clark,eclark@caltech.edu,"I'm studying the application of AI in optimizing urban planning and infrastructure development."
+181,Amy Conley,aconley@caltech.edu,"My project examines the potential of mixed reality in enhancing collaborative remote work."
+182,Jenna Smith,jsmith@caltech.edu,"I'm working on scalable algorithms for real-time processing of big data in financial markets."
+183,Amy Rogers,arogers@caltech.edu,"I'm researching techniques for protecting privacy in genomic data sharing."
+184,Jared Becker,jbecker@caltech.edu,"My focus is on the development of smart algorithms for energy management in smart homes."
+185,Austin Hernandez,ahernandez@caltech.edu,"I'm exploring deep learning approaches to improve diagnostic imaging in medicine."
+186,Maria Thornton,mthornton@caltech.edu,"My work involves creating interactive 3D models for educational content using virtual reality."
+187,Anna Jones,ajones@caltech.edu,"I'm studying the integration of AI with traditional farming practices to increase sustainability."
+188,David Perkins,dperkins@caltech.edu,"I'm developing secure communication protocols for quantum networks."
+189,John Martinez,jmartinez@caltech.edu,"My project focuses on the use of machine learning in identifying patterns in large datasets of astronomical observations."
+190,Anthony Rogers Jr.,arogers@caltech.edu,"I'm working on software development practices that enhance code security and prevent vulnerabilities."
+191,Walter Marshall,wmarshall@caltech.edu,"I'm researching the potential of neural networks in simulating human decision-making processes."
+192,Tyler Baker,tbaker@caltech.edu,"My focus is on optimizing database systems for faster query processing in big data applications."
+193,Pamela Turner,pturner@caltech.edu,"I'm studying the impact of algorithmic biases on social media content distribution."
+194,Katherine Shields,kshields@caltech.edu,"My work involves the application of computer science in archaeology, using AI to predict excavation sites."
+195,William Patterson,wpatterson@caltech.edu,"I'm developing machine learning models for real-time language translation devices."
+196,Hunter Cline,hcline@caltech.edu,"I'm researching the use of computer simulations to model the spread of infectious diseases."
+197,Christopher Harrison,charrison@caltech.edu,"My project examines the role of data analytics in optimizing public transportation systems."
+198,Andrea Marshall,amarshall@caltech.edu,"I'm working on voice recognition technology to assist in language learning for children."
+199,Michelle Madden,mmadden@caltech.edu,"I'm exploring the effectiveness of AI tutors in personalized education."
+200,Isaac Powell,ipowell@caltech.edu,"My research focuses on developing algorithms for automated content moderation to combat online harassment."
+201,Laura Allen,lallen@caltech.edu,"I'm focusing on the development of high-efficiency photovoltaic cells to advance solar energy technologies."
+202,Daniel Brown,dbrown@caltech.edu,"My project involves the creation of nanoscale electronic devices for faster and more efficient computing."
+203,Brian Johnson,bjohnson@caltech.edu,"I'm working on wireless power transfer systems to enable new applications for electric vehicles and consumer electronics."
+204,Cynthia Rodriguez,crodriguez@caltech.edu,"My research is dedicated to advancing quantum computing through the development of more stable qubit architectures."
+205,Justin Graham,jgraham@caltech.edu,"I'm exploring the potential of metamaterials in creating novel optical devices that manipulate light in unconventional ways."
+206,Stephanie Carney,scarney@caltech.edu,"I'm developing advanced sensor technologies for environmental monitoring and precision agriculture."
+207,Jacob Smith,jsmith@caltech.edu,"My work focuses on the fabrication of flexible electronic circuits for wearable technology applications."
+208,Linda Martin,lmartin@caltech.edu,"I'm researching the use of superconducting materials to improve the efficiency of power grids."
+209,Scott Griffin,sgriffin@caltech.edu,"I'm studying the application of nanotechnology in medical diagnostics and treatment delivery systems."
+210,Cheryl Alvarez,calvarez@caltech.edu,"My project aims to enhance the performance of wireless communication networks through adaptive antenna systems."
+211,Shane Roth,sroth@caltech.edu,"I'm working on the integration of renewable energy sources into existing electrical grids using smart grid technology."
+212,Melissa Davis MD,mdavis@caltech.edu,"I'm investigating the physical properties of novel semiconductor materials for use in next-generation electronic devices."
+213,Timothy Soto,tsoto@caltech.edu,"My research focuses on the development of energy-efficient lighting solutions using OLED technology."
+214,Susan Miller,smiller@caltech.edu,"I'm exploring the dynamics of plasma physics to improve fusion reactors as a sustainable energy source."
+215,Teresa Solomon,tsolomon@caltech.edu,"I'm developing microfluidic devices for lab-on-a-chip applications, aiming to miniaturize and accelerate biochemical assays."
+216,Katherine Hahn,khahn@caltech.edu,"My work involves the advancement of lithography techniques for the production of smaller and more powerful microprocessors."
+217,Jade Mason,jmason@caltech.edu,"I'm studying the effects of low-earth orbit environments on the durability of materials used in satellites."
+218,Heather Kim,hkim@caltech.edu,"My project is focused on enhancing the resolution and sensitivity of magnetic resonance imaging (MRI) for medical diagnostics."
+219,Timothy Robinson,trobinson@caltech.edu,"I'm working on the development of high-bandwidth optical communication systems for internet infrastructure."
+220,Jason Saunders,jsaunders@caltech.edu,"My research investigates the potential of piezoelectric materials in harvesting energy from environmental vibrations."
+221,Randy Anderson,randerson@caltech.edu,"I'm optimizing thin-film transistor technology for flexible and transparent displays, revolutionizing how we interact with media."
+222,Rose Lawson,rlawson@caltech.edu,"My project seeks to advance the efficiency of thermoelectric materials for converting waste heat into electricity."
+223,Dr. Brandy Nelson,dbrandy@caltech.edu,"I'm exploring the properties of topological insulators to create devices with low power consumption and high speed."
+224,Marc Jacobs,mjacobs@caltech.edu,"I'm focusing on developing scalable fabrication techniques for quantum dots to be used in high-efficiency solar cells."
+225,Pamela Flores,pflores@caltech.edu,"My research involves creating more efficient methods of water desalination using electrochemical processes."
+226,Casey Rollins,crollins@caltech.edu,"I'm working on the application of advanced signal processing techniques to improve non-invasive medical imaging."
+227,Justin Smith,jsmith@caltech.edu,"I'm studying the integration of artificial intelligence with electronic health records to predict patient outcomes more accurately."
+228,Laura May,lmay@caltech.edu,"My project aims to harness the power of nanophotonics for creating ultra-sensitive sensors for detecting environmental pollutants."
+229,Katelyn Gilmore,kgilmore@caltech.edu,"I'm developing next-generation batteries with higher energy density and faster charging capabilities."
+230,Victoria Smith,vsmith@caltech.edu,"My work focuses on the physics of semiconductor devices to push the limits of computing power and efficiency."
+231,Christopher Chavez,cchavez@caltech.edu,"I'm researching the use of high-frequency acoustic waves in medical therapy and diagnostics."
+232,Brent Tate,btate@caltech.edu,"My project investigates the potential of hybrid photonic-electronic circuits in revolutionizing data processing speeds."
+233,Danielle Wells,dwells@caltech.edu,"I'm working on enhancing the robustness and efficiency of electrical systems for deep-space missions."
+234,Colleen Gilbert,cgilbert@caltech.edu,"My research focuses on developing optical computing components to overcome the limitations of traditional electronic computers."
+235,Bruce Daniel,bdaniel@caltech.edu,"I'm studying the application of graphene in creating highly conductive and flexible electronic components."
+236,Philip Kerr,pkerr@caltech.edu,"My project aims to advance microelectromechanical systems (MEMS) for use in precision instrumentation and control systems."
+237,Christopher Lopez,clopez@caltech.edu,"I'm exploring the enhancement of wireless charging technology for electric vehicles, aiming for higher efficiency and longer range."
+238,Joe Fuller,jfuller@caltech.edu,"I'm researching the development of low-cost, high-efficiency solar concentrators for renewable energy applications."
+239,Renee Sullivan,rsullivan@caltech.edu,"My work involves the study of bioelectronic devices for interfacing with neural systems for medical applications."
+240,Christopher Ruiz,cruiz@caltech.edu,"I'm focusing on the physics of ultra-cold atoms for quantum simulation and computing applications."
+241,Dalton Brown,dbrown@caltech.edu,"My project is centered on improving the performance and durability of fuel cells for clean energy conversion."
+242,Scott Hernandez,shernandez@caltech.edu,"I'm working on the development of advanced materials for shielding electronic devices from electromagnetic interference."
+243,Danielle Keith MD,dkeith@caltech.edu,"I'm studying the application of controlled nuclear fusion as a clean and abundant energy source."
+244,Devin Robinson,drobinson@caltech.edu,"My research involves creating more sensitive and accurate instruments for astrophysical observations."
+245,David Tyler,dtyler@caltech.edu,"I'm exploring the use of machine learning algorithms to optimize the design of electrical circuits."
+246,Christopher Garcia,cgarcia@caltech.edu,"My work focuses on the advancement of holographic storage technologies for high-density data storage solutions."
+247,Kelly Johnson Jr.,kjohnson@caltech.edu,"I'm developing optical fiber sensors for real-time monitoring of structural health in buildings and bridges."
+248,Thomas Parks,tparks@caltech.edu,"My project seeks to harness stochastic resonance in electronic systems for signal enhancement in noisy environments."
+249,Dr. Andrew Richardson,dandrew@caltech.edu,"I'm working on quantum error correction methods to make quantum computing more practical and reliable."
+250,Amber Thompson,athompson@caltech.edu,"My research is dedicated to advancing the field of optoelectronics for faster and more efficient communication systems."
+251,Michael Pratt,mpratt@caltech.edu,"I'm focusing on the development of microscale energy harvesting devices to power wearable technology."
+252,Michael Espinoza,mespinoza@caltech.edu,"My project involves the creation of ultra-thin film coatings to improve the efficiency of optical devices."
+253,David Schneider,dschneider@caltech.edu,"I'm studying the thermal properties of electronic materials to improve heat management in electronic devices."
+254,Danielle White,dwhite@caltech.edu,"My work is centered on enhancing the stability and efficiency of organic light-emitting diodes (OLEDs)."
+255,Jennifer Lin,jlin@caltech.edu,"I'm exploring the potential of spintronics for developing non-volatile memory systems with low power consumption."
+256,Patrick Johnston,pjohnston@caltech.edu,"My research focuses on the application of acousto-optic devices in laser systems for materials processing."
+257,Amy Jackson,ajackson@caltech.edu,"I'm working on the development of silicon photonics for more efficient data transfer in computing systems."
+258,Mrs. Kimberly Williams,mkimberly@caltech.edu,"My project aims to advance the technology of electric propulsion systems for spacecraft."
+259,Jill Lopez,jlopez@caltech.edu,"I'm researching the use of adaptive optics in telescopes to compensate for atmospheric distortion in astronomical observations."
+260,Richard Perez,rperez@caltech.edu,"My work involves the study and development of high-power lasers for defense and industrial applications."
+261,Mario Potter,mpotter@caltech.edu,"I'm focusing on the physics and applications of superconductors in creating efficient energy transmission systems."
+262,Dr. Ronald Hicks,dronald@caltech.edu,"My research is dedicated to the exploration of photonic crystals for manipulating light in novel ways."
+263,Timothy Robles,trobles@caltech.edu,"I'm working on the integration of photovoltaic technology into building materials for self-sustaining architecture."
+264,Charles Livingston,clivingston@caltech.edu,"My project investigates the electronic properties of two-dimensional materials beyond graphene."
+265,Christopher Stephens,cstephens@caltech.edu,"I'm developing compact and efficient radio frequency (RF) transmitters for satellite communication."
+266,Curtis Mcknight,cmcknight@caltech.edu,"My research focuses on the advancement of digital signal processing techniques for audio and speech enhancement."
+267,Stephen Chavez,schavez@caltech.edu,"I'm studying the application of magnetic levitation in transportation and industrial machinery."
+268,Diana Frey,dfrey@caltech.edu,"My work is centered on the development of nanoscale devices for early detection of diseases."
+269,Mark Taylor,mtaylor@caltech.edu,"I'm exploring innovative cooling techniques for high-performance computing systems."
+270,Michael Walker,mwalker@caltech.edu,"My project aims to improve the energy efficiency of data centers through advanced thermal management solutions."
+271,Christopher Powell,cpowell@caltech.edu,"I'm focusing on the use of laser-induced breakdown spectroscopy (LIBS) for environmental monitoring."
+272,Tara Harrison,tharrison@caltech.edu,"My research involves the development of wearable electronics for health monitoring and fitness tracking."
+273,Justin Rodriguez,jrodriguez@caltech.edu,"I'm working on the physics of low-dimensional systems for next-generation electronic applications."
+274,Mark Beasley,mbeasley@caltech.edu,"My project examines the potential of power electronics in managing renewable energy sources efficiently."
+275,Christine Ferguson,cferguson@caltech.edu,"I'm studying the fabrication and application of microelectromechanical systems (MEMS) in healthcare devices."
+276,Jerry Wilson,jwilson@caltech.edu,"My work focuses on advancing the field of photonics for improving optical communication systems."
+277,Bethany Kelly,bkelly@caltech.edu,"I'm developing novel approaches to energy storage through supercapacitor technology."
+278,Julie Nelson,jnelson@caltech.edu,"My research is dedicated to the exploration and application of ferroelectric materials in memory devices."
+279,Thomas Wells,twells@caltech.edu,"I'm working on enhancing the efficiency of wireless sensor networks for IoT applications."
+280,Joshua Clark MD,jclark@caltech.edu,"My project aims to advance the technology of bioelectronics for interfacing with the nervous system."
+281,Alexa Russell,arussell@caltech.edu,"I'm focusing on the development and application of optical tweezers for manipulating microscopic particles."
+282,Diane Choi,dchoi@caltech.edu,"My work involves the study of electronic transport in nanoscale devices for quantum computing applications."
+283,James Oconnor,joconnor@caltech.edu,"I'm researching the application of high-k dielectrics in semiconductor devices to reduce power consumption."
+284,Timothy Cooper,tcooper@caltech.edu,"My project examines the potential of ultracapacitors in providing quick energy bursts for electronic devices."
+285,Anna Lindsey,alindsey@caltech.edu,"I'm developing advanced materials for photodetectors to improve the performance of cameras and sensors."
+286,Vincent Jackson,vjackson@caltech.edu,"My research focuses on the optimization of antenna design for enhanced mobile communication."
+287,Andrew Roberts,aroberts@caltech.edu,"I'm working on the integration of nanotechnology in solar panels to increase light absorption and efficiency."
+288,Steven Moore,smoore@caltech.edu,"My project aims to advance the field of electro-optics for faster and more secure data transmission."
+289,Jason Newman,jnewman@caltech.edu,"I'm studying the effects of radiation on electronic components in space environments to improve satellite durability."
+290,Rachel Henderson,rhenderson@caltech.edu,"My work involves the development of energy harvesting devices to power small electronics autonomously."
+291,Tina Prince MD,tprince@caltech.edu,"I'm focusing on the use of terahertz radiation in non-invasive medical imaging techniques."
+292,Brandi Bailey,bbailey@caltech.edu,"My project investigates the application of flexible electronics in creating bendable displays."
+293,Patrick Dixon,pdixon@caltech.edu,"I'm working on the physics and engineering of acoustic metamaterials for noise reduction applications."
+294,Traci Grant,tgrant@caltech.edu,"My research is dedicated to the study of electrochemical cells for improved energy storage solutions."
+295,Justin Dyer,jdyer@caltech.edu,"I'm developing holographic data storage systems for high-capacity and long-term data archiving."
+296,Laura Morrison,lmorrison@caltech.edu,"My work focuses on the advancement of microLED technology for next-generation display systems."
+297,Brandi Norton,bnorton@caltech.edu,"I'm studying the properties of conductive polymers for use in flexible and wearable electronics."
+298,Katherine Garza,kgarza@caltech.edu,"My project aims to harness energy from ambient radio waves to power small electronic devices."
+299,William Graves,wgraves@caltech.edu,"I'm focusing on the development of optical computing for energy-efficient and high-speed data processing."
+300,Hannah Bauer,hbauer@caltech.edu,"My research involves the use of piezoelectric materials in creating self-powered electronic devices."
+301,Latoya Garcia,lgarcia@caltech.edu,"I'm working on the enhancement of fuel cell technology for cleaner and more efficient energy production."
+302,Tommy Shelton,tshelton@caltech.edu,"My project examines the potential of silicon carbide (SiC) in power electronics for electric vehicles."
+303,Erin Wilson,ewilson@caltech.edu,"I'm focusing on the development of smart grid technologies for more efficient electricity distribution."
+304,Betty Lloyd,blloyd@caltech.edu,"My work involves the study of nanoelectronics for developing smaller, faster, and more efficient computing devices."
+305,Sarah Roberts,sroberts@caltech.edu,"I'm researching the application of ultrasonic waves in non-destructive testing and material analysis."
+306,Lee Meza,lmeza@caltech.edu,"My project aims to improve optical sensors for environmental monitoring and industrial quality control."
+307,Cynthia Herrera,cherrera@caltech.edu,"I'm developing miniaturized satellites (CubeSats) for affordable space research and communication."
+308,Kimberly Norris,knorris@caltech.edu,"My work focuses on the advancement of MEMS technology for biomedical applications and devices."
+309,Susan Johnson,sjohnson@caltech.edu,"I'm studying the application of advanced computational models in understanding and predicting solar flares."
+310,Caitlyn Koch,ckoch@caltech.edu,"My project involves the creation of quantum dots for use in high-efficiency light-emitting diodes (LEDs)."
+311,Teresa Caldwell,tcaldwell@caltech.edu,"I'm working on wireless network protocols to support the Internet of Things (IoT) in smart cities."
+312,Nancy Watson,nwatson@caltech.edu,"My research is dedicated to the exploration of phase change materials for data storage technology."
+313,Andrea Chapman,achapman@caltech.edu,"I'm focusing on the physics of soft robotics for developing more adaptable and resilient robots."
+314,Michael Francis,mfrancis@caltech.edu,"My work involves the development of thin film solar cells for portable and wearable energy sources."
+315,Lisa Hunter,lhunter@caltech.edu,"I'm studying the potential of nanowire transistors in next-generation electronics for higher performance."
+316,Robert Ward,rward@caltech.edu,"My project examines the use of fiber optics in creating more secure and efficient communication networks."
+317,Robin George,rgeorge@caltech.edu,"I'm working on the enhancement of semiconductor lasers for use in medical procedures and treatments."
+318,Antonio Boyd,aboyd@caltech.edu,"My research focuses on the application of microfabrication techniques in creating more sensitive chemical sensors."
+319,Christopher Rice,crice@caltech.edu,"I'm developing electromagnetic propulsion systems for spacecraft, aiming to reduce the cost of space travel."
+320,Rachel Garrett,rgarrett@caltech.edu,"My work is centered on improving the accuracy and resolution of electron microscopy for material science research."
+321,John Stark,jstark@caltech.edu,"I'm focusing on the development and application of superconductor technology in magnetic resonance imaging (MRI) machines."
+322,James Perez,jperez@caltech.edu,"My project investigates the potential of advanced algorithms in optimizing energy consumption in industrial processes."
+323,Adam Bradford,abradford@caltech.edu,"I'm working on the physics and technology of OLEDs to create more efficient and vibrant displays."
+324,Julia Vazquez,jvazquez@caltech.edu,"My research is dedicated to the study of atomic layer deposition (ALD) techniques for nanoscale coating applications."
+325,David Skinner,dskinner@caltech.edu,"I'm focusing on the development of high-speed electronic switches for faster data processing and communication."
+326,Aaron Ellis,aellis@caltech.edu,"My work involves the exploration of photovoltaic materials beyond silicon for more efficient solar energy conversion."
+327,Thomas Jacobson,tjacobson@caltech.edu,"I'm studying the use of laser cooling techniques in precision measurement and atomic clocks."
+328,Christopher Boyd,cboyd@caltech.edu,"My project aims to advance the technology of electric motors for higher efficiency and lower emissions."
+329,Yvette Ferguson,yferguson@caltech.edu,"I'm researching the application of bioelectronics in creating sensors for detecting pollutants in water."
+330,Jeanette Walker,jwalker@caltech.edu,"My work focuses on the advancement of nanofabrication techniques for developing quantum computing components."
+331,Benjamin Frank,bfrank@caltech.edu,"I'm developing smart algorithms for grid management to incorporate renewable energy sources seamlessly."
+332,Gregory Williams,gwilliams@caltech.edu,"I'm studying the properties and applications of exotic materials in high-temperature superconductivity."
+333,Robin Jackson,rjackson@caltech.edu,"My project involves the creation of advanced coating materials for solar panels to increase their lifespan and efficiency."
+334,Donna Owens,dowens@caltech.edu,"I'm working on the integration of optoelectronic devices in biomedical imaging for better diagnostics."
+335,Tanya Mcbride,tmcbride@caltech.edu,"My research is dedicated to the development of compact fusion reactors for clean and abundant energy."
+336,Brian Guzman,bguzman@caltech.edu,"I'm focusing on the physics of energy storage systems to create more efficient and safer batteries."
+337,Anne Howell,ahowell@caltech.edu,"My work involves the exploration of micro- and nano-electromechanical systems (MEMS/NEMS) for various sensing applications."
+338,Joseph Davis,jdavis@caltech.edu,"I'm studying the application of plasma technology in environmental cleanup and pollution control."
+339,Kristi Finley,kfinley@caltech.edu,"My project aims to harness piezoelectric effects for energy harvesting from ambient vibrations."
+340,Susan Mays,smays@caltech.edu,"I'm working on the enhancement of photonic integrated circuits for next-generation optical computing."
+341,Yvonne Reynolds,yreynolds@caltech.edu,"My research focuses on the development of ultrathin materials for flexible electronic applications."
+342,Diane Green,dgreen@caltech.edu,"I'm exploring the use of semiconductor nanostructures in photodetectors for improved light sensitivity."
+343,Joshua Long,jlong@caltech.edu,"My project investigates the potential of advanced materials in improving the efficiency of LED lighting."
+344,Rebecca Duffy,rduffy@caltech.edu,"I'm studying the properties and applications of magnetic materials in data storage technologies."
+345,Dianne Brianna,dbrianna@caltech.edu,"My work is centered on the development of wireless communication protocols for space applications."
+346,Eric Brown,ebrown@caltech.edu,"I'm focusing on the advancement of microscale heat exchangers for electronic cooling solutions."
+347,Roberta Bentley,rbentley@caltech.edu,"I'm researching the application of ultrasonic technology in non-destructive testing of materials."
+348,Kristen Cobb,kcobb@caltech.edu,"My project aims to improve the performance of thermophotovoltaic cells for waste heat recovery."
+349,Anthony Savage,asavage@caltech.edu,"I'm working on the development of advanced control systems for autonomous drones and vehicles."
+350,Amber Bell,abell@caltech.edu,"My research is dedicated to the exploration of electro-optic modulators for faster optical communication networks."
+351,William Clark,wclark@caltech.edu,"I'm developing biocompatible materials for 3D-printed bone grafts to improve outcomes in orthopedic surgery."
+352,Sharon Shaw,sshaw@caltech.edu,"My project focuses on creating more sensitive wearable sensors for real-time monitoring of patients with chronic conditions."
+353,Corey Graham,cgraham@caltech.edu,"I'm working on nanotechnology-based delivery systems for targeted cancer therapy, minimizing side effects while maximizing efficacy."
+354,Derek Ryan,dryan@caltech.edu,"My research involves engineering advanced prosthetic limbs with tactile feedback to enhance the quality of life for amputees."
+355,Cathy Crawford,ccrawford@caltech.edu,"I'm developing machine learning algorithms to analyze medical images for early detection of diseases like cancer and Alzheimer's."
+356,Jim Freeman,jfreeman@caltech.edu,"I'm studying the use of hydrogel-based scaffolds in tissue engineering to support the regeneration of damaged tissues."
+357,Michael Meyer,mmeyer@caltech.edu,"My work focuses on the integration of biosensors in smartphones for non-invasive health diagnostics and monitoring."
+358,Yvonne Ochoa,yochoa@caltech.edu,"I'm researching the electrical stimulation of nerve growth to develop treatments for spinal cord injuries."
+359,Rachel Perry,rperry@caltech.edu,"My project aims to improve MRI technology to reduce scan times and increase comfort for patients."
+360,Keith Howard,khoward@caltech.edu,"I'm working on the application of artificial intelligence in predicting patient response to various cancer treatments."
+361,Jennifer Bullock,jbullock@caltech.edu,"I'm developing a new generation of biodegradable stents for treating coronary artery disease."
+362,Monica Smith,msmith@caltech.edu,"My research focuses on the use of virtual reality in rehabilitation therapy for stroke survivors."
+363,Virginia Stevens,vstevens@caltech.edu,"I'm studying the potential of stem cell therapy in repairing damaged heart tissue after myocardial infarction."
+364,Daniel Moore,dmoore@caltech.edu,"My work involves creating implantable devices for continuous monitoring and management of diabetes."
+365,Amber Jimenez,ajimenez@caltech.edu,"I'm researching the biomechanics of human movement to design better orthopedic implants."
+366,Christine Brooks,cbrooks@caltech.edu,"My project focuses on the development of microfluidic chips for rapid disease diagnostics."
+367,Deanna Bentley,dbentley@caltech.edu,"I'm working on the application of photonics in non-invasive surgery techniques."
+368,Anita Allen,aallen@caltech.edu,"My research is dedicated to creating wearable technology for early detection of arrhythmias."
+369,Frank Stewart,fstewart@caltech.edu,"I'm developing antibacterial coatings for medical devices to reduce the risk of hospital-acquired infections."
+370,Joseph Jarvis,jjarvis@caltech.edu,"My work focuses on engineering artificial organs, with a current project on bioartificial kidneys."
+371,Carlos Johnson,cjohnson@caltech.edu,"I'm studying the integration of augmented reality in medical education and surgical planning."
+372,Meghan Lopez,mlopez@caltech.edu,"My project aims to harness the power of gene editing technologies for treating genetic disorders."
+373,Heather Mccarthy,hmccarthy@caltech.edu,"I'm researching the development of lab-on-a-chip devices for personalized medicine applications."
+374,Sabrina Stanley,sstanley@caltech.edu,"My work involves the use of acoustic waves in breaking down kidney stones non-invasively."
+375,Kelly Smith,ksmith@caltech.edu,"I'm focusing on improving the design and functionality of exoskeletons for rehabilitation and mobility assistance."
+376,Nicole Price,nprice@caltech.edu,"My project explores the potential of 3D bioprinting for creating functional human tissues for transplantation."
+377,Brian Phillips,bphillips@caltech.edu,"I'm developing optical coherence tomography (OCT) techniques for early detection of retinal diseases."
+378,Darren Cook,dcook@caltech.edu,"My research focuses on the biomechanical analysis of soft tissue to improve surgical outcomes."
+379,Jessica Kelly,jkelly@caltech.edu,"I'm working on magnetic resonance elastography (MRE) to non-invasively measure tissue stiffness in liver disease diagnosis."
+380,Angel Hall,ahall@caltech.edu,"My project involves engineering small-diameter vascular grafts for coronary and peripheral artery disease treatment."
+381,Shane Taylor,staylor@caltech.edu,"I'm studying the application of machine learning in streamlining clinical trials for new drugs."
+382,James Carter,jcarter@caltech.edu,"My work focuses on the development of point-of-care diagnostic devices for rapid detection of infectious diseases."
+383,Mary Johnson,mjohnson@caltech.edu,"I'm researching the use of bioinformatics in understanding the genetic basis of complex diseases."
+384,Steven Norris,snorris@caltech.edu,"My project aims to create more efficient methods of drug delivery using nanoparticle technology."
+385,Mike Cameron,mcameron@caltech.edu,"I'm working on the enhancement of ultrasonic imaging techniques for improved fetal health monitoring."
+386,Douglas Wang,dwang@caltech.edu,"My research is dedicated to the study and improvement of artificial heart valve designs for longevity and performance."
+387,Ernest Perez,eperez@caltech.edu,"I'm focusing on the development of biosimilar drugs to increase accessibility to biologic therapies."
+388,Gregory Mendez,gmendez@caltech.edu,"My work involves the application of computational models in predicting the progression of neurodegenerative diseases."
+389,Christian Evans,cevans@caltech.edu,"I'm studying the biomechanics of aging to design interventions that enhance mobility in the elderly."
+390,Joseph Elliott Jr.,jelliott@caltech.edu,"My project explores the potential of tissue engineering in creating skin grafts for burn victims."
+391,James Berry,jberry@caltech.edu,"I'm developing methods to use CRISPR technology for precise gene therapy in inherited diseases."
+392,Richard Goodwin,rgoodwin@caltech.edu,"My work focuses on improving cochlear implant technology for better sound quality and speech recognition."
+393,Courtney Decker,cdecker@caltech.edu,"I'm researching the effects of electromagnetic fields on wound healing and tissue regeneration."
+394,Andrew Jackson,ajackson@caltech.edu,"My project aims to advance the understanding and treatment of sleep disorders through wearable technology."
+395,Cassandra Preston,cpreston@caltech.edu,"I'm working on the development of contrast agents for enhanced visualization in MRI scans."
+396,Jeremy Jimenez,jjimenez@caltech.edu,"My research focuses on the use of nanomaterials for targeted drug delivery to brain tumors."
+397,Micheal Baldwin,mbaldwin@caltech.edu,"I'm studying the application of AI in the analysis of genomic data for personalized cancer treatment."
+398,Nicole Wilson,nwilson@caltech.edu,"My project involves the engineering of bioreactors for the cultivation of stem cells for regenerative medicine."
+399,Julie Phillips,jphillips@caltech.edu,"I'm focusing on the development of non-invasive blood glucose monitoring devices for diabetes management."
+400,David Aguilar,daguilar@caltech.edu,"My work is dedicated to creating advanced imaging techniques for early detection of cardiovascular diseases."
+401,Paul Gray,pgray@caltech.edu,"I'm optimizing smart grid technologies to enhance the reliability and efficiency of renewable energy distribution."
+402,Brandi Thomas,bthomas@caltech.edu,"My project involves the development of high-performance composite materials for aerospace engineering applications."
+403,Pamela Hall,phall@caltech.edu,"I'm working on advanced water purification systems using nanotechnology to provide clean drinking water in remote areas."
+404,David Garcia,dgarcia@caltech.edu,"I'm researching the application of machine learning in structural engineering for earthquake-resistant designs."
+405,Matthew Hughes,mhughes@caltech.edu,"My focus is on the integration of augmented reality in civil engineering to improve construction processes and safety."
+406,Hannah Stewart,hstewart@caltech.edu,"I'm developing wireless sensor networks for real-time monitoring of infrastructure health and environmental conditions."
+407,Christopher Bradley,cbradley@caltech.edu,"My work involves creating more efficient propulsion systems for space exploration using ion thrusters."
+408,John Parrish,jparrish@caltech.edu,"I'm studying the use of additive manufacturing techniques in creating custom medical implants and prosthetics."
+409,Luke Goodwin,lgoodwin@caltech.edu,"My project aims to improve the energy efficiency of buildings through innovative heating, ventilation, and air conditioning (HVAC) systems."
+410,Erin Becker,ebecker@caltech.edu,"I'm working on the development of bio-inspired robots for environmental monitoring and disaster response."
+411,Ivan Sharp,isharp@caltech.edu,"My research focuses on the advancement of photonic circuits for faster and more energy-efficient data processing."
+412,Gregory Ramirez,gramirez@caltech.edu,"I'm exploring the potential of 4D printing in manufacturing dynamic and self-assembling structures."
+413,Maria Paul,mpaul@caltech.edu,"My project involves engineering biodegradable packaging materials to reduce plastic waste and environmental impact."
+414,Brian Brady,bbrady@caltech.edu,"I'm developing autonomous underwater vehicles for deep-sea exploration and marine research."
+415,Michael Rivera,mrivera@caltech.edu,"I'm studying the application of robotics in agriculture for precision farming and sustainability."
+416,Kevin Gonzales,kgonzales@caltech.edu,"My work focuses on the use of big data analytics in traffic management systems to alleviate urban congestion."
+417,Travis Rodriguez,trodriguez@caltech.edu,"I'm researching the development of next-generation batteries for extended electric vehicle range and faster charging."
+418,Austin Martinez,amartinez@caltech.edu,"My project aims to advance materials science in creating lighter and stronger materials for automotive engineering."
+419,Aaron Nelson,anelson@caltech.edu,"I'm working on satellite communication systems to improve global internet access in underserved areas."
+420,Mark Pollard,mpollard@caltech.edu,"I'm exploring the engineering of smart textiles for wearable technology with health monitoring capabilities."
+421,Paul Martinez,pmartinez@caltech.edu,"My research is dedicated to the development of smart home technologies for energy conservation and enhanced living comfort."
+422,Ann Cruz,acruz@caltech.edu,"I'm focusing on the application of virtual and augmented reality in training for high-risk industries."
+423,Jay Rios,jrios@caltech.edu,"My work involves the study and improvement of wind turbine designs for increased power generation efficiency."
+424,Mia Johnson,mjohnson@caltech.edu,"I'm developing methods for recycling electronic waste to recover valuable materials and reduce environmental impact."
+425,James Ferrell,jferrell@caltech.edu,"My project explores the potential of geothermal energy as a sustainable power source."
+426,Mitchell Murray,mmurray@caltech.edu,"I'm working on the enhancement of optical sensors for environmental pollutant detection."
+427,Courtney Hale,chale@caltech.edu,"I'm researching the application of drones in precision agriculture for crop monitoring and management."
+428,Christina Rogers,crogers@caltech.edu,"My focus is on the development of nanoscale sensors for early detection of diseases through breath analysis."
+429,Luis Walters,lwalters@caltech.edu,"I'm studying the engineering challenges of creating sustainable urban ecosystems."
+430,Nicholas Jones,njones@caltech.edu,"My work involves the use of computational fluid dynamics (CFD) in improving the design of hydraulic systems."
+431,Jennifer Spence,jspence@caltech.edu,"I'm developing adaptive lighting systems that respond to natural light conditions to reduce energy consumption."
+432,Michelle Hale,mhale@caltech.edu,"My project aims to advance the technology of high-speed rail systems for more efficient public transportation."
+433,Kevin Hernandez,khernandez@caltech.edu,"I'm researching the integration of AI in industrial automation for enhanced manufacturing processes."
+434,Adrian Wilson,awilson@caltech.edu,"My work focuses on the application of environmental engineering in managing and treating wastewater."
+435,Christopher Powers,cpowers@caltech.edu,"I'm studying the development of energy harvesting devices to power wearable electronics."
+436,Victoria Gonzalez,vgonzalez@caltech.edu,"My project involves the creation of smart infrastructure systems for dynamic traffic control and road safety."
+437,Mark Jensen,mjensen@caltech.edu,"I'm working on the enhancement of solar thermal energy systems for industrial heat applications."
+438,Mary Hayden,mhayden@caltech.edu,"My research focuses on the use of electrochemical processes for clean energy storage solutions."
+439,Scott Evans DVM,sevans@caltech.edu,"I'm developing precision agriculture tools to optimize water use and increase crop yield."
+440,David Butler,dbutler@caltech.edu,"My work is dedicated to the advancement of acoustic engineering for noise reduction in urban environments."
+441,Eric Clark,eclark@caltech.edu,"I'm focusing on the integration of renewable energy sources into maritime vessels to reduce carbon emissions."
+442,Laura Olsen,lolsen@caltech.edu,"My project aims to improve the reliability and efficiency of unmanned aerial vehicles (UAVs) for logistics and delivery services."
+443,Derek Richardson,drichardson@caltech.edu,"I'm researching the development of portable power generators for emergency and off-grid use."
+444,Vanessa Guzman,vguzman@caltech.edu,"My work involves the study of biomimicry in engineering to develop materials and structures inspired by nature."
+445,Beverly Martinez,bmartinez@caltech.edu,"I'm exploring the potential of smart grids in optimizing electricity distribution and reducing outages."
+446,Sandra Palmer,spalmer@caltech.edu,"My project is focused on the engineering of efficient desalination processes to address freshwater scarcity."
+447,Andrew Johnson,ajohnson@caltech.edu,"I'm working on the application of sensor fusion in autonomous vehicles for improved navigation and safety."
+448,April Johnson,ajohnson@caltech.edu,"My research involves the use of 3D printing technology in creating custom orthopedic implants."
+449,David Hughes,dhughes@caltech.edu,"I'm developing advanced coating techniques for corrosion protection in marine and coastal infrastructure."
+450,Brett Cooper,bcooper@caltech.edu,"My work focuses on the advancement of micro-electro-mechanical systems (MEMS) for biomedical devices."
+451,Joshua Adams,jadams@caltech.edu,"I'm studying the application of holography in data storage to increase capacity and data retrieval speeds."
+452,Stephen Ware,sware@caltech.edu,"My project aims to enhance the efficiency of HVAC systems through the use of phase change materials."
+453,Tiffany Valdez,tvaldez@caltech.edu,"I'm working on the integration of IoT technologies in smart buildings for automated environmental control."
+454,Matthew Browning,mbrowning@caltech.edu,"My research is dedicated to the development of wave energy converters for renewable marine energy."
+455,Stephanie May,smay@caltech.edu,"I'm focusing on the use of artificial intelligence in optimizing the layout and design of solar farms."
+456,Donna Walker,dwalker@caltech.edu,"My project involves the engineering of non-toxic, high-performance adhesives for medical and industrial use."
+457,Daniel Thompson,dthompson@caltech.edu,"I'm studying the potential of smart fabrics in monitoring physiological parameters for health and fitness."
+458,Christina Allen,callen@caltech.edu,"My work is centered on improving electric motor technologies for electric vehicle applications."
+459,Devin Franklin,dfranklin@caltech.edu,"I'm researching the application of machine vision in quality control processes for manufacturing."
+460,Lori Pena,lpena@caltech.edu,"My project aims to advance the field of digital twins for real-time simulation and optimization of industrial systems."
+461,Brad Beck,bbeck@caltech.edu,"I'm working on the development of ultralight materials for aerospace applications to reduce fuel consumption."
+462,Dory Jeffrey,djeffrey@caltech.edu,"My research focuses on the integration of piezoelectric materials in infrastructure for energy harvesting from vibrations."
+463,Shelia Maxwell,smaxwell@caltech.edu,"I'm exploring the potential of adaptive materials in changing their properties in response to environmental stimuli."
+464,John Mckinney,jmckinney@caltech.edu,"My work involves the use of computational fluid dynamics (CFD) in the design of efficient water filtration systems."
+465,Thomas Edwards,tedwards@caltech.edu,"I'm developing smart lighting systems that adjust to user preferences and natural light to conserve energy."
+466,Sara Joseph,sjoseph@caltech.edu,"My project is focused on the engineering of low-cost, durable materials for renewable energy technologies."
+467,Jason Parker,jparker@caltech.edu,"I'm working on the application of advanced control systems in robotics for precision tasks in surgery and manufacturing."
+468,Nancy Brown,nbrown@caltech.edu,"My research involves the study of thermal management techniques in electronic devices to enhance performance and longevity."
+469,Carolyn Carrillo,ccarrillo@caltech.edu,"I'm focusing on the development of high-strength, lightweight alloys for transportation and construction."
+470,William Williamson,wwilliamson@caltech.edu,"My project aims to improve wireless communication protocols for emergency response and disaster relief operations."
+471,Amanda Garcia,agarcia@caltech.edu,"I'm studying the potential of smart wearables in enhancing worker safety in hazardous environments."
+472,Tanya Hart,thart@caltech.edu,"My work is dedicated to the advancement of fuel technology for cleaner and more efficient combustion engines."
+473,Hunter Garcia,hgarcia@caltech.edu,"I'm researching the use of autonomous systems in environmental monitoring and conservation efforts."
+474,Angelica Guzman,aguzman@caltech.edu,"My project involves the engineering of efficient and scalable water recycling systems for sustainable urban living."
+475,Kimberly Noble,knoble@caltech.edu,"I'm focusing on the application of nanomaterials in enhancing the durability and performance of solar panels."
+476,Cory Koch,ckoch@caltech.edu,"My work is centered on the development of smart grid solutions for optimizing energy consumption in industrial facilities."
+477,Crystal Weaver,cweaver@caltech.edu,"I'm studying the use of advanced ceramics in high-temperature applications for aerospace and defense."
+478,Susan Peterson,speterson@caltech.edu,"My project aims to harness the power of artificial intelligence in water resource management."
+479,Jessica Morales,jmorales@caltech.edu,"I'm working on the development of compact and efficient desalination units for portable and emergency use."
+480,Brandon Lara,blara@caltech.edu,"My research focuses on the integration of sustainable materials in consumer electronics to reduce e-waste."
+481,Lori Andrews,landrews@caltech.edu,"I'm exploring the potential of energy-efficient technologies in data centers to minimize environmental impact."
+482,Michelle Mcdonald,mmcdonald@caltech.edu,"My project involves the use of 3D scanning and printing in the restoration and preservation of historical artifacts."
+483,Thomas Garcia,tgarcia@caltech.edu,"I'm focusing on the development of wireless charging infrastructure for public and commercial spaces."
+484,Susan Hall,shall@caltech.edu,"My work is dedicated to the advancement of geospatial technologies for environmental and urban planning."
+485,Brian Friedman,bfriedman@caltech.edu,"I'm researching the application of sensor networks in precision agriculture for optimizing resource use."
+486,Claire Jennings,cjennings@caltech.edu,"My project aims to improve the acoustic design of public spaces for better sound quality and noise control."
+487,Stephanie Wilson,swilson@caltech.edu,"I'm working on the enhancement of digital twin technology for predictive maintenance in manufacturing."
+488,Samantha Chung,schung@caltech.edu,"My research involves the study of wearable technology for real-time health monitoring and disease prevention."
+489,Christine Shaw,cshaw@caltech.edu,"I'm focusing on the application of fluid dynamics in designing more efficient irrigation systems for agriculture."
+490,Susan Tyler,styler@caltech.edu,"My work is centered on improving the efficiency and sustainability of heating systems in residential and commercial buildings."
+491,Michael Turner,mturner@caltech.edu,"I'm developing modular construction techniques for rapid and cost-effective building in urban environments."
+492,Tina Torres,ttorres@caltech.edu,"My project explores the use of green technologies in retrofitting old buildings for energy efficiency."
+493,Robin White,rwhite@caltech.edu,"I'm researching the integration of biometric systems in security technologies for enhanced safety in public spaces."
+494,Adrian Jackson,ajackson@caltech.edu,"My work focuses on the advancement of hydroponic and aquaponic systems for urban farming solutions."
+495,Kimberly Harrington,kharrington@caltech.edu,"I'm studying the potential of smart city technologies in managing traffic flow and reducing pollution."
+496,Carolyn Smith,csmith@caltech.edu,"My project involves the engineering of low-emission transportation options to combat urban air quality issues."
+497,Jesse Graham,jgraham@caltech.edu,"I'm working on the application of blockchain technology in supply chain management for transparency and efficiency."
+498,Christina Brock,cbrock@caltech.edu,"My research is dedicated to the development of smart textiles for applications in fashion and healthcare."
+499,Patricia Hernandez,phernandez@caltech.edu,"I'm focusing on the use of drones and AI in emergency response for quicker disaster assessment and relief."
+500,Christopher Sullivan,csullivan@caltech.edu,"My work involves the study of sustainable energy solutions for off-grid communities, focusing on solar and wind power."
