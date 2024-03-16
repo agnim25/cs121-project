@@ -15,6 +15,7 @@ group.
 
 import sys
 import mysql
+import mysql.connector
 
 from gensim.models import KeyedVectors
 import numpy as np
@@ -48,7 +49,7 @@ def get_conn():
           # SHOW VARIABLES WHERE variable_name LIKE 'port';
           port='3306',  # this may change!
           password='adminpw',
-          database='cs121project' # replace this with your database name
+          database='cs121project'
         )
         print('Successfully connected.')
         return conn
@@ -76,76 +77,6 @@ def get_conn():
 # choose how to implement these depending on whether you have app.py or
 # app-client.py vs. app-admin.py (in which case you don't need to
 # support any prompt functionality to conditionally login to the sql database)
-
-
-# ----------------------------------------------------------------------
-# Command-Line Functionality
-# ----------------------------------------------------------------------
-def show_options(logged_in):
-    """
-    Displays options users can choose in the application, such as
-    viewing <x>, filtering results with a flag (e.g. -s to sort),
-    sending a request to do <x>, etc.
-    """
-    global is_admin
-    global student_id
-
-    print('What would you like to do? ')
-    if not logged_in:
-        print('  (l) - Log in')
-        print('  (s) - Sign up as student')
-        print('  (t) - Sign up as mentor')
-    else:
-        if not is_admin:
-            print('  (m) - Find top 10 mentors for you')
-        print('  (p) - Find most recent publications for a specific mentor')
-        print('  (d) - Find mentors in a specific department')
-        print('  (u) - Find mentors in a specific department taking students for SURF')
-        print('  (a) - Find mentors in a specific department taking students for academic year research')
-        print('  (o) - Log out')
-    print('  (q) - Quit')
-    print()
-    ans = input('Enter an option: ').lower()
-    if ans == 'q':
-        quit_ui()
-    elif ans == 'l':
-        username = input('Enter your username: ').lower()
-        password = input('Enter your password: ').lower()
-        student_id, is_admin = log_in(username, password)
-        show_options(student_id > 0)
-    elif ans == 's':
-        sign_up_student()
-        show_options(True)
-    elif ans == 't':
-        sign_up_mentor()
-        show_options(True)
-
-
-    elif ans == 'o':
-        show_options(False)
-    elif ans == 'm':
-        find_top_mentors()
-        show_options(logged_in)
-    elif ans == 'p':
-        name = input('Enter the name of the mentor: ')
-        find_publications(name)
-        show_options(logged_in)
-    elif ans == 'd':
-        department = input('Enter the department name: ')
-        find_mentors_department(department)
-        show_options(logged_in)
-    elif ans == 'u':
-        department = input('Enter the department name: ')
-        find_mentors_surf(department)
-        show_options(logged_in)
-    elif ans == 'a':
-        department = input('Enter the department name: ')
-        find_mentors_academic(department)
-        show_options(logged_in)
-    else:
-        show_options(logged_in)
-
-
 def log_in(username, password):
     """
     Attempts to log the user in by authenticating the user exists and
@@ -158,17 +89,19 @@ def log_in(username, password):
     sql = f'SELECT authenticate(%s, %s) AS result'
     try:
         cursor.execute(sql, (username, password))
-        result = cursor.fetchone()[0]
+        result = cursor.fetchone()[0] # result = user_id if user exists otherwise 0
         if result > 0:
             print('Successfully logged in.')
         else:
             print(f'Incorrect credentials. Returning to the main menu')
             show_options(False)
             return
-        # get user type
+        
+        # get user type (student vs. mentor)
         sql = 'SELECT user_type FROM users WHERE user_id = %s;'
         cursor.execute(sql, (result, ))
         user_type = cursor.fetchone()[0]
+
         return result, user_type == 'mentor'
     except mysql.connector.Error as err:
         if DEBUG:
@@ -187,6 +120,7 @@ def sign_up_student():
     username = input('Choose your username: ').lower()
     
     try:
+        # check if user exists
         sql = 'SELECT * FROM user_info WHERE username = %s;'
         cursor.execute(sql, (username,))
         rows = cursor.fetchall()
@@ -210,7 +144,8 @@ def sign_up_student():
             return
 
         password = input('Choose your password: ').lower()
-    
+
+        # given user doesn't exist, get info for student profile
         print('As the next step, enter the following information: ')
         name = input('Full name: ')
 
@@ -243,6 +178,7 @@ def sign_up_student():
         
         user_type = 'student'
         
+        # add student to users table
         args = [name, email, year, surf, academic, user_type, json.dumps(embed.tolist()), 0]
         result_args = cursor.callproc('add_client', args)
 
@@ -250,7 +186,7 @@ def sign_up_student():
         user_id = result_args[-1]
 
         if user_id is not None:
-            # Add to user_info
+            # Add credentials to user_info
             cursor.callproc('sp_add_user', (username, password, user_id))
             conn.commit()
 
@@ -273,11 +209,15 @@ def sign_up_student():
 
 
 def sign_up_mentor():
+    """
+    Adds a new mentor
+    """
     global student_id
     global is_admin
     cursor = conn.cursor()
     username = input('Choose your username: ').lower()
     try:
+        # check if user exists
         sql = 'SELECT * FROM user_info WHERE username = %s;'
         cursor.execute(sql, (username,))
         rows = cursor.fetchall()
@@ -301,6 +241,8 @@ def sign_up_mentor():
             return
         
         password = input('Choose your password: ').lower()
+
+        # check if mentor profile exists, if so, connect credentials to existing account
         email = input('Enter your Caltech email: ')
         while not re.match(r'^[a-zA-Z]+@caltech\.edu$', email):
             email = input('Invalid email detected. Please enter your Caltech email address: ')
@@ -312,6 +254,8 @@ def sign_up_mentor():
             cursor.callproc('sp_add_user', (username, password, rows[0][0]))
             conn.commit()
             print(f'Account successfully registered.')
+        
+        # collect info for new mentor profile
         else:
             print('Looks like we don\'t have your profile. Please enter the following information: ')
             name = input('Full name: ')
@@ -349,13 +293,15 @@ def sign_up_mentor():
             user_id = result_args[-1]
 
             if user_id is not None:
-                # Add to user_info
+                # add to user_info
                 cursor.callproc('sp_add_user', (username, password, user_id))
                 conn.commit()
 
+                # add to mentor table
                 cursor.callproc('add_mentor', (user_id, department, advisor))
                 conn.commit()
 
+                # add each keyword as a new row to the keywords table
                 for keyword in keywords:
                     cursor.callproc('add_keyword', (user_id, keyword))
                     conn.commit()
@@ -376,7 +322,81 @@ def sign_up_mentor():
             sys.stderr('An error occurred with registering a new user, please contact an admistrator...')
 
 
+
+# ----------------------------------------------------------------------
+# Command-Line Functionality
+# ----------------------------------------------------------------------
+def show_options(logged_in):
+    """
+    Displays options users can choose in the application, such as
+    viewing <x>, filtering results with a flag (e.g. -s to sort),
+    sending a request to do <x>, etc.
+    """
+    global is_admin
+    global student_id
+
+    print('What would you like to do? ')
+    if not logged_in:
+        print('  (l) - Log in')
+        print('  (s) - Sign up as student')
+        print('  (t) - Sign up as mentor')
+    else:
+        if not is_admin:
+            print('  (m) - Find top 10 mentors for you')
+        print('  (p) - Find most recent publications for a specific mentor')
+        print('  (d) - Find mentors in a specific department')
+        print('  (u) - Find mentors in a specific department taking students for SURF')
+        print('  (a) - Find mentors in a specific department taking students for academic year research')
+        print('  (o) - Log out')
+    print('  (q) - Quit')
+    print()
+    ans = input('Enter an option: ').lower()
+    
+    # intro menu options
+    if ans == 'q':
+        quit_ui()
+    elif ans == 'l':
+        username = input('Enter your username: ').lower()
+        password = input('Enter your password: ').lower()
+        student_id, is_admin = log_in(username, password)
+        show_options(student_id > 0)
+    elif ans == 's':
+        sign_up_student()
+        show_options(True)
+    elif ans == 't':
+        sign_up_mentor()
+        show_options(True)
+    elif ans == 'o':
+        show_options(False)
+
+    # logged in menu options        
+    elif ans == 'm':
+        find_top_mentors()
+        show_options(logged_in)
+    elif ans == 'p':
+        name = input('Enter the name of the mentor: ')
+        find_publications(name)
+        show_options(logged_in)
+    elif ans == 'd':
+        department = input('Enter the department name: ')
+        find_mentors_department(department)
+        show_options(logged_in)
+    elif ans == 'u':
+        department = input('Enter the department name: ')
+        find_mentors_surf(department)
+        show_options(logged_in)
+    elif ans == 'a':
+        department = input('Enter the department name: ')
+        find_mentors_academic(department)
+        show_options(logged_in)
+    else:
+        show_options(logged_in)
+
+
 def find_top_mentors():
+    """
+    Calculate the top mentors by similarity to the logged-in student, printed to system output
+    """
     cursor = conn.cursor()
 
     try:
@@ -403,8 +423,8 @@ def find_top_mentors():
         ON kw.user_id = ab.user_id;
         """
 
+        # compute embedding for each mentor
         df = pd.read_sql(query, conn)
-
         for i in range(len(df)):
             id = df.iloc[i]['user_id']
             abstracts = df.iloc[i]['abstracts']
@@ -416,8 +436,10 @@ def find_top_mentors():
 
                 word_vectors = np.array([pretrained_model[word] for word in tokenized_sentence if word in pretrained_model])
                 
+                # if descriptors exists, update users table to store up-to-date embedding
                 if word_vectors.size > 0:
                     embed = np.mean(word_vectors, axis=0)
+                    
                     update_query = """
                     UPDATE users
                     SET embedding_vector = %s
@@ -426,6 +448,7 @@ def find_top_mentors():
                     cursor.execute(update_query, (json.dumps(embed.tolist()), int(id),))
                     conn.commit()
             
+            # update date flag to null to show embedding is up-to-date
             update_date_query = """
             UPDATE mentors
             SET interests_last_updated = NULL
@@ -434,11 +457,12 @@ def find_top_mentors():
             cursor.execute(update_date_query, (int(id),))
             conn.commit()
 
-        # find the similarity between each mentor
+        # find the similarity between the student and each mentor
+        
+        # get student vector
         query = "SELECT embedding_vector FROM users WHERE user_id = %s"
         cursor.execute(query, (int(student_id),))
         result = cursor.fetchone()
-        
         student_vector = np.array(json.loads(result[0]))
         
         # get mentor vectors
@@ -454,6 +478,8 @@ def find_top_mentors():
 
         scores = dict(sorted(scores.items(), key=lambda item: item[1], reverse=True))
         top10 = list(scores.items())[:10]
+        
+        # output name of top 10 results
         for i in range(10):
             query = "SELECT name FROM users WHERE user_id = %s"
             cursor.execute(query, (int(top10[i][0]),))
@@ -470,6 +496,9 @@ def find_top_mentors():
 
 
 def find_publications(name):
+    """
+    Query and print the publication links for a given mentor
+    """
     cursor = conn.cursor()
     query = "SELECT user_id FROM users WHERE name = %s;"
     try:
@@ -485,7 +514,7 @@ def find_publications(name):
         rows = cursor.fetchall()
         if rows:
             for row in rows:
-                print(row)
+                print(row[0])
         else:
             print('No publications found')
     except mysql.connector.Error as err:
@@ -496,6 +525,11 @@ def find_publications(name):
             sys.stderr('An error occurred, please contact an admistrator...')
 
 def find_mentors_surf(department):
+    """
+    Find mentors who are looking for a SURF student in a specific department
+    Args:
+        department (string)
+    """
     cursor = conn.cursor()
     sql = """SELECT name
             FROM users
@@ -515,6 +549,11 @@ def find_mentors_surf(department):
             sys.stderr('An error occurred, please contact an admistrator...')
             
 def find_mentors_academic(department):
+    """
+    Find mentors looking for an academic-year student in a specific department
+    Args:
+        department (string)
+    """
     cursor = conn.cursor()
     sql = """SELECT name
             FROM users
@@ -534,6 +573,11 @@ def find_mentors_academic(department):
             sys.stderr('An error occurred, please contact an admistrator...')
             
 def find_mentors_department(department):
+    """
+    Find all mentors in a specific department
+    Args:
+        department (string)
+    """
     cursor = conn.cursor()
     sql = """SELECT name
             FROM users

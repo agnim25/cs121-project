@@ -12,7 +12,7 @@ Contributors: Damon Lin, Agnim Agarwal
 
 Data sources: Google Scholar, Caltech CMS Website
 
-### Instructions for setting up the database:
+### Instructions for setting up the database
 
 Make sure you have MySQL downloaded and available through your
 device's command-line.
@@ -33,11 +33,13 @@ mysql> source setup-routines.sql;
 mysql> source grant-permissions.sql;
 ```
 
-### Instructions for running the Python program:
+### Instructions for running the Python program
 
 First, exit MySQL:
 
-`mysql> quit;`
+```
+mysql> quit;
+```
 
 Install requirements and run the program:
 
@@ -80,7 +82,7 @@ Looking for a SURF student? (Y/N): Y
 Looking for an academic-year student? (Y/N): Y
 Keywords describing your research interests (comma-separated): web development,databases,distributed systems,networking,computer systems,low-level programming
 Advisor Name: Hovik
-Department: Computing and Mathematical Sciences
+Department: Computing and Mathematical Sciencesr
 Mentor profile successfully registered.
 Successfully logged in.
 ```
@@ -140,15 +142,25 @@ Enter an option: m
 10 Apurva Badithela 0.7541295604083703
 ```
 
+For options involving querying for a specific department, we have loaded data for the following departments:
+- Computing and Mathematical Sciences
+- Electrical Engineering
+- Applied Physics
+- Materials Science
+- Environmental Science and Engineering
+- Mechanical and Civil Engineering
+- Medical Engineering
+- Aerospace
+
 Press Ctrl+C to leave the program at any time.
 
 Files written to user's system:
 - No files are written to the user's system.
 
 Unfinished features:
-- Rigorous checks to validate user input (currently only basic checks are implemented)
+- Rigorous checks to validate user input (currently only basic checks are implemented, one potential issue is the case where adding to `users` succeeds but adding to `user_info` fails)
 - More detailed output for each feature
 - Rigorous permissions for students and mentors (currently permissions are through user_type flag)
 - Allowing users to insert/update data after signing up
 - Rigorous sign up for mentors (currently a mentor's sign up is linked to existing profiles just through matching emails)
-- Showing appropriate mySQL errors in the Python interface.
+- Showing more appropriate mySQL errors in the Python interface
