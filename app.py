@@ -14,8 +14,8 @@ group.
 """
 
 import sys
-import mysql.connector
-import mysql.connector.errorcode as errorcode
+import mysql
+from mysql import connector
 
 from gensim.models import KeyedVectors
 import numpy as np
@@ -113,7 +113,6 @@ def show_options(logged_in):
         username = input('Enter your username: ').lower()
         password = input('Enter your password: ').lower()
         student_id, is_admin = log_in(username, password)
-
         show_options(student_id > 0)
     elif ans == 's':
         sign_up_student()
@@ -164,7 +163,8 @@ def log_in(username, password):
         if result > 0:
             print('Successfully logged in.')
         else:
-            print(f'Incorrect password for {username}')
+            print(f'Incorrect credentials. Returning to the main menu')
+            show_options(False)
             return
         # get user type
         sql = 'SELECT user_type FROM users WHERE user_id = %s;'
@@ -182,10 +182,36 @@ def sign_up_student():
     """
     Adds a new student
     """
-    username = input('Choose your username: ').lower()
-    password = input('Choose your password: ').lower()
+    global student_id
+    global is_admin
     cursor = conn.cursor()
+    username = input('Choose your username: ').lower()
+    
     try:
+        sql = 'SELECT * FROM user_info WHERE username = %s;'
+        cursor.execute(sql, (username,))
+        rows = cursor.fetchall()
+        if rows:
+            print('Username already exists. Do you wish to login or sign up with a different username?')
+            print('  (a) - Log in')
+            print('  (b) - Sign up with a different username')
+            print('  (c) - Return to main menu')
+            ans = input('Enter an option: ').lower()
+            if ans == 'a':
+                password = input('Enter your password: ').lower()
+                student_id, is_admin = log_in(username, password)
+                show_options(student_id > 0)
+            elif ans == 'b':
+                sign_up_student()
+            elif ans == 'c':
+                show_options(False)
+            else:
+                print('Invalid choice. Returning to main menu.')
+                show_options(False)
+            return
+
+        password = input('Choose your password: ').lower()
+    
         print('As the next step, enter the following information: ')
         name = input('Full name: ')
 
@@ -233,30 +259,49 @@ def sign_up_student():
             cursor.callproc('add_student_research_statement', [user_id, statement])
             conn.commit()
             print(f'Student profile successfully registered.')
-            log_in(username, password)
+            student_id, is_admin = log_in(username, password)
         else:
             sys.stderr('An error occurred with adding a new student profile, please contact an admistrator...')
             
         
     except mysql.connector.Error as err:
         # If you're testing, it's helpful to see more details printed.
-        if err.errno == errorcode.ER_DUP_ENTRY:
-            sys.stderr('Username already exists, log in instead')
+        if DEBUG:
+            sys.stderr(err)
+            sys.exit(1)
         else:
-            if DEBUG:
-                sys.stderr(err)
-                sys.exit(1)
-            else:
-                sys.stderr('An error occurred with registering a new user, please contact an admistrator...')
+            sys.stderr('An error occurred with registering a new user, please contact an admistrator...')
 
 
 def sign_up_mentor():
-    # username = input('Choose your username: ').lower()
-    # password = input('Choose your password: ').lower()
-    username = "agnim25"
-    password = "password"
+    global student_id
+    global is_admin
     cursor = conn.cursor()
+    username = input('Choose your username: ').lower()
     try:
+        sql = 'SELECT * FROM user_info WHERE username = %s;'
+        cursor.execute(sql, (username,))
+        rows = cursor.fetchall()
+        if rows:
+            print('Username already exists. Do you wish to login or sign up with a different username?')
+            print('  (a) - Log in')
+            print('  (b) - Sign up with a different username')
+            print('  (c) - Return to main menu')
+            ans = input('Enter an option: ').lower()
+            if ans == 'a':
+                password = input('Enter your password: ').lower()
+                student_id, is_admin = log_in(username, password)
+                show_options(student_id > 0)
+            elif ans == 'b':
+                sign_up_mentor()
+            elif ans == 'c':
+                show_options(False)
+            else:
+                print('Invalid choice. Returning to main menu.')
+                show_options(False)
+            return
+        
+        password = input('Choose your password: ').lower()
         email = input('Enter your Caltech email: ')
         while not re.match(r'^[a-zA-Z]+@caltech\.edu$', email):
             email = input('Invalid email detected. Please enter your Caltech email address: ')
@@ -269,8 +314,7 @@ def sign_up_mentor():
             conn.commit()
             print(f'Account successfully registered.')
         else:
-            print('Looks like you don\'t have your profile. Please enter the following information: ')
-            print('As the next step, enter the following information: ')
+            print('Looks like we don\'t have your profile. Please enter the following information: ')
             name = input('Full name: ')
 
             year = input('Year (1-9)?: ')
@@ -310,14 +354,15 @@ def sign_up_mentor():
                 cursor.callproc('sp_add_user', (username, password, user_id))
                 conn.commit()
 
-                cursor.callproc('add_mentor', (user_id, advisor, department))
+                cursor.callproc('add_mentor', (user_id, department, advisor))
                 conn.commit()
 
                 for keyword in keywords:
                     cursor.callproc('add_keyword', (user_id, keyword))
                     conn.commit()
 
-                log_in(username, password)
+                print('Mentor profile successfully registered.')
+                student_id, is_admin = log_in(username, password)
 
             else:
                 sys.stderr('An error occurred with adding a new student profile, please contact an admistrator...')
@@ -325,16 +370,11 @@ def sign_up_mentor():
             
     except mysql.connector.Error as err:
         # If you're testing, it's helpful to see more details printed.
-        if err.errno == errorcode.ER_DUP_ENTRY:
-            sys.stderr('Username already exists, log in instead')
+        if DEBUG:
+            sys.stderr(err)
+            sys.exit(1)
         else:
-            if DEBUG:
-                sys.stderr(err)
-                sys.exit(1)
-            else:
-                sys.stderr('An error occurred with registering a new user, please contact an admistrator...')
-
-        
+            sys.stderr('An error occurred with registering a new user, please contact an admistrator...')
 
 
 def find_top_mentors():
@@ -434,11 +474,15 @@ def find_publications(name):
     cursor = conn.cursor()
     query = "SELECT user_id FROM users WHERE name = %s;"
     try:
-        cursor.execute(query, (name, ))
-        id = cursor.fetchone()[0]
-        print(id)
+        cursor.execute(query, (name,))
+        id = cursor.fetchone()
+        if id is None:
+            print('User not found')
+            return
+        
+        id = id[0]
         sql = 'SELECT link FROM publications WHERE user_id = %s ORDER BY publication_date;'
-        cursor.execute(sql, (id, ))
+        cursor.execute(sql, (id,))
         rows = cursor.fetchall()
         if rows:
             for row in rows:
@@ -454,12 +498,13 @@ def find_publications(name):
 
 def find_mentors_surf(department):
     cursor = conn.cursor()
-    sql = """
-    SELECT name FROM users NATURAL JOIN mentors
-    WHERE user_type = \'mentor\' AND surf = 1 AND department = \'%s\';'
-    """ % (department, )
+    sql = """SELECT name
+            FROM users
+            JOIN mentors ON users.user_id = mentors.user_id
+            WHERE mentors.department = %s AND surf = 1
+            AND users.user_type = \'mentor\';"""
     try:
-        cursor.execute(sql)
+        cursor.execute(sql, (department,))
         rows = cursor.fetchall()
         for row in rows:
             print(row[0].strip())
@@ -472,12 +517,13 @@ def find_mentors_surf(department):
             
 def find_mentors_academic(department):
     cursor = conn.cursor()
-    sql = """
-    SELECT name FROM users NATURAL JOIN mentors
-    WHERE user_type = \'mentor\' AND academic_year = 1 AND department = \'%s\';'
-    """ % (department, )
+    sql = """SELECT name
+            FROM users
+            JOIN mentors ON users.user_id = mentors.user_id
+            WHERE mentors.department = %s AND academic_year = 1
+            AND users.user_type = \'mentor\';"""
     try:
-        cursor.execute(sql)
+        cursor.execute(sql, (department,))
         rows = cursor.fetchall()
         for row in rows:
             print(row[0].strip())
@@ -490,9 +536,13 @@ def find_mentors_academic(department):
             
 def find_mentors_department(department):
     cursor = conn.cursor()
-    sql = 'SELECT name FROM mentors WHERE department = \'%s\';' % (department, )
+    sql = """SELECT name
+            FROM users
+            JOIN mentors ON users.user_id = mentors.user_id
+            WHERE mentors.department = %s
+            AND users.user_type = \'mentor\';"""
     try:
-        cursor.execute(sql)
+        cursor.execute(sql, (department,))
         rows = cursor.fetchall()
         for row in rows:
             print(row[0].strip())

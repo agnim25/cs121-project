@@ -32,7 +32,12 @@ CREATE TABLE user_info (
     -- represented as 2 characters.  Thus, 256 / 8 * 2 = 64.
     -- We can use BINARY or CHAR here; BINARY simply has a different
     -- definition for comparison/sorting than CHAR.
-    password_hash BINARY(64) NOT NULL
+    password_hash BINARY(64) NOT NULL,
+    user_id INT,
+    FOREIGN KEY (user_id)
+    REFERENCES users(user_id)
+        ON UPDATE CASCADE
+        ON DELETE CASCADE
 );
 
 -- Adds a new user to the user_info table, using the specified password (max
@@ -40,13 +45,13 @@ CREATE TABLE user_info (
 -- and then the salt and hash values are both stored in the table.
 DROP PROCEDURE IF EXISTS sp_add_user;
 DELIMITER !
-CREATE PROCEDURE sp_add_user(new_username VARCHAR(20), password VARCHAR(20))
+CREATE PROCEDURE sp_add_user(new_username VARCHAR(20), password VARCHAR(20), user_id INT)
 BEGIN
   DECLARE salt1        CHAR(8);
   DECLARE new_password VARCHAR(64);
   SET salt1 = make_salt(8);
   SET new_password = SHA2(CONCAT(salt1, password), 256);
-  INSERT INTO user_info VALUES (new_username, salt1, new_password);
+  INSERT INTO user_info VALUES (new_username, salt1, new_password, user_id);
 END !
 DELIMITER ;
 
@@ -70,7 +75,7 @@ BEGIN
   SET actual_password = (SELECT password_hash FROM user_info
     WHERE username = user_info.username);
   IF actual_password = new_password THEN
-    RETURN 1;
+    RETURN (SELECT user_id FROM user_info WHERE username = user_info.username);
   END IF;
   RETURN 0;
 END !

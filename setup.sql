@@ -8,7 +8,6 @@ DROP TABLE IF EXISTS past_students;
 DROP TABLE IF EXISTS mentors;
 DROP TABLE IF EXISTS student_research_statements;
 DROP TABLE IF EXISTS user_info;
-
 DROP TABLE IF EXISTS users;
 
 
@@ -17,7 +16,7 @@ CREATE TABLE users (
     name                VARCHAR(50) NOT NULL,
     email               VARCHAR(50) NOT NULL,
     embedding_vector    TEXT,
-    year                YEAR NOT NULL,
+    year                INT NOT NULL,
     surf                TINYINT NOT NULL,
     academic_year       TINYINT NOT NULL,
     user_type           VARCHAR(50) NOT NULL,
@@ -124,7 +123,6 @@ BEGIN
 END !
 DELIMITER ;
 
-DROP TABLE IF EXISTS user_info;
 CREATE TABLE user_info (
     -- Usernames are up to 20 characters.
     username VARCHAR(20) PRIMARY KEY,

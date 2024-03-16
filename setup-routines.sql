@@ -117,7 +117,7 @@ CREATE PROCEDURE add_mentor(
 )
 BEGIN 
     INSERT INTO mentors(user_id, department, principal_investigator, interests_last_updated)
-    VALUES (p_user_id, p_department, p_principal_investigator, GETDATE());
+    VALUES (p_user_id, p_department, p_principal_investigator, CURDATE());
 END !
 DELIMITER ;
 
