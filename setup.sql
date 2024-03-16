@@ -4,7 +4,6 @@
 DROP TABLE IF EXISTS publications;
 DROP TABLE IF EXISTS keywords;
 DROP TABLE IF EXISTS prerequisite_courses;
-DROP TABLE IF EXISTS past_students;
 DROP TABLE IF EXISTS mentors;
 DROP TABLE IF EXISTS student_research_statements;
 DROP TABLE IF EXISTS user_info;
@@ -43,18 +42,6 @@ CREATE TABLE student_research_statements (
     PRIMARY KEY (user_id),
     FOREIGN KEY (user_id)
         REFERENCES users(user_id)
-        ON UPDATE CASCADE
-        ON DELETE CASCADE
-);
-
--- Represents past students who worked with a mentor
-CREATE TABLE past_students (
-    student_name       VARCHAR(50),
-    user_id            INT,
-    student_grad_year  YEAR,
-    PRIMARY KEY (student_name, user_id),
-    FOREIGN KEY (user_id)
-        REFERENCES mentors(user_id)
         ON UPDATE CASCADE
         ON DELETE CASCADE
 );
