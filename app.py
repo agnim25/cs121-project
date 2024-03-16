@@ -15,7 +15,6 @@ group.
 
 import sys
 import mysql
-from mysql import connector
 
 from gensim.models import KeyedVectors
 import numpy as np
@@ -58,9 +57,9 @@ def get_conn():
         # application users. So is probably irrelevant to a client in your
         # simulated program. Their user information would be in a users table
         # specific to your database; hence the DEBUG use.
-        if err.errno == errorcode.ER_ACCESS_DENIED_ERROR and DEBUG:
+        if err.errno == mysql.connector.errorcode.ER_ACCESS_DENIED_ERROR and DEBUG:
             sys.stderr('Incorrect username or password when connecting to DB.')
-        elif err.errno == errorcode.ER_BAD_DB_ERROR and DEBUG:
+        elif err.errno == mysql.connector.errorcode.ER_BAD_DB_ERROR and DEBUG:
             sys.stderr('Database does not exist.')
         elif DEBUG:
             sys.stderr(err)
