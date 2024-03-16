@@ -33,6 +33,8 @@ mysql> source setup-routines.sql;
 mysql> source grant-permissions.sql;
 ```
 
+Note that `setup-passwords.sql` is incorporated into `setup.sql`, so sourcing `setup-passwords.sql` is not necessary here.
+
 ### Instructions for running the Python program
 
 First, exit MySQL:
