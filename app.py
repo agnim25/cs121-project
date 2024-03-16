@@ -499,7 +499,7 @@ def find_publications(name):
     """
     Query and print the publication links for a given mentor
     """
-    cursor = conn.cursor()
+    cursor = conn.cursor(buffered=True)
     query = "SELECT user_id FROM users WHERE name = %s;"
     try:
         cursor.execute(query, (name,))
